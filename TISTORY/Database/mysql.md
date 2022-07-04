@@ -27,3 +27,28 @@ https://dev.mysql.com/downloads/mysql/
 
 7. 설치 완료 되면 Next
 ![Image](https://i.imgur.com/eOoioci.png)
+
+![Image](https://i.imgur.com/N4dGs9p.png)
+
+8. 보통 3306포트가 default 이지만 이미 사용중이어서 3307로 바꿈
+![Image](https://i.imgur.com/F1z458y.png)
+
+9. 사용할 비밀번호 입력
+![Image](https://i.imgur.com/v6HtfsJ.png)
+
+10. 이후 다 Next
+
+11. User Name, pw 입력 하는 곳 입력
+![Image](https://i.imgur.com/kLRHGZA.png)
+
+12. Install 완료
+
+![Image](https://i.imgur.com/HK7nBpo.png)
+
+13. 환경변수에 설치 경로\bin 추가
+
+![Image](https://i.imgur.com/QYyPeUw.png)
+
+![Image](https://i.imgur.com/SB5PizO.png)
+
+![Image](https://i.imgur.com/6vjQ0mL.png)
