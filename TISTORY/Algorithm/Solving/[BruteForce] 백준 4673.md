@@ -1,3 +1,4 @@
+### 문제 링크 : https://www.acmicpc.net/problem/4673
 ## 문제
 셀프 넘버는 1949년 인도 수학자 D.R. Kaprekar가 이름 붙였다. 
 
@@ -47,3 +48,28 @@ n을 d(n)의 생성자라고 한다. 위의 수열에서 33은 39의 생성자�
 9971
 9982
 9993
+
+## 풀이
+### 풀이과정
+1. 1~10000 set에 넣는다.
+2. 해당 set으로 셀프넘버 아닌 수 넣는다.
+3. num_set.difference(ans_set) (차집합 사용)으로 전체 set에서 셀프넘버 아닌 수 빼준다.
+
+### 최종코드
+```python
+max_num = 10000
+def solution():
+    num_set = {i for i in range(1, max_num+1)}
+    ans_set = set()
+    for i in num_set:
+        up_word = i
+        for j in range(len(str(i))):
+            up_word += int(str(i)[j])
+            # print(up_word)
+
+        ans_set.add(up_word)
+    
+    for i in sorted(num_set.difference(ans_set)):
+        print(i)
+solution()
+```
