@@ -1,22 +1,49 @@
-# 스프링 프레임 워크 개발툴 (IDE) 선택 비교
-## 1. 이클립스
-https://www.eclipse.org/ 
+# DI
+## 개요
+DI(의존성 주입, Dependency Injection)란, `클래스간의 의존 관계`를 스프링 컨테이너가 자동으로 연결해주는 것
+* Dependency 란, 객체가 다른 객체와 상호작용하는 것을 말한다.
+클래스 A가 클래스 B,C와 상호작용한다면 객체 A는 객체B,C와 의존관계이다.
 
-위 링크에 들어가면 쉽게 설치할 수 있다.
-java를 공부해봤다면 이클립스는 한번씩 사용해 봤을 것이다.
+## 필요성 : 객체 간 의존성
+![Image](https://i.imgur.com/poNrg8E.png)
+Factory 인터페이스를 상속받는 ConsoleFactory, UserFactory가 있을 때, 
+SW를 사용하는 고객은 Factory 클래스만을 호출해야하며, 그것이 ConsoleFactory인지 UserFactory인지 몰라야한다.
 
-장점
-- 무료다.
-- 여러 프로젝트를 동시에 관리할 수 있다.
+고객마다 전용 Factory를 생성할 경우 1. 코드 생산성이 떨어지며, 2. 고객이 몰라도 되는 코드가 노출되기 때문이다.
+때문에 스프링은 Factory가 ConsoleFactory인지 UserFactory인지를 프레임워크가 자동으로 객체간 의존성을 주입해준다.
 
-하지만 세팅 및 환경설정이 번거롭고 어려울 수 있어 사람들이 잘 사용하지 않는다고 한다.
 
-## 2. 이클립스 STS (spring tool suite) 사용
-https://spring.io/tools
 
-이클립스의 편한 버전이라고 한다. (빌드,템플릿,디버깅등 세팅을 해줘서 시간 절약이 가능하다.)
 
-### 3. 인텔리 제이
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 그레이들 프로젝트를 스프링 부트 프로젝트로 변경하기
 
@@ -60,13 +87,8 @@ https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256310078
 - 7월 9일까지
   
     02장  스프링 부트에서 테스트 코드를 작성하자  
-    _2.1 테스트 코드 소개 (https://naa0.tistory.com/165)  
-    
+    _2.1 테스트 코드 소개  
     _2.2 Hello Controller 테스트 코드 작성하기  
-    > 스프링 빈
-    
-    > IoC (제어의 역행)
-
     _2.3 롬복 소개 및 설치하기  
     _2.4 Hello Controller 코드를 롬복으로 전환하기  
 
@@ -180,7 +202,6 @@ _11.3 마무리
 
 
 
-> 
 
 
 
