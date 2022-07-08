@@ -62,12 +62,12 @@ https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256310078
     02장  스프링 부트에서 테스트 코드를 작성하자  
     _2.1 테스트 코드 소개 (https://naa0.tistory.com/165)  
     
-    _2.2 Hello Controller 테스트 코드 작성하기  
+    _2.2 Hello Controller 테스트 코드 작성하기 (https://naa0.tistory.com/168)  
     > 스프링 빈
     
     > IoC (제어의 역행)
 
-    _2.3 롬복 소개 및 설치하기  
+    _2.3 롬복 소개 및 설치하기 (https://naa0.tistory.com/169)  
     _2.4 Hello Controller 코드를 롬복으로 전환하기  
 
 - 7월 10일까지

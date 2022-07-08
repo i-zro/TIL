@@ -160,95 +160,117 @@ TDD는 테스트가 주도하는 개발.
 - CppUnit - C++
 - NUnit - .net
 
-# 테스트 코드 작성하기
+# 테스트 코드 작성하기 [Spring / 스프링 부트와 AWS로 혼자 구현하는 웹 서비스]
 - src > main > java 에서 오른쪽 클릭해서 springboot 패키지 생성
 ![Image](https://i.imgur.com/ljf69Uy.png)
-
 ![Image](https://i.imgur.com/t6Jg2rI.png)
 
 - 그 아래에 Application 클래스 생성
 ![Image](https://i.imgur.com/l7xshLi.png)
 
-- Application에 코드 작성
-  - @SpringBootApplication 위치부터 설정 읽어감
+- Application 클래스에 코드 작성
+  - @SpringBootApplication 위치부터 설정을 읽어가는 것
   - SpringApplication.run()으로 내장 WAS 실행.
-```java
-package com.izero.springboot;
+  
+    ```java
+    package com.izero.springboot;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+    import org.springframework.boot.SpringApplication;
+    import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-//  SpringBootApplication 어노테이션이 있는 위치부터 설정을 읽어가므로, 클래스는 항상 프로젝트의 최상단에 위치하여야 함
-@SpringBootApplication
-public class Application {
-    public static void main(String[] args){
-        //  해당 run 함수로 내장 WAS를 실행. 내장 WAS란 별도로 외부에 WAS를 두지 않고 앱 실행 시 내부에서 WAS를 실행하는 것
-        //  이러면 항상 서버에 Tomcat을 설치할 필요가 없어짐.
-        //  내장 WAS를 사용해야 '언제 어디서나 같은 환경에서 스프링 부트 배포' 가능. 외장 WAS 사용시 실수할 여지도 많고 시간도 많이 필요함.
-        SpringApplication.run(Application.class, args);
+    //  SpringBootApplication 어노테이션이 있는 위치부터 설정을 읽어가므로, 클래스는 항상 프로젝트의 최상단에 위치하여야 함
+    @SpringBootApplication
+    public class Application {
+        public static void main(String[] args){
+            //  해당 run 함수로 내장 WAS를 실행. 내장 WAS란 별도로 외부에 WAS를 두지 않고 앱 실행 시 내부에서 WAS를 실행하는 것
+            //  이러면 항상 서버에 Tomcat을 설치할 필요가 없어짐.
+            //  내장 WAS를 사용해야 '언제 어디서나 같은 환경에서 스프링 부트 배포' 가능. 외장 WAS 사용시 실수할 여지도 많고 시간도 많이 필요함.
+            SpringApplication.run(Application.class, args);
+        }
     }
-}
-```
+    ```
 
 - 마찬가지로, web 폴더 하위에 HelloController 만들어주기
 ![Image](https://i.imgur.com/CXC6Tgc.png)
 
 - Hello Controller 코드
-```java
-package com.izero.springboot.web;
+    ```java
+    package com.izero.springboot.web;
 
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+    import org.springframework.web.bind.annotation.GetMapping;
+    import org.springframework.web.bind.annotation.RestController;
 
-@RestController // 컨트롤러를 JSON을 반환하는 컨트롤러로 만들어 줌.
-public class HelloController {
+    @RestController // 컨트롤러를 JSON을 반환하는 컨트롤러로 만들어 줌.
+    public class HelloController {
 
-    @GetMapping("/hello")   //  HTTP Method인 Get의 요청을 받을 수 있는 API 만들어 줌.
-    public String hello(){
-        return "hello";
+        @GetMapping("/hello")   //  HTTP Method인 Get의 요청을 받을 수 있는 API 만들어 줌.
+        public String hello(){
+            return "hello";
+        }
+
     }
+    ```
 
-}
-```
-
-~~🦾 바보같이 저 GetMapping 쓰고 중괄호로 막아놓고 왜 안되는지 헤맸는데 수프님😎이 도와주셨당~~
+    ~~🦾 바보같이 저 GetMapping 쓰고 중괄호로 막아놓고 왜 안되는지 헤맸는데 수프님😎이 도와주셨당~~
 
 - HelloControllerTest 
+  - @RunWith(SpringRunner.class) : JUnit에 내장된 실행자 외에 다른 실행자(SpringRunner)를 실행시킴.
+  - @Autowired : 스프링이 관리하는 빈(Bean)을 주입 받음
+  - 
 
-```java
-package com.izero.springboot;
+    ```java
+    package com.izero.springboot;
 
-import com.izero.springboot.web.HelloController;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.web.servlet.MockMvc;
+    import com.izero.springboot.web.HelloController;
+    import org.junit.Test;
+    import org.junit.runner.RunWith;
+    import org.springframework.beans.factory.annotation.Autowired;
+    import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+    import org.springframework.test.context.junit4.SpringRunner;
+    import org.springframework.test.web.servlet.MockMvc;
 
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+    import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+    import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+    import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-// RunWith: 테스트를 진행할 때 JUnit에 내장된 실행자 외에 다른 실행자를 실행시킴.
-// 여기서는 SpringRunner라는 실행자를 사용한 것.
-// 스프링 부트 테스트와 JUnit 사이에 연결자 역할.
-@RunWith(SpringRunner.class)
-//  선언할 경우 @Service, @Component, @Repository를 사용 못함. 여기서는 컨트롤러만 사용해서 사용한 것.
-@WebMvcTest(controllers = HelloController.class)
-public class HelloControllerTest {
+    // RunWith: 테스트를 진행할 때 JUnit에 내장된 실행자 외에 다른 실행자를 실행시킴.
+    // 여기서는 SpringRunner라는 실행자를 사용한 것.
+    // 스프링 부트 테스트와 JUnit 사이에 연결자 역할.
+    @RunWith(SpringRunner.class)
+    //  선언할 경우 @Service, @Component, @Repository를 사용 못함. 여기서는 컨트롤러만 사용해서 사용한 것.
+    @WebMvcTest(controllers = HelloController.class)
+    public class HelloControllerTest {
 
-    @Autowired  //  스프링이 관리하는 빈(Bean)을 주입 받음
-    private MockMvc mvc;    //  웹 API를 테스트 할 때 사용, 스프링 MVC 테스트의 시작점, 이 클래스로 HTTP GET, POST 등에 대한 API 테스트 가능
+        @Autowired  //  스프링이 관리하는 빈(Bean)을 주입 받음
+        private MockMvc mvc;    //  웹 API를 테스트 할 때 사용, 스프링 MVC 테스트의 시작점, 이 클래스로 HTTP GET, POST 등에 대한 API 테스트 가능
 
-    @Test
-    public void hello가_리턴된다() throws Exception{
-        String hello = "hello";
+        @Test
+        public void hello가_리턴된다() throws Exception{
+            String hello = "hello";
 
-        mvc.perform(get("/hello"))  //  MockMvc를 통해 /hello 주소로 HTTP GET 요청
-                .andExpect(status().isOk()) //  mvc.perform 결과 검증 : HTTP Header 상태 검증 (200, 404, 500 등)
-                .andExpect(content().string(hello));    //  mvc.perform 결과 검증 : 본문 내용 검증 ("hello" return 맞는지)
+            mvc.perform(get("/hello"))  //  MockMvc를 통해 /hello 주소로 HTTP GET 요청
+                    .andExpect(status().isOk()) //  mvc.perform 결과 검증 : HTTP Header 상태 검증 (200, 404, 500 등)
+                    .andExpect(content().string(hello));    //  mvc.perform 결과 검증 : 본문 내용 검증 ("hello" return 맞는지)
+        }
     }
-}
-```
+    ```
+
+- 메소드 왼쪽의 화살표 클릭 - Run
+![Image](https://i.imgur.com/ucrmoPU.png)
+
+- 메소드 통과  
+![Image](https://i.imgur.com/oLYeCjp.png)
+
+# 롬복 소개 및 설치하기 [Spring / 스프링 부트와 AWS로 혼자 구현하는 웹 서비스]
+- 롬복은 자바 개발 시 자주 사용하는 코드 Getter, Setter, 기본 생성자, toString 등을 어노테이션으로 자동 생성해 줌.
+
+- 인텔리제이에서 플러그인으로 설치 가능, 
+  - Ctrl + Shift + A > plugins > lombok 검색 후 설치 (이미 설치 된 경우 체크 누르기) 
+    ![Image](https://i.imgur.com/j8V2aSS.png)
+    ![Image](https://i.imgur.com/b7sb2LX.png)
+
+- Settings > Annotation Processor > Enable annotation processing 체크
+![Image](https://i.imgur.com/ahS5P0o.png)
+
+# Hello Controller 코드를 롬복으로 전환하기
