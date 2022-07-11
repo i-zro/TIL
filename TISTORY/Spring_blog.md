@@ -68,7 +68,7 @@ https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256310078
     > IoC (제어의 역행)
 
     _2.3 롬복 소개 및 설치하기 (https://naa0.tistory.com/169)  
-    _2.4 Hello Controller 코드를 롬복으로 전환하기  
+    _2.4 Hello Controller 코드를 롬복으로 전환하기 (https://naa0.tistory.com/173 / [error: variable name not initialized in the default constructor](https://naa0.tistory.com/172))
 
 - 7월 10일까지
       

@@ -274,3 +274,116 @@ TDD는 테스트가 주도하는 개발.
 ![Image](https://i.imgur.com/ahS5P0o.png)
 
 # Hello Controller 코드를 롬복으로 전환하기
+### DTO
+계층 간 데이터 교환을 하기 위해 사용하는 객체.
+
+DTO는 setter가 있고 VO는 없음.
+
+- 유저가 입력한 데이터를 DB에 넣는 과정
+    - 유저가 자신의 브라우저에서 데이터를 입력하여 form에 있는 데이터를 DTO에 넣어서 전송
+    - 해당 DTO를 받은 서버가 DAO를 이용하여 데이터베이스로 데이터를 집어넣음.
+
+- HelloDto 코드 작성
+  - dto class 생성
+    ![Image](https://i.imgur.com/7Cp0SeX.png)
+
+    - Getter : 선언된 모든 필드의 get 메소드를 생성
+    - RequiredArgsConstructor : 선언된 모든 final 필드가 포함된 생성자 생성
+
+    ```java
+    package com.izero.springboot.web.dto;
+
+    import lombok.Getter;
+    import lombok.RequiredArgsConstructor;
+
+    @Getter //  선언된 모든 필드의 get 메소드를 생성
+    @RequiredArgsConstructor    //  선언된 모든 final 필드가 포함된 생성자 생성, final이 없는 필드는 생성자에 포함 되지 않음
+    public class HelloResponseDto {
+
+        private final String name;
+        private final int amount;
+
+    }
+
+    ```
+
+- HelloDtoTest 클래스 작성
+  - 롬복 프로젝트 추가 후 테스트 코드 실행 시 error: variable name not initialized in the default constructor 오류 : https://naa0.tistory.com/172
+
+  - assertThat : assertj의 동등 비교 메소드, **assertThat**에 있는 값과 **isEqualTo** 값을 비교해서 같을 때만 성공
+
+  - Jnit의 assertThat과 assertj의 assertThat 차이 : assertj는 1. is()와 같이 CoreMatchers 라이브러리가 필요없고 2. 자동완성이 조금 더 확실하게 지원
+
+    ```java
+    package com.izero.springboot.web.dto;
+
+    import org.junit.Test;
+
+    import static org.assertj.core.api.Assertions.assertThat;
+
+    public class HelloResponseDtoTest {
+
+        @Test
+        public void 롬복_기능_테스트(){
+            // given
+            String name = "test";
+            int amount = 1000;
+
+            // when
+            HelloResponseDto dto = new HelloResponseDto(name, amount);
+
+            // then
+            assertThat(dto.getName()).isEqualTo(name);  //  assertj의 동등 비교 메소드, assertThat에 있는 값과 isEqualTo 값을 비교해서 같을 때만 성공
+            assertThat(dto.getAmount()).isEqualTo(amount);
+        }
+    }
+    ```
+
+    ![Image](https://i.imgur.com/mhKAHO6.png)
+
+- Dto 컨트롤러 및 테스트 코드 작성
+    - Controller에 다음 코드 추가
+      - RequestParam : 외부에서 API로 넘긴 파라미터 가져오는 어노테이션
+    ```java
+        @GetMapping("/hello/dto")   //  HTTP Method인 Get의 요청을 받을 수 있는 API 만들어 줌.
+        public HelloResponseDto helloDto(@RequestParam("name") String name, // RequestParam : 외부에서 API로 넘긴 파라미터 가져오는 어노테이션
+                                        @RequestParam("amount") int amount){
+            return new HelloResponseDto(name, amount);
+        }
+    ```
+
+    - 테스트 코드 추가
+      - jsonPath : JSON 응답값을 필드별로 검증할 수 있는 메소드, $를 기준으로 필드명 명시.
+    ```java
+        @Test
+        public void helloDto가_리턴된다() throws Exception{
+            String name = "hello";
+            int amount = 1000;
+
+            mvc.perform(
+                    get("/hello/dto")
+                            .param("name", name)
+                            .param("amount", String.valueOf(amount)))
+                            .andExpect(status().isOk())
+                            .andExpect(jsonPath("$.name", is(name)))
+                            .andExpect(jsonPath("$.amount", is(amount)));
+        }
+    ```
+
+# 롬복 프로젝트 추가 후 테스트 코드 실행 시 error: variable name not initialized in the default constructor 오류 [Spring / 트러블 슈팅]
+
+## 🔑 원인 추론
+
+gradle 버전이 5로 올라가면서 lombok 을 프로젝트에 추가하는 방법이 달라졌기 때문
+
+## 🎆 조치 및 방안 검토
+- build.gradle
+```
+dependencies {
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation('org.projectlombok:lombok')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    annotationProcessor('org.projectlombok:lombok') //  추가
+}
+```
+
