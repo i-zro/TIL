@@ -73,12 +73,12 @@ https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256310078
 - 7월 10일까지
       
     03장  스프링 부트에서 JPA로 데이터베이스 다뤄보자  
-    _3.1 JPA 소개  
+    _3.1 JPA 소개  (https://naa0.tistory.com/177)
     __Spring Data JPA  
     __실무에서 JPA  
     __요구사항 분석   
-    _3.2 프로젝트에 Spring Data Jpa 적용하기   
-    _3.3 Spring Data JPA 테스트 코드 작성하기   
+    _3.2 프로젝트에 Spring Data Jpa 적용하기   (https://naa0.tistory.com/178)
+    _3.3 Spring Data JPA 테스트 코드 작성하기   (https://naa0.tistory.com/180 / [error: Execution failed for task ':test'.](https://naa0.tistory.com/179))
     _3.4 등록/수정/조회 API 만들기   
     _3.5 JPA Auditing으로 생성시간/수정시간 자동화하기   
     __LocalDate 사용   
