@@ -79,7 +79,7 @@ https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256310078
     __요구사항 분석   
     _3.2 프로젝트에 Spring Data Jpa 적용하기   (https://naa0.tistory.com/178)
     _3.3 Spring Data JPA 테스트 코드 작성하기   (https://naa0.tistory.com/180 / [error: Execution failed for task ':test'.](https://naa0.tistory.com/179))
-    _3.4 등록/수정/조회 API 만들기   
+    _3.4 등록/수정/조회 API 만들기 [Service에서 비지니스 로직을 처리한다?](https://naa0.tistory.com/195)
     _3.5 JPA Auditing으로 생성시간/수정시간 자동화하기   
     __LocalDate 사용   
     __JPA Auditing 테스트 코드 작성하기   
