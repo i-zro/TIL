@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'GyeonggiTitleM';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
-    font-weight: normal;
+    font-family: 'MICEGothic Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -17,7 +17,7 @@ input,select,textarea,button {vertical-align:middle;outline:none}
 input::-ms-clear {display:none}
 button {border:0 none;background-color:transparent;cursor:pointer}
 body {background:#fff;-webkit-text-size-adjust:none}
-body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'GyeonggiTitleM', sans-serif;color:#666}
+body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'MICEGothic Bold', sans-serif;color:#666}
 a {color:#333;text-decoration:none}
 a:active, a:hover {text-decoration:underline}
 a:active {background-color:transparent}z
