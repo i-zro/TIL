@@ -1,58 +1,165 @@
-- Test를 누르면 시작함.
+## 출처
+https://www.acmicpc.net/problem/5525
 
-![Image](https://i.imgur.com/D75UXMM.png)
+## 문제
+N+1개의 I와 N개의 O로 이루어져 있으면, I와 O이 교대로 나오는 문자열을 PN이라고 한다.
 
+P1 IOI
+P2 IOIOI
+P3 IOIOIOI
+PN IOIOI...OI (O가 N개)
+I와 O로만 이루어진 문자열 S와 정수 N이 주어졌을 때, S안에 PN이 몇 군데 포함되어 있는지 구하는 프로그램을 작성하시오.
 
-### 내 선택
+## 입력
+첫째 줄에 N이 주어진다. 둘째 줄에는 S의 길이 M이 주어지며, 셋째 줄에 S가 주어진다.
 
-- 1번 문항 : 안 잠기면 불-편한데 잠기면 상관없음.
+## 출력
+S에 PN이 몇 군데 포함되어 있는지 출력한다.
 
-![Image](https://i.imgur.com/2NSl3tB.png)
+## 제한
+1 ≤ N ≤ 1,000,000
+2N+1 ≤ M ≤ 1,000,000
+S는 I와 O로만 이루어져 있다.
+서브태스크
+번호	배점	제한
+1	50	
+N ≤ 100, M ≤ 10 000.
 
-- 2번 문항 : 항상 자료조사보다 ppt 만들기가 좋았다. 꾸미는 거 짱-재밌고 내용 정리하면서 개념?적인 것들이 정리되는 느낌이 좋았음.
+2	50	
+추가적인 제약 조건이 없다.
 
-![Image](https://i.imgur.com/6tNUgBT.png)
+### 예제 입력 1 
+1
+13
+OOIOIOIOIIOII
+### 예제 출력 1 
+4
+OOIOIOIOIIOII
+OOIOIOIOIIOII
+OOIOIOIOIIOII
+OOIOIOIOIIOII
+### 예제 입력 2 
+2
+13
+OOIOIOIOIIOII
+### 예제 출력 2 
+2
 
-- 3번 문항 : 애매하긴한데 일단 폰트 다르면 문제는 안생기지만 숫자가 중복되는 건 틀린 거라 안됨.
+### 풀이
+### 문제풀이
 
-![Image](https://i.imgur.com/RyyoGYZ.png)
+1. 50%
+첫 번째는 그냥 반복문을 일일이 돌아서 풀려고 했다.
 
-- 4번 문항 : 색은 노랑
+```python
+import sys
+input = sys.stdin.readline
 
-![Image](https://i.imgur.com/ok9P7kq.png)
+n = int(input())
+l = int(input())
+S = input()
 
-- 5번 문항 : 둘 다 애매하긴 한데 사실 더 즐기는 건 정보 배치다. (단순 재미)
+def solution(n):
+    # return n
+    ans = 0
+    P = 'I' + 'OI' * n
+    
+    for s in range(l):
+        if S[s:s+len(P)] == P:
 
-![Image](https://i.imgur.com/OPgzVuh.png)
+            # print(S[s:s+len(P)])
+            ans+=1
+            continue
+    return ans
+    
+print(solution(n))
+```
 
-- 6번 문항 : 어렸을 때 이후로 악기는 별로 안좋아한다. 스트레스 풀리는 보컬이 좋지~
+2. 100%
+지섭님의 조언을 받아(치환)
+치환하고 반복문을 줄여서 돌리니까 잘 돌아갔다!
+반복되는 문자열을 `치환`해서 줄이는 것도 하나의 방법!
 
-![Image](https://i.imgur.com/FZflRQo.png)
+```python
+import sys
+input = sys.stdin.readline
 
-- 7번 문항 : 해커 빙의 까지는 아니고 그냥 아 쉘 켰고 내가 뭔가 찾으려고 킨거아닐까? 다 떠나서 저 까만 창에서 잘하고 싶다.
-![Image](https://i.imgur.com/0DUehw5.png)
+n = int(input())
+l = int(input())
 
-- 8번 문항 : 아이언맨 수트 얻다 써먹어..?
-![Image](https://i.imgur.com/NLg7IqK.png)
+def solution(n, S):
+    from collections import deque
 
-- 9번 문항 : 1더하기 1은 2다.
-![Image](https://i.imgur.com/VcPs0Jy.png)
+    ans = 0
+    P = 'I' + 'OI' * n
+    S = S.replace(P, 'P')
+    # print(S)
 
-- 10번 문항 : 소통하려고 올렸지~
-![Image](https://i.imgur.com/9rX2OWI.png)
+    A = "OI"
+    S = S.replace(A, "A")
+    # print(S)
+    
+    s = 0
+    while s < len(S):
+        # print(s, len(S))
+        # print("P", S[s])
 
-- 11번 문항 : 공감은 그냥 해답 말하기 전단계에 꼭 거쳐야하는? 근데 원래 해답제시가 도움돼서 나도 좋다.
-![Image](https://i.imgur.com/foAnCbE.png)
+        if S[s] == 'P':
+            s+=1
+            ans += 1
+            while s < len(S):
+                if S[s] == 'A':
+                    ans+=1
+                    s+=1
+                    # print(s, ans)
+                    
+                elif S[s : s+2] == 'OP':
+                    ans += (n+1)
+                    # print(s, ans)
+                    s+=2
+                    
+                else:
+                    break
+            continue
+        else:
+            s+=1
+                
+    print(ans)
+        
+S = input()
+solution(n, S)
 
-- 12번 문항 : 예쁜건 뭐랄까 선택지가 많으면 그 중 가장 예쁜걸 찾게 되는 건 맞는데 기능 잘 되냐가 더 중요.
-![Image](https://i.imgur.com/yHFZYx9.png)
+```
 
-- 13번 문항 : 오오.. 시간 한번도 고려해서 간적없는듯
-![Image](https://i.imgur.com/X2YlJrs.png)
+3. 구글 풀이
+구글에서 상위 블로그의 풀이방법이 내 풀이와 달라서 풀이법을 이해한 후 직접 풀어봤다.
 
+ioi 반복문자열이라서 연속된 i의 인덱스차이가 2라는 것을 이용한다.
+해당 반복이 주어진 반복횟수보다 같거나 클때부터 세어나가면 연속된 반복횟수가 얼마인지 구할 수 있다.
 
-### 결과
-ㅋㅋㅋㅋㅋ소름이 돋았다...
-사실 재미는 디자인이나 프론트고 일로써 배워보고 싶은 건 데이터 쪽이라 고민이어서 한건데
-🤔 뿌우 해답을 달란말야
-![Image](https://i.imgur.com/513VlTj.png)
+```python
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+l = int(input())
+
+def solution(n, S):
+    s_stack = [i+1 for i, s in enumerate(S[1:l]) if s == 'I']   # 0과 l에는 있어도 소용 X
+    cnt = 0
+    ans = 0
+
+    for s in range(1, len(s_stack)):
+        if s_stack[s] - s_stack[s-1] == 2:
+            cnt+=1
+        else:   # 2차이 아니라서 연속성 끊김
+            cnt = 0
+        
+        if cnt >= n:
+            ans+=1  
+            
+    print(ans)      
+        
+S = input()
+solution(n, S)
+```
