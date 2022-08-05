@@ -1,146 +1,134 @@
-# Welcome to StackEdit!ffd
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+# 마켓컬리 자료조사
 
+## 관련 기술 조사
+### API 조사
+1. 티맵
+https://tmapapi.sktelecom.com/index.html
 
-# Files
+http://tmapapi.sktelecom.com/main.html#webservice/docs/tmapMatrixDoc
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+# 기대효과 1차 작성
 
-## Create files and folders
+### 기존 서비스와의 비교 및 차별점
+마켓컬리는 '샛별배송' 이라는 서비스를 제공하고 있습니다. 고객들은 7시 이전에 배송 받을 것을 확신하고 해당 장점 때문에 상품을 주문하지만, 종래의 마켓컬리의 배송 정보 제공 방식에서는 배송이 지연되는 경우 고객이 해당 상품이 시간 안에 도착할 수 있을 지 위치에 대한 정보를 확인할 수 있는 방법이 없습니다. 이렇게 배송이 예고 없이 지연되는 불확실한 상황 속에 노출되면 고객은 마켓컬리에 대한 신뢰를 잃게 됩니다. 
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+본 프로젝트에서는 배송 지연 시에 고객이 상품의 배송 위치를 확인하고, 보다 정확한 배송 예정 시간을 전달받게 함으로써 마켓컬리의 고객 신뢰도를 높이고자 합니다.
 
-## Switch to another file
+### 기대효과 설명
+마켓컬리는 고객에게 주문 상품의 배송 위치 정보 및 배송 예정 시각을 계산하여 실시간으로 전달함으로써 신뢰성을 높일 수 있습니다. 또한 실시간 배송 위치 정보와 예정 시각, 실제 도착 시간에 대한 데이터가 쌓여가며 단순히 해당 기능의 정확도를 높이는 것 뿐 아니라, 추후 다른 기술적 아이디어의 구현에 대한 토대가 될 수 있습니다.
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+### 타겟
+마켓컬리 이용자 중 정확한 시간에 배송 상품을 받아야 하는 고객
 
-## Rename a file
+### 비지니스 지표
+1. 고객 KPI – 5개
+ 
+1) 순추천 고객지수 Net Promoter Score (NPS)
+고객이 당신의 비즈니스를 친구에게 추천할 가능성은 얼마나 되는가?
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+마케팅 KPI
+ 
 
-## Delete a file
+2) 고객이익률점수 Customer Profitability Score (CPS)
+고객을 확보하고 유지하기 위한 광고, 고객 서비스 등의 비용을 고려한 개별 고객별 기여 이익이 얼마인가?
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+ 
+3) 고객생애가치  Customer Lifetime Value (CLV)
+현재 보유 고객별로 과거 또는 미래에 예상되는 구매액의 합은 얼마인가? 상대적으로 가치가 높은 고객은 누구인가?
 
-## Export a file
+4) 고객보유율/재방문율 Customer Retention Rate (CRR)
+얼마나 많은 고객이 재구매/반복구매를 위해서 또 올 것인가? 고객들이 당신의 브랜드, 기업, 서비스 얼마나 충성적인가?
 
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
+ 
+5) 전환률 Conversion Rate
+고객문의, 영업콜, 웹페이지 방문을 얼마나 잘 구매고객으로 전환시키고 있는가?
 
+ 
+6) 상대적 점유율 Relative Market Share
+동일시장내 당신의 경쟁사와 비교했을때, 전체 파이중에서 당신의 조각이 얼마나 큰가?
 
-# Synchronization
+2. 재무적인 성과 KPI – 7개
+ 
+ 
+1) 매출성장률 Revenue Growth Rate
+당신의 매출이 증가하고 있는가?
 
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
+ 
+2) 순이익 Net Profit
+총수입에서 총지출을 뺀 순전한 이익
 
-There are two types of synchronization and they can complement each other:
+ 
+3) 순이익률 Net Profit Margin
+순이익을 세후 순매출액으로 나눈 비율. 최종적으로 주주에게 남은 부분의 정도
 
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
+ 
+4) 매출총이익률 Gross Profit Margin
+매출총이익을 매출액으로 나눈 비율, 매출원가가 얼마나 효율적인지를 평가하는 지표 (기업의 부가가치 창출 능력)
 
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
+ 
+5) 영업이익률 Operating Profit Margin
+영업이익을 매출액으로 나눈 비율. 제품판매로 인한 이익의 정도로서 상품/서비스/ 운영의 경쟁력을 나타냄
 
-## Open a file
+ 
+6) 투자수익율 Return on Investment
+회사의 운영 관점 (투자에 대한 비용)에서 투자대비 수입의 정도. 사업부/사업의 경영성과를 종합적으로 측정 관리하기 위한 지표
 
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
+ 
+7) 현금전환기간 Cash Conversion Cycle
+=재고자산회전기간 + 매출채권회전기간 + 매입채무회전기간
 
-## Save a file
+사업을 영위하는 전 과정에 있어서 현금의 유입에 걸리는 시간이 얼마인가?
 
-You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
+3. 내부 프로세스 KPI - 8개
+ 
+1) 역량 가동률 Capability Utilization Rate (CUR)
+=(실제 Output/ 잠재 Output) X 100
 
-## Synchronize a file
+당신이 가용한 자원을 활용한 업무의 총량으로 잠재력을 달성하고 있는가? 현재의 운영 효율을 측정하는 지표
 
-Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
+마케팅 KPI
+ 
+ 
+2) 프로젝트일정편차 Project Schedule Variance (PSV)
+=(프로젝트의) 벌어들인 가치 – (프로젝트의) 예정된 가치
 
-If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
+당신의 프로젝트가 예정한 시간에 완료되는가?
 
-> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
+ 
 
-## Manage file synchronization
+3) 프로젝트비용편차 Project Cost Variance (PCV)
+= (프로젝트의) 벌어들인 가치 – (프로젝트의) 실제 비용
 
-Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
+당신의 프로젝트가 예산을 초과하지 않고 달성되는가?
 
+ 
 
-# Publication
+4) 프로젝트성과가치 Earned Value (EV) metric
+당신의 회사가 진행중인 프로젝트가 벌어들이고 있는 가치(매출)
 
-Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
+ 
 
-> Before starting to publish, you must link an account in the **Publish** sub-menu.
+5) 주문완료주기 Order Fulfillment Cycle Time (OFCT)
+고객이 주문 이후 제품/서비스가 딜리버리 될 때까지 소요된 시간
 
-## Publish a File
+ 
 
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
+6) 주문정시달성율 Delivery in Full on Time (DIFOT) rate
+전체 고객주문 건수 대비 정시에 채워진 고객 주문 건수 비율. 딜리버리 성과를 측정함
 
-- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
+ 
 
-## Update a publication
+7) 품질지수 Quality Index
+당신의 제품 혹은 서비스의 품질이 고객이 기대하는 수준만큼 높은가?
 
-After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
+ 
 
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
+8) 프로세스 다운타임 Process downtime level
+서비스 불가, 기술적인 장애, 혹은 직원의 병가 등으로 인해 허비되는 시간이 얼마인가?
 
-## Manage file publication
-
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-
-# Markdown extensions
-
-StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
-
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
-
-
-## SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
-
-## KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
-
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+### 비지니스 임팩트
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzM2OTg4OTddfQ==
+eyJoaXN0b3J5IjpbLTEwNDQ1Mjk0NTAsLTE3NzM2OTg4OTddfQ
+==
 -->
