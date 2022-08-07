@@ -47,6 +47,44 @@ M번의 명령 후에 1번째 기차부터 순서대로 한 기차씩 은하수�
 ## 예제 출력 1  복사
 
 2
+
+## 풀이
+### 문제 풀이
+```python
+import sys
+from collections import defaultdict
+
+input = sys.stdin.readline
+N, M = map(int, input().split())
+trains = defaultdict(int)
+
+# 0명인 것도 통과가능 하기때문에 꼭 dict set 필요!
+for n in range(1, N+1):
+  trains[n] = 0
+
+for _ in range(M):
+    op = list(map(int, input().split()))  # 명령
+
+    if op[0] == 1:
+        i, x = op[1], op[2]-1
+        trains[i] = trains[i] | 1 << x
+
+    if op[0] == 2:
+        i, x = op[1], op[2]-1
+        trains[i] = trains[i] & ~(1 << x)
+
+    if op[0] == 3:
+        i = op[1]
+        trains[i] = trains[i] << 1  # 다 1칸씩 옮기기
+        trains[i] = trains[i] & ~(1 << 20)  # 20번째애는 있으면 내리게 하고
+
+    if op[0] == 4:
+        i = op[1]
+        trains[i] = trains[i] >> 1
+
+print(len(set(v for k, v in trains.items())))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODEzODUwMywxMTMxODQ2NDQ0XX0=
+eyJoaXN0b3J5IjpbMTY3NTkwNDY5OCwtOTc4MTM4NTAzLDExMz
+E4NDY0NDRdfQ==
 -->
