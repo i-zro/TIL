@@ -1,3 +1,4 @@
+## [문제 출처](https://www.acmicpc.net/problem/15787)
 
 ## 문제
 
@@ -47,5 +48,5 @@ M번의 명령 후에 1번째 기차부터 순서대로 한 기차씩 은하수�
 
 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTg0NjQ0NF19
+eyJoaXN0b3J5IjpbLTk3ODEzODUwMywxMTMxODQ2NDQ0XX0=
 -->
