@@ -39,6 +39,3 @@ def solution(number):
             else:
                 right -= 1                       
     return answer
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzU1NTIxMl19
--->
