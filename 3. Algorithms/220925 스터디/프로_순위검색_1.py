@@ -1,4 +1,4 @@
-# 정확성만 통과
+# 1차시도 : 단순 리스트 - 정확성만 통과
 
 def solution(info, query):
     answer = []

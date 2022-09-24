@@ -1,3 +1,5 @@
+# 2차시도 : set 이용 - 정확성만 통과
+
 def solution(info, query):
     answer = []
     
