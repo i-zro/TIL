@@ -1,7 +1,7 @@
 
 ![](https://i.imgur.com/8KknEM2.png)
 
-### MLOPS
+### 📌 MLOPS
 https://velog.io/@dddwsd/MLOps%EB%9E%80
 
 # 📌 1 개발 언어 공부하기
@@ -74,5 +74,5 @@ Data Management
 Design and Implementation
 Management and Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTgyNTg3OCwtMjk4ODA2NTgxXX0=
+eyJoaXN0b3J5IjpbMTIzNTg5OTM2NSwtMjk4ODA2NTgxXX0=
 -->
