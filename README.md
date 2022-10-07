@@ -1,18 +1,18 @@
 
 ![](https://i.imgur.com/8KknEM2.png)
-📌 #1 개발 언어 공부하기
+# 📌 1 개발 언어 공부하기
 C
 Python
 Go
 Nodejs
-📌 #2 OS 개념에 대해서 이해하기
+# 📌 2 OS 개념에 대해서 이해하기
 Startup Management(intid)
 Service Management(systemd)
 I/O Management
 Virtualiztion
 Memory/Storage
 File Systems
-📌 #3 관리 서비스에 대해 배우기
+# 📌 3 관리 서비스에 대해 배우기
 Operationg System
 Linux - Ubuntu
 Windows
@@ -68,5 +68,5 @@ Data Management
 Design and Implementation
 Management and Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjM2MDgzOV19
+eyJoaXN0b3J5IjpbMTIxODA3NTMwNV19
 -->
