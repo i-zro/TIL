@@ -4,11 +4,12 @@
 ### 📌 MLOPS
 https://velog.io/@dddwsd/MLOps%EB%9E%80
 
-# 📌 1 개발 언어 공부하기
+### 📌 1 개발 언어 공부하기
 C
 Python
 Go
 Nodejs
+Java
 # 📌 2 OS 개념에 대해서 이해하기
 Startup Management(intid)
 Service Management(systemd)
@@ -74,5 +75,6 @@ Data Management
 Design and Implementation
 Management and Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTg5OTM2NSwtMjk4ODA2NTgxXX0=
+eyJoaXN0b3J5IjpbLTE0NTY1MTczMjcsMTIzNTg5OTM2NSwtMj
+k4ODA2NTgxXX0=
 -->
