@@ -107,6 +107,8 @@ $ docker exec [container] [command]
 $ docker exec -i -t my-nginx bash
 # my-nginx 컨테이너에 환경변수 확인하기
 $ docker exec my-nginx env
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1ODg0NDk0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEzMDQ4Mjg2ODAsLTIwODg3NDY2MTJdfQ
+==
 -->
