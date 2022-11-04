@@ -19,6 +19,12 @@ my-command # 컨테이너 내에서 실행할 명령어
 
 docker stop $(docker ps -a -q)
 
+### 환경 변수 주입
+
+- docker run -i -t -e MY_HOST=ENV_TEST ubuntu:focal bash
+
+- docker run -i -t --env-file ./test.env ubuntu:focal env
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTIxODM5MV19
+eyJoaXN0b3J5IjpbMzYzNjkyNjM5XX0=
 -->
