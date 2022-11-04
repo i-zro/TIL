@@ -14,6 +14,11 @@ docker run \
 fastcampus/hello-world:latest \ # 실행할 이미지
 my-command # 컨테이너 내에서 실행할 명령어
 ```
+
+## 모든 컨테이너 종료
+
+docker stop $(docker ps -a -q)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxMTE2OTIyXX0=
+eyJoaXN0b3J5IjpbLTk5NTIxODM5MV19
 -->
