@@ -1,3 +1,5 @@
+# 도커 Cheat-Sheet
+
 ## 컨테이너 시작 주요 옵션
 
 ```
@@ -13,5 +15,5 @@ fastcampus/hello-world:latest \ # 실행할 이미지
 my-command # 컨테이너 내에서 실행할 명령어
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MjI1NDkyXX0=
+eyJoaXN0b3J5IjpbNDcxMTE2OTIyXX0=
 -->
