@@ -213,6 +213,13 @@ Q. 다음 중 AWS Key Management Service(AWS KMS)가 수행할 수 있는 작업
 A. 암호화 키 생성
 
 ---
+
+---
+
+참고 : AWS Cloud Practitioner Essentials
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjgxNjM3OSwzOTc2NTg2MDVdfQ==
+eyJoaXN0b3J5IjpbNzA3NzIzMTk4LDE5NzY4MTYzNzksMzk3Nj
+U4NjA1XX0=
 -->
