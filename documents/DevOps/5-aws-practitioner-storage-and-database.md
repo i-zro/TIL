@@ -267,6 +267,11 @@ A. 서버리스 키-값 데이터베이스 서비스
 A. Amazon Redshift
 
 ---
+---
+
+참고 : AWS Cloud Practitioner Essentials
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MjkxMjg3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTM2NzY4ODYyMCw3MzA5OTgxMTZdfQ==
 -->
