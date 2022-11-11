@@ -68,6 +68,12 @@ A. 2
 온디맨드로 서비스에 액세스하므로 용량 초과나 제한을 방지할 수 있다는 점은 용량 추정 불필요와 관련됩니다.
 고객에게 애플리케이션을 신속하게 배포하고 짧은 지연 시간을 제공할 수 있다는 점은 몇 분 만에 전 세계에 배포와 관련됩니다.
 ```
+
+---
+
+참고 : AWS Cloud Practitioner Essentials
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTgzODMxOV19
+eyJoaXN0b3J5IjpbLTE5MzM1NzIyNjgsLTU1NTgzODMxOV19
 -->
