@@ -140,6 +140,8 @@ A. 스팟 인스턴스
 - 들어오는 애플리케이션 트래픽을 EC2 인스턴스와 같은 여러 리소스에 자동으로 분산하는 서비스
 - 개별 EC2 인스턴스가 아닌 리전 수준에서 실행되므로 사용자가 추가로 작업하지 않아도 자동으로 고가용 서비스가 된다.
 
+---
+
 **Q. 다음 프로세스 중 Elastic Load Balancing의 예는 무엇입니까?**
 
 1. 단일 Amazon EC2 인스턴스가 전체 워크로드를 처리하지 않아도 되도록 보장
@@ -155,6 +157,7 @@ A. 1
 ```
 나머지는 모두 auto-scaling 예시
 ```
+---
 
 ## 2_5. 메시징 및 대기열
 
@@ -196,10 +199,13 @@ A. 1
 - 메시지 대기열 서비스
 - 메시지 손실이나 다른 서비스 사용 없이 소프트웨어 구성 요소 간에 메시지를 전송, 저장, 수신 가능.
 
+---
+
 Q. 구독자에게 메시지를 게시하는 데 가장 적합한 AWS 서비스는 무엇입니까?
 
 A. Amazon Simple Notification Service(Amazon SNS)
 
+---
 
 ## 2_6. 추가 컴퓨팅 서비스
 
@@ -268,5 +274,6 @@ AWS에서 Kubernetes를 실행하는 데 사용할 수 있는 완전 관리형 �
 - Amazon ECS / EKS 에서 작동함.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDc5ODc4MjYsMTgzOTQ4MTY1M119
+eyJoaXN0b3J5IjpbMTUxOTgzMDgzNiwtMTc0Nzk4NzgyNiwxOD
+M5NDgxNjUzXX0=
 -->
