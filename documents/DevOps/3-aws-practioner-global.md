@@ -57,7 +57,7 @@ A. 리전 내의 단일 데이터 센터 또는 데이터 센터 그룹
 
 ### AWS Outposts
 - **사용자의 데이터 센터 내부에** 정상적으로 작동하는 소형 리전을 기본적으로 설치하는 곳
-- AWS가 소유하고 운영하며 AWS의 모든 기능을 사용하지만 사용자의 건물에 격리
+- AWS가 소유하고 운영하며 AWS의 모든 기능을 사용하지만 사용자의 건물에 격리 =AWS 인프라, 서비스, API 및 도구를 고객 온프레미스로 확장하는 완전관리형 서비스 -> AWS 관리형 인프라에 대한 로컬 액세스를 제공
 
 # 3_3. AWS 리소스를 프로비저닝하는 방법
 
@@ -160,6 +160,6 @@ A. 4
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDMzNTE1OTksLTE4NTk2Mjg2OTgsNz
+eyJoaXN0b3J5IjpbLTEyMDA3NDMzNzUsLTE4NTk2Mjg2OTgsNz
 MwOTk4MTE2XX0=
 -->
