@@ -28,12 +28,13 @@ us-west-1a에서 장애가 발생하더라도 애플리케이션은 여전히 us
 
 - `리전 수준에서 실행`된다는 말의 의미는 사용자가 따로 신경 쓰지 않아도 여러 AZ, 여러 가용 영역에서 서비스가 동시에 실행된다는 뜻 ex) ELB
 
+---
 
 Q. 다음 중 가용 영역을 가장 잘 설명한 것은 무엇입니까?
 
 A. 리전 내의 단일 데이터 센터 또는 데이터 센터 그룹
 
-
+---
 
 # 3_2. 엣지 로케이션
 
@@ -153,5 +154,6 @@ A. 4
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTk2Mjg2OTgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTU4NDQwNjgzNCwtMTg1OTYyODY5OCw3Mz
+A5OTgxMTZdfQ==
 -->
