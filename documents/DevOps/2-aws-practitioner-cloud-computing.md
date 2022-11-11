@@ -273,7 +273,12 @@ AWS에서 Kubernetes를 실행하는 데 사용할 수 있는 완전 관리형 �
 - 컨테이너용 서버리스 컴퓨팅 엔진
 - Amazon ECS / EKS 에서 작동함.
 
+---
+
+참고 : AWS Cloud Practitioner Essentials
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTgzMDgzNiwtMTc0Nzk4NzgyNiwxOD
-M5NDgxNjUzXX0=
+eyJoaXN0b3J5IjpbODAzNjgyMDEsMTUxOTgzMDgzNiwtMTc0Nz
+k4NzgyNiwxODM5NDgxNjUzXX0=
 -->
