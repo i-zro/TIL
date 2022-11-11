@@ -182,7 +182,37 @@ A.
 
 - AWS 인프라 및 리소스에 대한 지능형 위협 탐지 기능을 제공하는 서비스
 
+---
 
+Q. 다음 중 IAM 정책을 가장 잘 설명한 것은 무엇입니까?
+
+A. AWS 서비스 및 리소스에 대한 권한을 부여하거나 거부하는 문서
+
+---
+
+Q. 직원이 여러 Amazon S3 버킷을 생성하기 위해 임시 액세스 권한이 필요합니다. 다음 중 이 작업에 가장 적합한 옵션은 무엇입니까?
+
+A. IAM 역할
+
+---
+
+Q. 다음 중 최소 권한 원칙을 가장 잘 설명한 것은 무엇입니까?
+
+A. 특정 작업을 수행하는 데 필요한 권한만 부여
+
+---
+
+Q. 다음 중 애플리케이션을 분산 서비스 거부(DDoS) 공격으로부터 보호하는 데 도움이 되는 서비스는 무엇입니까?
+
+A. AWS Shield
+
+---
+
+Q. 다음 중 AWS Key Management Service(AWS KMS)가 수행할 수 있는 작업은 무엇입니까?
+
+A. 암호화 키 생성
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3NjU4NjA1XX0=
+eyJoaXN0b3J5IjpbMTk3NjgxNjM3OSwzOTc2NTg2MDVdfQ==
 -->
