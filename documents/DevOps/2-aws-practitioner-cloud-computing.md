@@ -214,7 +214,7 @@ EC2를 사용하면 사용자가 시간에 따라 인스턴스 플릿을 `직접
 ![](https://i.imgur.com/xmXWbQn.png)
 
 
-AWS는 다양한 서버리스 컴퓨팅 옵션을 제공합니다. 서버리스는 애플리케이션을 호스팅하는 기본 인프라나 인스턴스를 마치 서버가 없는 것처럼 관리할 필요가 없다는 뜻입니다.
+AWS는 다양한 서버리스 컴퓨팅 옵션을 제공합니다. 서버리스는 애플리케이션을 호스팅하는 **기본 인프라나 인스턴스를 마치 서버가 없는 것처럼 관리할 필요가 없다는 뜻**입니다.
 
 
 ### 서버리스
@@ -268,5 +268,5 @@ AWS에서 Kubernetes를 실행하는 데 사용할 수 있는 완전 관리형 �
 - Amazon ECS / EKS 에서 작동함.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDEyMDM2OTgsMTgzOTQ4MTY1M119
+eyJoaXN0b3J5IjpbLTE3NDc5ODc4MjYsMTgzOTQ4MTY1M119
 -->
