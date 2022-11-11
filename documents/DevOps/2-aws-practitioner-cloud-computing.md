@@ -33,10 +33,10 @@ A.
 3. 컴퓨팅, 메모리, 네트워킹 리소스를 균형 있게 제공
 4. 고성능 프로세서 제공
 ---
-1. 메모리 최적화
-2. 스토리지 최적화
-3. 범용
-4. 컴퓨팅 최적화
+1. 메모리 최적화 인스턴스
+2. 스토리지 최적화 인스턴스
+3. 범용 인스턴스
+4. 컴퓨팅 최적화 인스턴스
 
 
 Q. **<span style="color:red">배치 처리 워크로드에 Amazon EC2 인스턴스를 사용하려고 합니다. 가장 적합한 Amazon EC2 인스턴스 유형은 무엇입니까?</span>**
@@ -259,5 +259,5 @@ AWS에서 Kubernetes를 실행하는 데 사용할 수 있는 완전 관리형 �
 - Amazon ECS / EKS 에서 작동함.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTQ4MTY1M119
+eyJoaXN0b3J5IjpbMTAwMDkyMjIxNSwxODM5NDgxNjUzXX0=
 -->
