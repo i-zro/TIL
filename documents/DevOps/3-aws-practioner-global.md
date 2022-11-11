@@ -153,7 +153,13 @@ A. 4
 ```
 
 ---
+
+---
+
+참고 : AWS Cloud Practitioner Essentials
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDQwNjgzNCwtMTg1OTYyODY5OCw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTExNDA0NDA5NDMsLTE4NTk2Mjg2OTgsNz
+MwOTk4MTE2XX0=
 -->
