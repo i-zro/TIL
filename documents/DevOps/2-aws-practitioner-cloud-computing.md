@@ -41,15 +41,13 @@ A.
 
 Q. **<span style="color:red">배치 처리 워크로드에 Amazon EC2 인스턴스를 사용하려고 합니다. 가장 적합한 Amazon EC2 인스턴스 유형은 무엇입니까?</span>**
 
-1. 범용
+- 범용
 
-2. 메모리 최적화
+- 메모리 최적화
 
-3. 컴퓨팅 최적화
+- [x] 컴퓨팅 최적화
 
-4. 스토리지 최적화
-
-A. 3
+- 스토리지 최적화
 
 **※ 배치 처리란?**
 
@@ -259,5 +257,5 @@ AWS에서 Kubernetes를 실행하는 데 사용할 수 있는 완전 관리형 �
 - Amazon ECS / EKS 에서 작동함.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTIyNzIzODEsMTgzOTQ4MTY1M119
+eyJoaXN0b3J5IjpbNTA2MTgyMjcsMTgzOTQ4MTY1M119
 -->
