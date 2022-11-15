@@ -64,9 +64,11 @@ Q. 다음 중 워크로드를 효과적으로 실행하고 운영에 대한 통�
 
 ---
 
+---
+
 참고 : AWS Cloud Practitioner Essentials
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTcxNjgzNV19
+eyJoaXN0b3J5IjpbLTIxOTc2NDk0MF19
 -->
