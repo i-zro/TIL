@@ -143,6 +143,14 @@ Q. 다음 중 Amazon Lex를 가장 잘 설명한 것은 무엇입니까?
 
 A. 
 음성 및 텍스트를 사용하여 대화형 인터페이스를 빌드할 수 있는 서비스
+
+---
+
+---
+
+참고 : AWS Cloud Practitioner Essentials
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg2MzMxNTldfQ==
+eyJoaXN0b3J5IjpbMTE2MjA3OTczM119
 -->
