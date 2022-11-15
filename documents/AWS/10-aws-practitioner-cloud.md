@@ -61,6 +61,12 @@ Q. 다음 중 워크로드를 효과적으로 실행하고 운영에 대한 통�
 - 인프라 용량을 유지
 
 - [x] 데이터 센터 운영 및 유지 관리에 비용 투자 불필요
+
+---
+
+참고 : AWS Cloud Practitioner Essentials
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyOTEwNTU0XX0=
+eyJoaXN0b3J5IjpbLTEzOTcxNjgzNV19
 -->
