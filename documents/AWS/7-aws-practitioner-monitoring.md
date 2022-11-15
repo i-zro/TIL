@@ -118,6 +118,12 @@ Amazon GuardDuty는 AWS 환경 및 리소스에 대한 지능형 위협 탐지 �
 - 탄력성
 
 - [x] **내결함성**
+
+---
+
+참고 : AWS Cloud Practitioner Essentials
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTcyMDM5OV19
+eyJoaXN0b3J5IjpbLTE1MjYwNzc0NTJdfQ==
 -->
