@@ -198,7 +198,11 @@ A. AWS Marketplace
 
 ---
 
+---
 
+참고 : AWS Cloud Practitioner Essentials
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzAyNjI1OF19
+eyJoaXN0b3J5IjpbLTQ0MzU1MTMwM119
 -->
