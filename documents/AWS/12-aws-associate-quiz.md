@@ -20,6 +20,12 @@ A. Savings Plans
 
 ---
 
+[5] Q. Amazon S3를 통해 객체의 액세스 패턴을 모니터링하고자 합니다. 어떤 스토리지 클래스를 사용해야 합니까? 
+
+A. S3 Intelligent-Tiering
+
+---
+
 [6] Q. 다음 중 AWS의 책임은 무엇입니까? (2개 선택)
 
 - [x] AWS 인프라 디바이스 구성
@@ -46,10 +52,11 @@ A. Business, Enterprise
 
 * 주의! Developer 아님!
 
+
+
+
 ---
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzk5Mjg2OTYsLTgwOTcxMzc0OCwxNz
+eyJoaXN0b3J5IjpbLTEyNTkwODIwNzYsLTgwOTcxMzc0OCwxNz
 Q4MTYzNTQxXX0=
 -->
