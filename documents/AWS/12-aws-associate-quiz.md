@@ -26,6 +26,14 @@
 - IAM 사용자 및 그룹 생성
 
 - Amazon EC2 인스턴스에서 보안 그룹 구성
+
+---
+
+[6] Q. 다음 중 중앙 위치에서 여러 AWS 계정을 통합 및 관리할 수 있는 서비스는 무엇입니까?
+
+A. AWS Organizations
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDUyNDg4MzYsMTc0ODE2MzU0MV19
+eyJoaXN0b3J5IjpbLTEyMjU0NzA2MzQsMTc0ODE2MzU0MV19
 -->
