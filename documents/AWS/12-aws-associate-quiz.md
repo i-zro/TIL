@@ -1,5 +1,10 @@
 # 221116
 
+
+[2] Q. 다음 중 1년 또는 3년 기간 동안 일정한 컴퓨팅 사용량을 약정하여 비용을 절감할 수 있는 컴퓨팅 옵션은 무엇입니까?
+
+A. Savings Plans
+
 ---
 
 [3] **<span style="color:red">Q. 다음 중 가용 영역을 가장 잘 설명한 것은 무엇입니까?</span>**
@@ -43,5 +48,5 @@ A. Business, Enterprise
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTc0NDk0OSwxNzQ4MTYzNTQxXX0=
+eyJoaXN0b3J5IjpbLTgwOTcxMzc0OCwxNzQ4MTYzNTQxXX0=
 -->
