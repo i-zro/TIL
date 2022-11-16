@@ -15,6 +15,17 @@
 
 ---
 
+Q. 다음 중 AWS의 책임은 무엇입니까? (2개 선택)
+
+- [x] AWS 인프라 디바이스 구성
+
+- [x] 가상화 인프라 유지 관리
+
+- 회사 직원에게 AWS 서비스 사용 방법 교육
+
+- IAM 사용자 및 그룹 생성
+
+- Amazon EC2 인스턴스에서 보안 그룹 구성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzQxMzUyMF19
+eyJoaXN0b3J5IjpbMTc0ODE2MzU0MV19
 -->
