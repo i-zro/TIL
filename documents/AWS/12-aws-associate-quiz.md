@@ -34,6 +34,14 @@
 A. AWS Organizations
 
 ---
+
+[8] Q. 모든 AWS Trusted Advisor 검사에 대한 액세스가 포함된 Support 플랜은 무엇입니까? (2개 선택)
+
+A. Business, Enterprise
+
+* 주의! Developer 아님!
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU0NzA2MzQsMTc0ODE2MzU0MV19
+eyJoaXN0b3J5IjpbMTkzNTc0NDk0OSwxNzQ4MTYzNTQxXX0=
 -->
