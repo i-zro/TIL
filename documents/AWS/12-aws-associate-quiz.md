@@ -68,12 +68,22 @@ A.   Independent Software Vendor(ISV)의 소프트웨어 리스팅 수천 개가
 
 ---
 
-Q. 키-값 데이터베이스에 데이터를 저장하려고 합니다. 어떤 서비스를 사용해야 합니까?
+[5] Q. 키-값 데이터베이스에 데이터를 저장하려고 합니다. 어떤 서비스를 사용해야 합니까?
 
 A. Amazon DynamoDB
 
 ---
+
+Q. 다음 중 Elastic Load Balancing을 가장 잘 설명한 것은 무엇입니까?
+
+- [x] 수신 트래픽을 여러 대상(예: Amazon EC2 인스턴스)으로 분산하는 서비스
+
+- 애플리케이션을 모니터링하고 수요 변화에 대응하여 리소스 그룹에서 용량을 자동으로 추가하거나 제거하는 서비스
+
+- 클라우드의 분산 인 메모리 또는 캐시 환경을 설정, 관리, 조정할 수 있는 서비스
+
+- 애플리케이션을 모니터링하고 리소스 활용도를 최적화하며 전체 시스템의 성능 변화에 대응하는 데 사용할 수 있는 데이터를 제공하는 서비스
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMzQ2ODcwLC0xMzE3ODQ0MDI2LC0xMj
+eyJoaXN0b3J5IjpbNzU5MDUwMDk5LC0xMzE3ODQ0MDI2LC0xMj
 U5MDgyMDc2LC04MDk3MTM3NDgsMTc0ODE2MzU0MV19
 -->
