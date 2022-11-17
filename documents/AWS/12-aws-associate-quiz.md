@@ -126,7 +126,14 @@ A. AWS Snowmobile
 [2] Q. 분산 애플리케이션 구성 요소 간에 메시지를 주고받으려고 합니다. 어떤 서비스를 사용해야 합니까?
 
 A. Amazon Simple Queue Service(Amazon SQS)
+
+---
+
+[8] Q. 다음 중 시간 경과에 따라 AWS 비용 및 사용량을 시각화, 이해, 관리하는 데 사용할 수 있는 도구는 무엇입니까?
+
+A. AWS Cost Explorer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDA0NDEyMiwtMTMxNzg0NDAyNiwtMT
-I1OTA4MjA3NiwtODA5NzEzNzQ4LDE3NDgxNjM1NDFdfQ==
+eyJoaXN0b3J5IjpbLTQ3MjUzMTkwOCwxNDEwMDQ0MTIyLC0xMz
+E3ODQ0MDI2LC0xMjU5MDgyMDc2LC04MDk3MTM3NDgsMTc0ODE2
+MzU0MV19
 -->
