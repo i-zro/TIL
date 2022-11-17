@@ -56,23 +56,6 @@ A. Business, Enterprise
 
 # 221117
 
-[3] Q. 다음 중 스크립트를 통해 AWS 서비스 및 애플리케이션에 대한 작업을 자동화하는 데 사용되는 도구는 무엇입니까? 
-
-A. AWS 명령줄 인터페이스
-
----
-
-[8] Q. 다음 중 AWS Marketplace를 가장 잘 설명한 것은 무엇입니까?
-
-A.   Independent Software Vendor(ISV)의 소프트웨어 리스팅 수천 개가 포함된 디지털 카탈로그
-
----
-
-[5] Q. 키-값 데이터베이스에 데이터를 저장하려고 합니다. 어떤 서비스를 사용해야 합니까?
-
-A. Amazon DynamoDB
-
----
 
 [2] Q. 다음 중 Elastic Load Balancing을 가장 잘 설명한 것은 무엇입니까?
 
@@ -83,7 +66,44 @@ A. Amazon DynamoDB
 - 클라우드의 분산 인 메모리 또는 캐시 환경을 설정, 관리, 조정할 수 있는 서비스
 
 - 애플리케이션을 모니터링하고 리소스 활용도를 최적화하며 전체 시스템의 성능 변화에 대응하는 데 사용할 수 있는 데이터를 제공하는 서비스
+
+---
+
+[3] Q. 다음 중 스크립트를 통해 AWS 서비스 및 애플리케이션에 대한 작업을 자동화하는 데 사용되는 도구는 무엇입니까? 
+
+A. AWS 명령줄 인터페이스
+
+---
+
+
+[5] Q. 키-값 데이터베이스에 데이터를 저장하려고 합니다. 어떤 서비스를 사용해야 합니까?
+
+A. Amazon DynamoDB
+
+---
+
+[8] Q. 다음 중 AWS Marketplace를 가장 잘 설명한 것은 무엇입니까?
+
+A.   Independent Software Vendor(ISV)의 소프트웨어 리스팅 수천 개가 포함된 디지털 카탈로그
+
+---
+
+
+
+
+
+Q. 다음 중 기계 학습 예측의 인적 검토에 필요한 워크플로를 빌드할 수 있는 서비스는 무엇입니까?
+
+- Amazon Lex
+
+- Amazon Textract
+
+- [x] Amazon Augmented AI
+
+- Amazon Aurora
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDM3Mzk3NywtMTMxNzg0NDAyNiwtMT
+eyJoaXN0b3J5IjpbMTcxNTE1OTIyNSwtMTMxNzg0NDAyNiwtMT
 I1OTA4MjA3NiwtODA5NzEzNzQ4LDE3NDgxNjM1NDFdfQ==
 -->
