@@ -121,8 +121,12 @@ Amazon A2I를 사용하면 Amazon SageMaker 또는 기타 도구를 기반으로
 [9] **Q. 다음 중 최대 80PB의 데이터를 AWS로 전송하는 데 사용되는 서비스는 무엇입니까?**
 A. AWS Snowmobile
 
+---
 
+[2] Q. 분산 애플리케이션 구성 요소 간에 메시지를 주고받으려고 합니다. 어떤 서비스를 사용해야 합니까?
+
+A. Amazon Simple Queue Service(Amazon SQS)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTAxNTU1NSwtMTMxNzg0NDAyNiwtMT
+eyJoaXN0b3J5IjpbMTQxMDA0NDEyMiwtMTMxNzg0NDAyNiwtMT
 I1OTA4MjA3NiwtODA5NzEzNzQ4LDE3NDgxNjM1NDFdfQ==
 -->
