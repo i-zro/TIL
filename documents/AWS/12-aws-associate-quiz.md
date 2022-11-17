@@ -166,7 +166,7 @@ A. 코드가 실행되는 컴퓨팅 시간에 대해서만 비용을 지불합�
 
 ---
 
-**Q. 다음 중 Amazon GuardDuty를 가장 잘 설명한 것은 무엇입니까?**
+[6] **Q. 다음 중 Amazon GuardDuty를 가장 잘 설명한 것은 무엇입니까?**
 
 - [x] AWS 인프라 및 리소스에 대한 지능형 위협 탐지 기능을 제공하는 서비스
 
@@ -178,7 +178,7 @@ A. 코드가 실행되는 컴퓨팅 시간에 대해서만 비용을 지불합�
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5ODI4MjE2LDMxNTk1MjUwMCwtNDcyNT
+eyJoaXN0b3J5IjpbMzkzMDIwMzc0LDMxNTk1MjUwMCwtNDcyNT
 MxOTA4LDE0MTAwNDQxMjIsLTEzMTc4NDQwMjYsLTEyNTkwODIw
 NzYsLTgwOTcxMzc0OCwxNzQ4MTYzNTQxXX0=
 -->
