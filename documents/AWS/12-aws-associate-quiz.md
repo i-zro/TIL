@@ -199,10 +199,27 @@ A.   AWS Direct Connect
 
 ---
 
+[10] Q. 다음 중 시스템 요구 사항을 충족하는 방식으로 컴퓨팅 리소스를 사용하는 데 중점을 둔 AWS Well-Architected 프레임워크 핵심 요소는 무엇입니까?
+
+A. 성능 효율성
+
+---
+
+Q. 다음 중 Amazon Route 53에서 수행할 수 있는 작업은 무엇입니까? (2개 선택)
+
+-   [x] AWS 내부 및 외부의 인프라에 사용자 요청을 연결
+
+-   AWS 환경에 대한 워크로드 배포를 자동화
+
+-   AWS 보안 및 규정 준수 보고서에 액세스하고 온라인 계약을 선택
+    
+-   애플리케이션을 모니터링하고 전체 시스템의 성능 변화에 대응
+  
+-   [x] 도메인 이름의 DNS 레코드를 관리
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwNDcyNjQ5LC0yMTA5Mzg4OTkyLDM5Mz
-AyMDM3NCwzMTU5NTI1MDAsLTQ3MjUzMTkwOCwxNDEwMDQ0MTIy
-LC0xMzE3ODQ0MDI2LC0xMjU5MDgyMDc2LC04MDk3MTM3NDgsMT
-c0ODE2MzU0MV19
+eyJoaXN0b3J5IjpbMTgyMDkzMzEzNSwtMjEwOTM4ODk5MiwzOT
+MwMjAzNzQsMzE1OTUyNTAwLC00NzI1MzE5MDgsMTQxMDA0NDEy
+MiwtMTMxNzg0NDAyNiwtMTI1OTA4MjA3NiwtODA5NzEzNzQ4LD
+E3NDgxNjM1NDFdfQ==
 -->
