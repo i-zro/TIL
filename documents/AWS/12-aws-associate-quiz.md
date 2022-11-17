@@ -165,8 +165,18 @@ A. 인스턴스 스토어
 A. 코드가 실행되는 컴퓨팅 시간에 대해서만 비용을 지불합니다.
 
 ---
+
+Q. 다음 중 Amazon GuardDuty를 가장 잘 설명한 것은 무엇입니까?
+
+- AWS 인프라 및 리소스에 대한 지능형 위협 탐지 기능을 제공하는 서비스
+
+- 애플리케이션에서 보안 모범 사례 위반 및 보안 취약성을 검사하는 서비스
+
+- 분산 서비스 거부(DDoS) 공격으로부터 애플리케이션을 보호하는 데 도움이 되는 서비스
+
+- 웹 애플리케이션으로 들어오는 네트워크 요청을 모니터링할 수 있는 서비스
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1OTUyNTAwLC00NzI1MzE5MDgsMTQxMD
-A0NDEyMiwtMTMxNzg0NDAyNiwtMTI1OTA4MjA3NiwtODA5NzEz
-NzQ4LDE3NDgxNjM1NDFdfQ==
+eyJoaXN0b3J5IjpbLTMwNzE2NTAzNywzMTU5NTI1MDAsLTQ3Mj
+UzMTkwOCwxNDEwMDQ0MTIyLC0xMzE3ODQ0MDI2LC0xMjU5MDgy
+MDc2LC04MDk3MTM3NDgsMTc0ODE2MzU0MV19
 -->
