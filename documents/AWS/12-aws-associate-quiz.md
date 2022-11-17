@@ -135,7 +135,7 @@ A. AWS Cost Explorer
 
 ---
 
-[**<span style="color:red">Q. AWS Cloud Adoption Framework에서 비즈니스 이해당사자의 요구 사항을 충족하도록 IT 워크로드를 운영 및 복구하는 데 중점을 둔 관점은 무엇입니까?</span>**
+[9] **<span style="color:red">Q. AWS Cloud Adoption Framework에서 비즈니스 이해당사자의 요구 사항을 충족하도록 IT 워크로드를 운영 및 복구하는 데 중점을 둔 관점은 무엇입니까?</span>**
 
 - 거버넌스 관점
 
@@ -152,8 +152,13 @@ A. AWS Cost Explorer
 거버넌스 관점은 
 클라우드에서 비즈니스 거버넌스를 보장하는 데 필요한 직원 기술 및 조직 프로세스를 업데이트하는 방법을 이해하는 데 도움이 됩니다.
 ```
+---
+
+[5] Q. Amazon EC2 인스턴스를 실행 중이며 연결된 리소스에 데이터를 저장하려고 합니다. 이 데이터는 일시적이며 장기간 보관되지 않습니다. 어떤 리소스를 사용해야 합니까?
+
+A. 인스턴스 스토어
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Mjc5ODcyMywtNDcyNTMxOTA4LDE0MT
+eyJoaXN0b3J5IjpbMTYwMDM4Njg3MSwtNDcyNTMxOTA4LDE0MT
 AwNDQxMjIsLTEzMTc4NDQwMjYsLTEyNTkwODIwNzYsLTgwOTcx
 Mzc0OCwxNzQ4MTYzNTQxXX0=
 -->
