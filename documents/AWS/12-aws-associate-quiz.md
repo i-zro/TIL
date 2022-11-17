@@ -88,11 +88,7 @@ A.   Independent Software Vendor(ISV)의 소프트웨어 리스팅 수천 개가
 
 ---
 
-
-
-
-
-Q. 다음 중 기계 학습 예측의 인적 검토에 필요한 워크플로를 빌드할 수 있는 서비스는 무엇입니까?
+[9] **Q. 다음 중 기계 학습 예측의 인적 검토에 필요한 워크플로를 빌드할 수 있는 서비스는 무엇입니까?**
 
 - Amazon Lex
 
@@ -104,6 +100,6 @@ Q. 다음 중 기계 학습 예측의 인적 검토에 필요한 워크플로를
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTE1OTIyNSwtMTMxNzg0NDAyNiwtMT
-I1OTA4MjA3NiwtODA5NzEzNzQ4LDE3NDgxNjM1NDFdfQ==
+eyJoaXN0b3J5IjpbLTEyMTkxMzQ2NTYsLTEzMTc4NDQwMjYsLT
+EyNTkwODIwNzYsLTgwOTcxMzc0OCwxNzQ4MTYzNTQxXX0=
 -->
