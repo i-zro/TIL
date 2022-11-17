@@ -104,7 +104,19 @@ Amazon Augmented AI(Amazon A2I)는 콘텐츠 조정,
 Amazon A2I를 사용하면 Amazon SageMaker 또는 기타 도구를 기반으로 
 빌드된 기계 학습 모델을 위한 자체 워크플로를 생성할 수도 있습니다.
 ```
+
+---
+
+**Q. 다음 중 Amazon EC2 인스턴스에 대한 인바운드 및 아웃바운드 트래픽을 제어하는 Virtual Private Cloud(VPC) 구성 요소는 무엇입니까?**
+
+- **네트워크 액세스 제어 목록**
+
+- 서브넷
+
+- [x] **보안 그룹**
+
+- 인터넷 게이트웨이
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk2MTE3NSwtMTMxNzg0NDAyNiwtMT
-I1OTA4MjA3NiwtODA5NzEzNzQ4LDE3NDgxNjM1NDFdfQ==
+eyJoaXN0b3J5IjpbODQ1MzAyMjQsLTEzMTc4NDQwMjYsLTEyNT
+kwODIwNzYsLTgwOTcxMzc0OCwxNzQ4MTYzNTQxXX0=
 -->
