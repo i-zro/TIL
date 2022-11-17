@@ -132,8 +132,28 @@ A. Amazon Simple Queue Service(Amazon SQS)
 [8] Q. 다음 중 시간 경과에 따라 AWS 비용 및 사용량을 시각화, 이해, 관리하는 데 사용할 수 있는 도구는 무엇입니까?
 
 A. AWS Cost Explorer
+
+---
+
+[**<span style="color:red">Q. AWS Cloud Adoption Framework에서 비즈니스 이해당사자의 요구 사항을 충족하도록 IT 워크로드를 운영 및 복구하는 데 중점을 둔 관점은 무엇입니까?</span>**
+
+- 거버넌스 관점
+
+- [x] **운영 관점**
+
+- 인력 관점
+
+- **비즈니스 관점**
+
+```
+비즈니스 관점은 
+비즈니스 전략과 IT 전략을 분리하는 모델에서 IT 전략을 통합하는 비즈니스 모델로 전환하는 데 도움이 됩니다.
+
+거버넌스 관점은 
+클라우드에서 비즈니스 거버넌스를 보장하는 데 필요한 직원 기술 및 조직 프로세스를 업데이트하는 방법을 이해하는 데 도움이 됩니다.
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjUzMTkwOCwxNDEwMDQ0MTIyLC0xMz
-E3ODQ0MDI2LC0xMjU5MDgyMDc2LC04MDk3MTM3NDgsMTc0ODE2
-MzU0MV19
+eyJoaXN0b3J5IjpbMTc0Mjc5ODcyMywtNDcyNTMxOTA4LDE0MT
+AwNDQxMjIsLTEzMTc4NDQwMjYsLTEyNTkwODIwNzYsLTgwOTcx
+Mzc0OCwxNzQ4MTYzNTQxXX0=
 -->
