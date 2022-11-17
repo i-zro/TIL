@@ -98,8 +98,13 @@ A.   Independent Software Vendor(ISV)의 소프트웨어 리스팅 수천 개가
 
 - Amazon Aurora
 
-
+```
+Amazon Augmented AI(Amazon A2I)는 콘텐츠 조정, 
+문서에서 텍스트 추출 등 일반적인 기계 학습 사용 사례에 대한 인적 검토 워크플로를 기본 제공합니다.
+Amazon A2I를 사용하면 Amazon SageMaker 또는 기타 도구를 기반으로 
+빌드된 기계 학습 모델을 위한 자체 워크플로를 생성할 수도 있습니다.
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTkxMzQ2NTYsLTEzMTc4NDQwMjYsLT
-EyNTkwODIwNzYsLTgwOTcxMzc0OCwxNzQ4MTYzNTQxXX0=
+eyJoaXN0b3J5IjpbLTEyMjk2MTE3NSwtMTMxNzg0NDAyNiwtMT
+I1OTA4MjA3NiwtODA5NzEzNzQ4LDE3NDgxNjM1NDFdfQ==
 -->
