@@ -157,8 +157,16 @@ A. AWS Cost Explorer
 [5] Q. Amazon EC2 인스턴스를 실행 중이며 연결된 리소스에 데이터를 저장하려고 합니다. 이 데이터는 일시적이며 장기간 보관되지 않습니다. 어떤 리소스를 사용해야 합니까?
 
 A. 인스턴스 스토어
+
+---
+
+[2] Q. 다음 중 AWS Lambda에 대한 올바른 설명은 무엇입니까?
+
+A. 코드가 실행되는 컴퓨팅 시간에 대해서만 비용을 지불합니다.
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDM4Njg3MSwtNDcyNTMxOTA4LDE0MT
-AwNDQxMjIsLTEzMTc4NDQwMjYsLTEyNTkwODIwNzYsLTgwOTcx
-Mzc0OCwxNzQ4MTYzNTQxXX0=
+eyJoaXN0b3J5IjpbMzE1OTUyNTAwLC00NzI1MzE5MDgsMTQxMD
+A0NDEyMiwtMTMxNzg0NDAyNiwtMTI1OTA4MjA3NiwtODA5NzEz
+NzQ4LDE3NDgxNjM1NDFdfQ==
 -->
