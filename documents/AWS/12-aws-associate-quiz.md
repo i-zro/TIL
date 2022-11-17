@@ -177,8 +177,16 @@ A. 코드가 실행되는 컴퓨팅 시간에 대해서만 비용을 지불합�
 - 웹 애플리케이션으로 들어오는 네트워크 요청을 모니터링할 수 있는 서비스
 
 ---
+
+[4] Q. 다음 중 데이터 센터와 Virtual Private Cloud(VPC) 간에 비공개 전용 연결을 설정할 수 있는 구성 요소 또는 서비스는 무엇입니까?
+
+A.   AWS Direct Connect
+
+---
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMDIwMzc0LDMxNTk1MjUwMCwtNDcyNT
-MxOTA4LDE0MTAwNDQxMjIsLTEzMTc4NDQwMjYsLTEyNTkwODIw
-NzYsLTgwOTcxMzc0OCwxNzQ4MTYzNTQxXX0=
+eyJoaXN0b3J5IjpbLTIxMDkzODg5OTIsMzkzMDIwMzc0LDMxNT
+k1MjUwMCwtNDcyNTMxOTA4LDE0MTAwNDQxMjIsLTEzMTc4NDQw
+MjYsLTEyNTkwODIwNzYsLTgwOTcxMzc0OCwxNzQ4MTYzNTQxXX
+0=
 -->
