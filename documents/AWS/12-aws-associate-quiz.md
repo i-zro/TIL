@@ -75,6 +75,17 @@ A. AWS 명령줄 인터페이스
 
 ---
 
+[4] **Q. 다음 중 Amazon EC2 인스턴스에 대한 인바운드 및 아웃바운드 트래픽을 제어하는 Virtual Private Cloud(VPC) 구성 요소는 무엇입니까?**
+
+- **네트워크 액세스 제어 목록**
+
+- 서브넷
+
+- [x] **보안 그룹**
+
+- 인터넷 게이트웨이
+
+---
 
 [5] Q. 키-값 데이터베이스에 데이터를 저장하려고 합니다. 어떤 서비스를 사용해야 합니까?
 
@@ -107,16 +118,11 @@ Amazon A2I를 사용하면 Amazon SageMaker 또는 기타 도구를 기반으로
 
 ---
 
-**Q. 다음 중 Amazon EC2 인스턴스에 대한 인바운드 및 아웃바운드 트래픽을 제어하는 Virtual Private Cloud(VPC) 구성 요소는 무엇입니까?**
 
-- **네트워크 액세스 제어 목록**
 
-- 서브넷
 
-- [x] **보안 그룹**
 
-- 인터넷 게이트웨이
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1MzAyMjQsLTEzMTc4NDQwMjYsLTEyNT
-kwODIwNzYsLTgwOTcxMzc0OCwxNzQ4MTYzNTQxXX0=
+eyJoaXN0b3J5IjpbLTYwNTc2MDk5NywtMTMxNzg0NDAyNiwtMT
+I1OTA4MjA3NiwtODA5NzEzNzQ4LDE3NDgxNjM1NDFdfQ==
 -->
