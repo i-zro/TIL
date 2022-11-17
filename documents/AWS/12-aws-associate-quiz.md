@@ -205,7 +205,7 @@ A. 성능 효율성
 
 ---
 
-Q. 다음 중 Amazon Route 53에서 수행할 수 있는 작업은 무엇입니까? (2개 선택)
+[3] Q. 다음 중 Amazon Route 53에서 수행할 수 있는 작업은 무엇입니까? (2개 선택)
 
 -   [x] AWS 내부 및 외부의 인프라에 사용자 요청을 연결
 
@@ -218,7 +218,7 @@ Q. 다음 중 Amazon Route 53에서 수행할 수 있는 작업은 무엇입니�
 -   [x] 도메인 이름의 DNS 레코드를 관리
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDkzMzEzNSwtMjEwOTM4ODk5MiwzOT
+eyJoaXN0b3J5IjpbLTg0NDM1MzExMCwtMjEwOTM4ODk5MiwzOT
 MwMjAzNzQsMzE1OTUyNTAwLC00NzI1MzE5MDgsMTQxMDA0NDEy
 MiwtMTMxNzg0NDAyNiwtMTI1OTA4MjA3NiwtODA5NzEzNzQ4LD
 E3NDgxNjM1NDFdfQ==
