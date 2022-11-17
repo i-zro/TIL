@@ -65,7 +65,11 @@ A. AWS 명령줄 인터페이스
 [8] Q. 다음 중 AWS Marketplace를 가장 잘 설명한 것은 무엇입니까?
 
 A.   Independent Software Vendor(ISV)의 소프트웨어 리스팅 수천 개가 포함된 디지털 카탈로그
+
+---
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjM3NDU3MjQsLTEzMTc4NDQwMjYsLT
+eyJoaXN0b3J5IjpbLTExMjY3MzY3MzMsLTEzMTc4NDQwMjYsLT
 EyNTkwODIwNzYsLTgwOTcxMzc0OCwxNzQ4MTYzNTQxXX0=
 -->
