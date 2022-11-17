@@ -497,8 +497,13 @@ A. 4
 - AWS Management Console에는 AWS 서비스에서 작업을 수행하는 데 사용할 수 있는 마법사 및 워크플로가 포함되어 있습니다.
 - 소프트웨어 개발 키트(SDK)를 사용하면 지원되는 프로그래밍 언어로 AWS 애플리케이션을 개발할 수 있습니다.
 ```
-
 ---
+
+Q. 다음 중 스크립트를 통해 AWS 서비스 및 애플리케이션에 대한 작업을 자동화하는 데 사용되는 도구는 무엇입니까?
+
+AWS 명령줄 인터페이스
+
+
 
 # 4. 네트워킹
 
@@ -1690,5 +1695,5 @@ Q. 다음 중 워크로드를 효과적으로 실행하고 운영에 대한 통�
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDg1OTc5MV19
+eyJoaXN0b3J5IjpbLTkwNTczNDEzOSwxOTgwODU5NzkxXX0=
 -->
