@@ -68,8 +68,12 @@ A.   Independent Software Vendor(ISV)의 소프트웨어 리스팅 수천 개가
 
 ---
 
+Q. 키-값 데이터베이스에 데이터를 저장하려고 합니다. 어떤 서비스를 사용해야 합니까?
 
+A. Amazon DynamoDB
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY3MzY3MzMsLTEzMTc4NDQwMjYsLT
-EyNTkwODIwNzYsLTgwOTcxMzc0OCwxNzQ4MTYzNTQxXX0=
+eyJoaXN0b3J5IjpbMzMwMzQ2ODcwLC0xMzE3ODQ0MDI2LC0xMj
+U5MDgyMDc2LC04MDk3MTM3NDgsMTc0ODE2MzU0MV19
 -->
