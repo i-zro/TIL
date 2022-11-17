@@ -118,11 +118,11 @@ Amazon A2I를 사용하면 Amazon SageMaker 또는 기타 도구를 기반으로
 
 ---
 
-
-
+[9] **Q. 다음 중 최대 80PB의 데이터를 AWS로 전송하는 데 사용되는 서비스는 무엇입니까?**
+A. AWS Snowmobile
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTc2MDk5NywtMTMxNzg0NDAyNiwtMT
+eyJoaXN0b3J5IjpbLTU4OTAxNTU1NSwtMTMxNzg0NDAyNiwtMT
 I1OTA4MjA3NiwtODA5NzEzNzQ4LDE3NDgxNjM1NDFdfQ==
 -->
