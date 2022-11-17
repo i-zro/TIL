@@ -52,11 +52,14 @@ A. Business, Enterprise
 
 * 주의! Developer 아님!
 
+---
 
+Q. 다음 중 스크립트를 통해 AWS 서비스 및 애플리케이션에 대한 작업을 자동화하는 데 사용되는 도구는 무엇입니까? 
 
+A. AWS 명령줄 인터페이스
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkwODIwNzYsLTgwOTcxMzc0OCwxNz
-Q4MTYzNTQxXX0=
+eyJoaXN0b3J5IjpbLTEzMTc4NDQwMjYsLTEyNTkwODIwNzYsLT
+gwOTcxMzc0OCwxNzQ4MTYzNTQxXX0=
 -->
