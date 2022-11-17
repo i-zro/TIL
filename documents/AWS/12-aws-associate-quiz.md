@@ -184,9 +184,25 @@ A.   AWS Direct Connect
 
 ---
 
+[5] **Q. S3 Intelligent-Tiering 스토리지 클래스에서 Amazon S3는 자주 사용하는 액세스 계층과 자주 사용하지 않는 액세스 계층 간에 객체를 이동합니다. 이러한 계층에는 어떤 스토리지 클래스가 사용됩니까? (2개 선택)**
+
+
+- [x] S3 Standard-IA
+
+- S3 Glacier Deep Archive
+
+- S3 One Zone-IA
+
+- S3 Glacier
+
+- [x] S3 Standard
+
+---
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDkzODg5OTIsMzkzMDIwMzc0LDMxNT
-k1MjUwMCwtNDcyNTMxOTA4LDE0MTAwNDQxMjIsLTEzMTc4NDQw
-MjYsLTEyNTkwODIwNzYsLTgwOTcxMzc0OCwxNzQ4MTYzNTQxXX
-0=
+eyJoaXN0b3J5IjpbNzkwNDcyNjQ5LC0yMTA5Mzg4OTkyLDM5Mz
+AyMDM3NCwzMTU5NTI1MDAsLTQ3MjUzMTkwOCwxNDEwMDQ0MTIy
+LC0xMzE3ODQ0MDI2LC0xMjU5MDgyMDc2LC04MDk3MTM3NDgsMT
+c0ODE2MzU0MV19
 -->
