@@ -1,5 +1,7 @@
 # 리눅스 입문 - 개념으로 탄탄히!!
 
+# 01. 리눅스란 무엇인가?
+
 # 1. 리눅스란 무엇인가?
 - 다양한 배포판(distribution, distro)
     - 공통점
@@ -26,6 +28,8 @@
 - 디바이스 드라이버
 - 네트워킹
 - 사용자 인터페이스
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTQ1OTUyN119
+eyJoaXN0b3J5IjpbNTYwNjE5MTA2LC00ODU0NTk1MjddfQ==
 -->
