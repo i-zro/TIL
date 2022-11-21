@@ -1,6 +1,6 @@
 # 02. 최소한의 커맨드라인 사용법
 
-### 리눅스 쉘
+# 1. 리눅스 쉘
 
 - 리눅스에서 커널 바깥 껍질
 
@@ -10,13 +10,12 @@
 
 ![](https://i.imgur.com/0PiK1BA.png)
 
-### 기본 쉘 명령어
+# 2. 기본 쉘 명령어
 
 - 매뉴얼 조회: man
     - 사용 예시 : ls 명령어 대해 알고 싶다 -> man ls
     - 찾기 : 이후 매뉴얼에서 'word' 찾고 싶다 -> /word
-
-
+    
 - 파일 목록/내용 조회 관련 명령어: ls, cat, head, tail
     - 파일 전체 정보 보여주기 : ls -al
     - 직전 디렉토리 이동 : cd -
@@ -51,11 +50,12 @@
 - 패키지 매니저: apt
 - 텍스트 에디터: nano
 
+## 기타 명령어
 - 우분투는 원하는 부분 드래그 후 원하는 곳에 휠 클릭 만으로 복사 - 붙여넣기 됨
 - find 명령어 filelist라는 파일에 저장하고 싶을 때 : find > filelist
 - ls 명령어가 어느 경로에 있는지 알고 싶다 -> which ls
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDU0MTA5NV19
+eyJoaXN0b3J5IjpbOTM0MTEzNjA0XX0=
 -->
