@@ -14,12 +14,13 @@
 
 ## 5_2. S3
 - Glacier은 아카이브용 스토리지 클래스
+- S3 Transfer Acceleration은 <bucket>.s3-accelerate.amazonaws.com를 사용하여 업로드 해야 함.
 
 ## 5_4. RDS
 - 다중 AZ RDS는 재해 복구용 예비 복제본으로, Read Replica처럼 읽기 트래픽 처리 불가.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Mzg1ODE0OCwxNDg5NzQzNzQwLC0xMT
-I0MTAxOTM3LC01MDM4MDEyOTAsLTE1MjQzNTMxNzksLTc5MDgy
-NDA2OF19
+eyJoaXN0b3J5IjpbMzE5MTY1MTYwLDE2NTM4NTgxNDgsMTQ4OT
+c0Mzc0MCwtMTEyNDEwMTkzNywtNTAzODAxMjkwLC0xNTI0MzUz
+MTc5LC03OTA4MjQwNjhdfQ==
 -->
