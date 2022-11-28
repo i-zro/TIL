@@ -2,6 +2,9 @@
 
 ## 2_4. ELB
 - ALB에는 탄력적 IP 주소 할당 불가
+
+# 5. RDS
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDgyNDA2OF19
+eyJoaXN0b3J5IjpbNjgzNDEwODYzLC03OTA4MjQwNjhdfQ==
 -->
