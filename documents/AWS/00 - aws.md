@@ -18,9 +18,10 @@
 
 ## 5_4. RDS
 - 다중 AZ RDS는 재해 복구용 예비 복제본으로, Read Replica처럼 읽기 트래픽 처리 불가.
+- RDS는 자동 백업이 활성화 되어 있어야 DB 인스턴스를 특정 시점으로 복구 가능
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5MTY1MTYwLDE2NTM4NTgxNDgsMTQ4OT
-c0Mzc0MCwtMTEyNDEwMTkzNywtNTAzODAxMjkwLC0xNTI0MzUz
-MTc5LC03OTA4MjQwNjhdfQ==
+eyJoaXN0b3J5IjpbMTUxMTg3ODUyOCwzMTkxNjUxNjAsMTY1Mz
+g1ODE0OCwxNDg5NzQzNzQwLC0xMTI0MTAxOTM3LC01MDM4MDEy
+OTAsLTE1MjQzNTMxNzksLTc5MDgyNDA2OF19
 -->
