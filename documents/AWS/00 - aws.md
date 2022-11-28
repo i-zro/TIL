@@ -9,10 +9,13 @@
 ## 5_1. 인스턴스 스토어
 - IOPS 성능이 가장 높음.
 
+## 5_2. S3
+- Glacier은 아카이브용 스토리지 클래스
+
 ## 5_4. RDS
 - 다중 AZ RDS는 재해 복구용 예비 복제본으로, Read Replica처럼 읽기 트래픽 처리 불가.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQxMDE5MzcsLTUwMzgwMTI5MCwtMT
-UyNDM1MzE3OSwtNzkwODI0MDY4XX0=
+eyJoaXN0b3J5IjpbMTQ4OTc0Mzc0MCwtMTEyNDEwMTkzNywtNT
+AzODAxMjkwLC0xNTI0MzUzMTc5LC03OTA4MjQwNjhdfQ==
 -->
