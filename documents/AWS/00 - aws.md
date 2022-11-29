@@ -7,7 +7,7 @@
 - SNS는 DB로 메시지를 바로 전송 할 수 없음.
 
 # 4. 네트워킹
-
+- Systems Manager 세션 관리자를 통한 콘솔 액세스는 인터넷 연결이므로 VPN보다 안전하지 않음.
 
 
 
@@ -27,7 +27,8 @@
 - RDS는 자동 백업이 활성화 되어 있어야 DB 인스턴스를 특정 시점으로 복구 가능
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3MzY1NzgsMTUxMTg3ODUyOCwzMTkxNj
-UxNjAsMTY1Mzg1ODE0OCwxNDg5NzQzNzQwLC0xMTI0MTAxOTM3
-LC01MDM4MDEyOTAsLTE1MjQzNTMxNzksLTc5MDgyNDA2OF19
+eyJoaXN0b3J5IjpbLTE5Mzk5MzM1NjksNzM3MzY1NzgsMTUxMT
+g3ODUyOCwzMTkxNjUxNjAsMTY1Mzg1ODE0OCwxNDg5NzQzNzQw
+LC0xMTI0MTAxOTM3LC01MDM4MDEyOTAsLTE1MjQzNTMxNzksLT
+c5MDgyNDA2OF19
 -->
