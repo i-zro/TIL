@@ -17,7 +17,7 @@
 - SMB 프로토콜(-> FSx)은 윈도우 OS 인스턴스 지원, NFS 프로토콜(->EFS)은 리눅스 OS 인스턴스 지원
 
 ## 5_1. 인스턴스 스토어
-- IOPS 성능이 가장 높음.
+- 인스턴스 스토어가 IOPS 성능이 가장 높음.
 
 ## 5_2. S3
 - Glacier은 아카이브용 스토리지 클래스
@@ -28,8 +28,8 @@
 - RDS는 자동 백업이 활성화 되어 있어야 DB 인스턴스를 특정 시점으로 복구 가능
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDg3NDg0OSw3MzczNjU3OCwxNTExOD
-c4NTI4LDMxOTE2NTE2MCwxNjUzODU4MTQ4LDE0ODk3NDM3NDAs
-LTExMjQxMDE5MzcsLTUwMzgwMTI5MCwtMTUyNDM1MzE3OSwtNz
-kwODI0MDY4XX0=
+eyJoaXN0b3J5IjpbLTIxNDczNDU1MjMsMTkzNDg3NDg0OSw3Mz
+czNjU3OCwxNTExODc4NTI4LDMxOTE2NTE2MCwxNjUzODU4MTQ4
+LDE0ODk3NDM3NDAsLTExMjQxMDE5MzcsLTUwMzgwMTI5MCwtMT
+UyNDM1MzE3OSwtNzkwODI0MDY4XX0=
 -->
