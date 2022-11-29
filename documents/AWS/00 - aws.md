@@ -6,6 +6,12 @@
 ## 2_5. 메시징 및 대기열
 - SNS는 DB로 메시지를 바로 전송 할 수 없음.
 
+# 4. 네트워킹
+
+
+
+
+
 # 5. 스토리지 및 데이터베이스
 - EFS는 내구성에 대한 공식적 보장은 없음, S3는 99.999999999% 내구성 보장
 
@@ -21,7 +27,7 @@
 - RDS는 자동 백업이 활성화 되어 있어야 DB 인스턴스를 특정 시점으로 복구 가능
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTg3ODUyOCwzMTkxNjUxNjAsMTY1Mz
-g1ODE0OCwxNDg5NzQzNzQwLC0xMTI0MTAxOTM3LC01MDM4MDEy
-OTAsLTE1MjQzNTMxNzksLTc5MDgyNDA2OF19
+eyJoaXN0b3J5IjpbNzM3MzY1NzgsMTUxMTg3ODUyOCwzMTkxNj
+UxNjAsMTY1Mzg1ODE0OCwxNDg5NzQzNzQwLC0xMTI0MTAxOTM3
+LC01MDM4MDEyOTAsLTE1MjQzNTMxNzksLTc5MDgyNDA2OF19
 -->
