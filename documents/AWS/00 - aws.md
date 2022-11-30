@@ -36,12 +36,12 @@
 - RDS는 자동 백업이 활성화 되어 있어야 DB 인스턴스를 특정 시점으로 복구 가능
 
 ## 5_5. Amazon DynamoDB
-- DynamoDB 글로벌 테이블을 통해 재해 복구 시 1초 이내로 다른 리전으로 데이터 복제 및 모든 리전에 읽기/쓰기 가능하므로 서비스 중단 없음.
+- DynamoDB 글로벌 테이블 구성을 통해 재해 복구 시 1초 이내로 다른 리전으로 데이터 복제 및 모든 리전에 읽기/쓰기 가능하므로 서비스 중단 없음.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDE5NDEzMCw3ODM1MzM4OTEsLTU0ND
-I1MTY4NCw3ODM1MzM4OTEsNzQ3NDIyNDA0LDEzODE0ODQ4ODQs
-LTIxNDczNDU1MjMsMTkzNDg3NDg0OSw3MzczNjU3OCwxNTExOD
-c4NTI4LDMxOTE2NTE2MCwxNjUzODU4MTQ4LDE0ODk3NDM3NDAs
-LTExMjQxMDE5MzcsLTUwMzgwMTI5MCwtMTUyNDM1MzE3OSwtNz
-kwODI0MDY4XX0=
+eyJoaXN0b3J5IjpbMzU5ODY2NTg3LDc4MzUzMzg5MSwtNTQ0Mj
+UxNjg0LDc4MzUzMzg5MSw3NDc0MjI0MDQsMTM4MTQ4NDg4NCwt
+MjE0NzM0NTUyMywxOTM0ODc0ODQ5LDczNzM2NTc4LDE1MTE4Nz
+g1MjgsMzE5MTY1MTYwLDE2NTM4NTgxNDgsMTQ4OTc0Mzc0MCwt
+MTEyNDEwMTkzNywtNTAzODAxMjkwLC0xNTI0MzUzMTc5LC03OT
+A4MjQwNjhdfQ==
 -->
