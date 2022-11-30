@@ -14,6 +14,9 @@
 # 4. 네트워킹
 - Systems Manager 세션 관리자를 통한 콘솔 액세스는 인터넷 연결이므로 VPN보다 안전하지 않음.
 
+## 4_1. AWS와의 연결
+- 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음.
+	- V
 ## 4_2. 서브넷 및 네트워크 액세스 제어 목록
 - 보안그룹(인스턴스 레벨)은 거부 규칙 지정 못함. NACL(서브넷 레벨)이 허용 및 거부 규칙 지원. 
 
@@ -33,9 +36,9 @@
 - RDS는 자동 백업이 활성화 되어 있어야 DB 인스턴스를 특정 시점으로 복구 가능
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NDIyNDA0LDEzODE0ODQ4ODQsLTIxND
-czNDU1MjMsMTkzNDg3NDg0OSw3MzczNjU3OCwxNTExODc4NTI4
-LDMxOTE2NTE2MCwxNjUzODU4MTQ4LDE0ODk3NDM3NDAsLTExMj
-QxMDE5MzcsLTUwMzgwMTI5MCwtMTUyNDM1MzE3OSwtNzkwODI0
-MDY4XX0=
+eyJoaXN0b3J5IjpbNzYxNzIyOCw3NDc0MjI0MDQsMTM4MTQ4ND
+g4NCwtMjE0NzM0NTUyMywxOTM0ODc0ODQ5LDczNzM2NTc4LDE1
+MTE4Nzg1MjgsMzE5MTY1MTYwLDE2NTM4NTgxNDgsMTQ4OTc0Mz
+c0MCwtMTEyNDEwMTkzNywtNTAzODAxMjkwLC0xNTI0MzUzMTc5
+LC03OTA4MjQwNjhdfQ==
 -->
