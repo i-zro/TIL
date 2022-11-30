@@ -6,6 +6,11 @@
 ## 2_5. 메시징 및 대기열
 - SNS는 DB로 메시지를 바로 전송 할 수 없음.
 
+# 3. 글로벌 인프라 및 안정성 
+
+## 3_2. 엣지 로케이션
+- CloudFront에 가격 등급에 따라 배포하는 엣지 로케이션을 줄일 수 있음 -> 가격 등급 100이 일부 리전에 배포 하며 가장 낮은 비용
+
 # 4. 네트워킹
 - Systems Manager 세션 관리자를 통한 콘솔 액세스는 인터넷 연결이므로 VPN보다 안전하지 않음.
 
@@ -28,8 +33,9 @@
 - RDS는 자동 백업이 활성화 되어 있어야 DB 인스턴스를 특정 시점으로 복구 가능
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTQ4NDg4NCwtMjE0NzM0NTUyMywxOT
-M0ODc0ODQ5LDczNzM2NTc4LDE1MTE4Nzg1MjgsMzE5MTY1MTYw
-LDE2NTM4NTgxNDgsMTQ4OTc0Mzc0MCwtMTEyNDEwMTkzNywtNT
-AzODAxMjkwLC0xNTI0MzUzMTc5LC03OTA4MjQwNjhdfQ==
+eyJoaXN0b3J5IjpbNzQ3NDIyNDA0LDEzODE0ODQ4ODQsLTIxND
+czNDU1MjMsMTkzNDg3NDg0OSw3MzczNjU3OCwxNTExODc4NTI4
+LDMxOTE2NTE2MCwxNjUzODU4MTQ4LDE0ODk3NDM3NDAsLTExMj
+QxMDE5MzcsLTUwMzgwMTI5MCwtMTUyNDM1MzE3OSwtNzkwODI0
+MDY4XX0=
 -->
