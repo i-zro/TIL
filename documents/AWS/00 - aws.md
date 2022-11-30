@@ -43,16 +43,16 @@
 - RDS는 밀리 초 지연 시간 데이터 저장 및 검색에 부적합 -> noSQL인 DynamoDB가 적합
 
 ## 5_9. 스토리지 - 기타
-- Data Sync가 온라인 데이터 마이그레이션 솔루션 Snowball Edge는 오프라인!
+- Data Sync가 온라인으로 데이터 마이그레이션 솔루션를 AWS로 자동 전송, Snowball Edge는 오프라인!가  
 
 # 10. 기타
 - 클릭 스트림 데이터 -> Kinesis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY4MjA0NzEsMTQ3NjU4NTM1Nyw0MD
-Q3MzcwNzEsMTY0Mzg2NDkyOCwxNTUzOTYwMDAwLDEzOTM1Nzk5
-NDIsMzU5ODY2NTg3LDc4MzUzMzg5MSwtNTQ0MjUxNjg0LDc4Mz
-UzMzg5MSw3NDc0MjI0MDQsMTM4MTQ4NDg4NCwtMjE0NzM0NTUy
-MywxOTM0ODc0ODQ5LDczNzM2NTc4LDE1MTE4Nzg1MjgsMzE5MT
-Y1MTYwLDE2NTM4NTgxNDgsMTQ4OTc0Mzc0MCwtMTEyNDEwMTkz
-N119
+eyJoaXN0b3J5IjpbMTA0ODYwNTI1MCwtMjAxNjgyMDQ3MSwxND
+c2NTg1MzU3LDQwNDczNzA3MSwxNjQzODY0OTI4LDE1NTM5NjAw
+MDAsMTM5MzU3OTk0MiwzNTk4NjY1ODcsNzgzNTMzODkxLC01ND
+QyNTE2ODQsNzgzNTMzODkxLDc0NzQyMjQwNCwxMzgxNDg0ODg0
+LC0yMTQ3MzQ1NTIzLDE5MzQ4NzQ4NDksNzM3MzY1NzgsMTUxMT
+g3ODUyOCwzMTkxNjUxNjAsMTY1Mzg1ODE0OCwxNDg5NzQzNzQw
+XX0=
 -->
