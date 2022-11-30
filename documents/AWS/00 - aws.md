@@ -42,17 +42,20 @@
 - DynamoDB 글로벌 테이블 구성을 통해 재해 복구 시 1초 이내로 다른 리전으로 데이터 복제 및 모든 리전에 읽기/쓰기 가능하므로 서비스 중단 없음.
 - RDS는 밀리 초 지연 시간 데이터 저장 및 검색에 부적합 -> noSQL인 DynamoDB가 적합
 
+## 5_8. 추가 데이터베이스 서비스
+- elastiCache는 인메모리 데이터 스토어, Memcached보다 Redis가 고가용성, 복제기능, 스냅샷 백업 등 지원
+
 ## 5_9. 스토리지 - 기타
 - Data Sync가 온라인으로 데이터 마이그레이션 솔루션를 AWS로 자동 전송, Snowball Edge는 오프라인!가  
 
 # 10. 기타
 - 클릭 스트림 데이터 -> Kinesis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODYwNTI1MCwtMjAxNjgyMDQ3MSwxND
-c2NTg1MzU3LDQwNDczNzA3MSwxNjQzODY0OTI4LDE1NTM5NjAw
-MDAsMTM5MzU3OTk0MiwzNTk4NjY1ODcsNzgzNTMzODkxLC01ND
-QyNTE2ODQsNzgzNTMzODkxLDc0NzQyMjQwNCwxMzgxNDg0ODg0
-LC0yMTQ3MzQ1NTIzLDE5MzQ4NzQ4NDksNzM3MzY1NzgsMTUxMT
-g3ODUyOCwzMTkxNjUxNjAsMTY1Mzg1ODE0OCwxNDg5NzQzNzQw
-XX0=
+eyJoaXN0b3J5IjpbOTMyMzM0MjIwLDEwNDg2MDUyNTAsLTIwMT
+Y4MjA0NzEsMTQ3NjU4NTM1Nyw0MDQ3MzcwNzEsMTY0Mzg2NDky
+OCwxNTUzOTYwMDAwLDEzOTM1Nzk5NDIsMzU5ODY2NTg3LDc4Mz
+UzMzg5MSwtNTQ0MjUxNjg0LDc4MzUzMzg5MSw3NDc0MjI0MDQs
+MTM4MTQ4NDg4NCwtMjE0NzM0NTUyMywxOTM0ODc0ODQ5LDczNz
+M2NTc4LDE1MTE4Nzg1MjgsMzE5MTY1MTYwLDE2NTM4NTgxNDhd
+fQ==
 -->
