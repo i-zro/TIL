@@ -16,6 +16,7 @@
 
 ## 4_1. AWS와의 연결
 - 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음. VPN은 저렴. Direct Connect는 비싼 대신 더 큰 네트워크 대역폭 제공해서 트래픽 안정.
+- VPC 엔드포인트 : 인터넷을 통하지 않고 AWS 서비스에 프라이빗하게 연결할 수 있는 VPC 진입점
 
 ## 4_2. 서브넷 및 네트워크 액세스 제어 목록
 - 보안그룹(인스턴스 레벨)은 거부 규칙 지정 못함. NACL(서브넷 레벨)이 허용 및 거부 규칙 지원. 
@@ -44,11 +45,11 @@
 # 10. 기타
 - 클릭 스트림 데이터 -> Kinesis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0NzM3MDcxLDE2NDM4NjQ5MjgsMTU1Mz
-k2MDAwMCwxMzkzNTc5OTQyLDM1OTg2NjU4Nyw3ODM1MzM4OTEs
-LTU0NDI1MTY4NCw3ODM1MzM4OTEsNzQ3NDIyNDA0LDEzODE0OD
-Q4ODQsLTIxNDczNDU1MjMsMTkzNDg3NDg0OSw3MzczNjU3OCwx
-NTExODc4NTI4LDMxOTE2NTE2MCwxNjUzODU4MTQ4LDE0ODk3ND
-M3NDAsLTExMjQxMDE5MzcsLTUwMzgwMTI5MCwtMTUyNDM1MzE3
-OV19
+eyJoaXN0b3J5IjpbMTQ3NjU4NTM1Nyw0MDQ3MzcwNzEsMTY0Mz
+g2NDkyOCwxNTUzOTYwMDAwLDEzOTM1Nzk5NDIsMzU5ODY2NTg3
+LDc4MzUzMzg5MSwtNTQ0MjUxNjg0LDc4MzUzMzg5MSw3NDc0Mj
+I0MDQsMTM4MTQ4NDg4NCwtMjE0NzM0NTUyMywxOTM0ODc0ODQ5
+LDczNzM2NTc4LDE1MTE4Nzg1MjgsMzE5MTY1MTYwLDE2NTM4NT
+gxNDgsMTQ4OTc0Mzc0MCwtMTEyNDEwMTkzNywtNTAzODAxMjkw
+XX0=
 -->
