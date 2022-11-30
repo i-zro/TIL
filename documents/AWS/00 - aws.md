@@ -35,10 +35,13 @@
 - 다중 AZ RDS는 재해 복구용 예비 복제본으로, Read Replica처럼 읽기 트래픽 처리 불가.
 - RDS는 자동 백업이 활성화 되어 있어야 DB 인스턴스를 특정 시점으로 복구 가능
 
+## 5_5. Amazon DynamoDB
+- DynamoDB 글로벌 테이블을 통해 재해 복구 시 1초 이내로 다른 리전으로 데이터 복제 및 모든 리전에 읽기/쓰기 가능하므로 서비스 중단 없음.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzNTMzODkxLC01NDQyNTE2ODQsNzgzNT
-MzODkxLDc0NzQyMjQwNCwxMzgxNDg0ODg0LC0yMTQ3MzQ1NTIz
-LDE5MzQ4NzQ4NDksNzM3MzY1NzgsMTUxMTg3ODUyOCwzMTkxNj
-UxNjAsMTY1Mzg1ODE0OCwxNDg5NzQzNzQwLC0xMTI0MTAxOTM3
-LC01MDM4MDEyOTAsLTE1MjQzNTMxNzksLTc5MDgyNDA2OF19
+eyJoaXN0b3J5IjpbMTk0NDE5NDEzMCw3ODM1MzM4OTEsLTU0ND
+I1MTY4NCw3ODM1MzM4OTEsNzQ3NDIyNDA0LDEzODE0ODQ4ODQs
+LTIxNDczNDU1MjMsMTkzNDg3NDg0OSw3MzczNjU3OCwxNTExOD
+c4NTI4LDMxOTE2NTE2MCwxNjUzODU4MTQ4LDE0ODk3NDM3NDAs
+LTExMjQxMDE5MzcsLTUwMzgwMTI5MCwtMTUyNDM1MzE3OSwtNz
+kwODI0MDY4XX0=
 -->
