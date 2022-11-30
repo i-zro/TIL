@@ -15,8 +15,8 @@
 - Systems Manager 세션 관리자를 통한 콘솔 액세스는 인터넷 연결이므로 VPN보다 안전하지 않음.
 
 ## 4_1. AWS와의 연결
-- 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음.
-	- V
+- 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음. VPN은 저렴. Direct Connect는 비싼 대신 더 큰 네트워크 대역폭 제공해서 트래픽 안정.
+
 ## 4_2. 서브넷 및 네트워크 액세스 제어 목록
 - 보안그룹(인스턴스 레벨)은 거부 규칙 지정 못함. NACL(서브넷 레벨)이 허용 및 거부 규칙 지원. 
 
@@ -36,9 +36,9 @@
 - RDS는 자동 백업이 활성화 되어 있어야 DB 인스턴스를 특정 시점으로 복구 가능
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxNzIyOCw3NDc0MjI0MDQsMTM4MTQ4ND
-g4NCwtMjE0NzM0NTUyMywxOTM0ODc0ODQ5LDczNzM2NTc4LDE1
-MTE4Nzg1MjgsMzE5MTY1MTYwLDE2NTM4NTgxNDgsMTQ4OTc0Mz
-c0MCwtMTEyNDEwMTkzNywtNTAzODAxMjkwLC0xNTI0MzUzMTc5
-LC03OTA4MjQwNjhdfQ==
+eyJoaXN0b3J5IjpbNzgzNTMzODkxLDc0NzQyMjQwNCwxMzgxND
+g0ODg0LC0yMTQ3MzQ1NTIzLDE5MzQ4NzQ4NDksNzM3MzY1Nzgs
+MTUxMTg3ODUyOCwzMTkxNjUxNjAsMTY1Mzg1ODE0OCwxNDg5Nz
+QzNzQwLC0xMTI0MTAxOTM3LC01MDM4MDEyOTAsLTE1MjQzNTMx
+NzksLTc5MDgyNDA2OF19
 -->
