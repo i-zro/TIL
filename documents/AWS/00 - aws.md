@@ -17,7 +17,6 @@
 ## 4_1. AWS와의 연결
 - 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음. VPN은 저렴. Direct Connect는 비싼 대신 더 큰 네트워크 대역폭 제공해서 트래픽 안정.
 
-	- V
 ## 4_2. 서브넷 및 네트워크 액세스 제어 목록
 - 보안그룹(인스턴스 레벨)은 거부 규칙 지정 못함. NACL(서브넷 레벨)이 허용 및 거부 규칙 지원. 
 
@@ -37,9 +36,9 @@
 - RDS는 자동 백업이 활성화 되어 있어야 DB 인스턴스를 특정 시점으로 복구 가능
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDI1MTY4NCw3ODM1MzM4OTEsNzQ3ND
-IyNDA0LDEzODE0ODQ4ODQsLTIxNDczNDU1MjMsMTkzNDg3NDg0
-OSw3MzczNjU3OCwxNTExODc4NTI4LDMxOTE2NTE2MCwxNjUzOD
-U4MTQ4LDE0ODk3NDM3NDAsLTExMjQxMDE5MzcsLTUwMzgwMTI5
-MCwtMTUyNDM1MzE3OSwtNzkwODI0MDY4XX0=
+eyJoaXN0b3J5IjpbNzgzNTMzODkxLC01NDQyNTE2ODQsNzgzNT
+MzODkxLDc0NzQyMjQwNCwxMzgxNDg0ODg0LC0yMTQ3MzQ1NTIz
+LDE5MzQ4NzQ4NDksNzM3MzY1NzgsMTUxMTg3ODUyOCwzMTkxNj
+UxNjAsMTY1Mzg1ODE0OCwxNDg5NzQzNzQwLC0xMTI0MTAxOTM3
+LC01MDM4MDEyOTAsLTE1MjQzNTMxNzksLTc5MDgyNDA2OF19
 -->
