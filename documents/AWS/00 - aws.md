@@ -24,8 +24,9 @@
 - EFS는 내구성에 대한 공식적 보장은 없음, S3는 99.999999999% 내구성 보장
 - SMB 프로토콜(-> FSx)은 윈도우 OS 인스턴스 지원, NFS 프로토콜(->EFS)은 리눅스 OS 인스턴스 지원
 
-## 5_1. 인스턴스 스토어
+## 5_1. 인스턴스 스토어 및 Amazon Elastic Block Store(Amazon EBS)
 - 인스턴스 스토어가 IOPS 성능이 가장 높음.
+- EBS는 파일 공유 스토리지 아님. EFS가 파일 공유 스토리지.
 
 ## 5_2. S3
 - Glacier은 아카이브용 스토리지 클래스
@@ -39,10 +40,10 @@
 - DynamoDB 글로벌 테이블 구성을 통해 재해 복구 시 1초 이내로 다른 리전으로 데이터 복제 및 모든 리전에 읽기/쓰기 가능하므로 서비스 중단 없음.
 - RDS는 밀리 초 지연 시간 데이터 저장 및 검색에 부적합 -> noSQL인 DynamoDB가 적합
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzU3OTk0MiwzNTk4NjY1ODcsNzgzNT
-MzODkxLC01NDQyNTE2ODQsNzgzNTMzODkxLDc0NzQyMjQwNCwx
-MzgxNDg0ODg0LC0yMTQ3MzQ1NTIzLDE5MzQ4NzQ4NDksNzM3Mz
-Y1NzgsMTUxMTg3ODUyOCwzMTkxNjUxNjAsMTY1Mzg1ODE0OCwx
-NDg5NzQzNzQwLC0xMTI0MTAxOTM3LC01MDM4MDEyOTAsLTE1Mj
-QzNTMxNzksLTc5MDgyNDA2OF19
+eyJoaXN0b3J5IjpbMTU1Mzk2MDAwMCwxMzkzNTc5OTQyLDM1OT
+g2NjU4Nyw3ODM1MzM4OTEsLTU0NDI1MTY4NCw3ODM1MzM4OTEs
+NzQ3NDIyNDA0LDEzODE0ODQ4ODQsLTIxNDczNDU1MjMsMTkzND
+g3NDg0OSw3MzczNjU3OCwxNTExODc4NTI4LDMxOTE2NTE2MCwx
+NjUzODU4MTQ4LDE0ODk3NDM3NDAsLTExMjQxMDE5MzcsLTUwMz
+gwMTI5MCwtMTUyNDM1MzE3OSwtNzkwODI0MDY4XX0=
 -->
