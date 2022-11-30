@@ -6,6 +6,11 @@
 - 직전 디렉토리 이동 : cd -
 - 파일 앞 3줄만 보기 : head abc.txt -n 3
 - ls -al 중 kern.log 포함 된 것만 찾기 : ls -al | grep kern.log
+- /etc 경로에서 conf 확장자 가지는 파일 다 출력 : find /etc -name "*.conf" -print
+- filelist라는 파일 압축하고 싶을 때 : gzip filelist
+- filelist.zip 파일 압축해제 하고 싶을 때 : gunzip filelist.zip
+- filelist.gz snap/ 사진 폴더를 test.tar.gz로 압축하고 싶을 때 : tar -czf test.tar.gz filelist.gz snap/ 사진
+- testdir에 test.tar.gz 압축 풀고 싶을 때 : tar -zxf ../test.tar.gz
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjY1OTc3MiwxMjI2OTc4ODMyXX0=
+eyJoaXN0b3J5IjpbODc2ODkwOTQ4LDEyMjY5Nzg4MzJdfQ==
 -->
