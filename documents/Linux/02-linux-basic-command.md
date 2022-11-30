@@ -49,14 +49,6 @@
 - 관리자 권한 실행: sudo
 - 패키지 매니저: apt
 - 텍스트 에디터: nano
-
-## 기타 명령어
-
-- 우분투는 원하는 부분 드래그 후 원하는 곳에 휠 클릭 만으로 복사 - 붙여넣기 됨
-- find 명령어 filelist라는 파일에 저장하고 싶을 때 : find > filelist
-- ls 명령어가 어느 경로에 있는지 알고 싶다 -> which ls
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODMxNzMwXX0=
+eyJoaXN0b3J5IjpbMTY5MDY5NTc2MSwxMTE4MzE3MzBdfQ==
 -->
