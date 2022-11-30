@@ -42,14 +42,17 @@
 - DynamoDB 글로벌 테이블 구성을 통해 재해 복구 시 1초 이내로 다른 리전으로 데이터 복제 및 모든 리전에 읽기/쓰기 가능하므로 서비스 중단 없음.
 - RDS는 밀리 초 지연 시간 데이터 저장 및 검색에 부적합 -> noSQL인 DynamoDB가 적합
 
+## 5_9. 스토리지 - 기타
+- Data Sync가 온라인으로 데이터를 AWS로 자동 전송, Snowball Edge가  
+
 # 10. 기타
 - 클릭 스트림 데이터 -> Kinesis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjU4NTM1Nyw0MDQ3MzcwNzEsMTY0Mz
-g2NDkyOCwxNTUzOTYwMDAwLDEzOTM1Nzk5NDIsMzU5ODY2NTg3
-LDc4MzUzMzg5MSwtNTQ0MjUxNjg0LDc4MzUzMzg5MSw3NDc0Mj
-I0MDQsMTM4MTQ4NDg4NCwtMjE0NzM0NTUyMywxOTM0ODc0ODQ5
-LDczNzM2NTc4LDE1MTE4Nzg1MjgsMzE5MTY1MTYwLDE2NTM4NT
-gxNDgsMTQ4OTc0Mzc0MCwtMTEyNDEwMTkzNywtNTAzODAxMjkw
-XX0=
+eyJoaXN0b3J5IjpbMTQxNTI2NzUxLDE0NzY1ODUzNTcsNDA0Nz
+M3MDcxLDE2NDM4NjQ5MjgsMTU1Mzk2MDAwMCwxMzkzNTc5OTQy
+LDM1OTg2NjU4Nyw3ODM1MzM4OTEsLTU0NDI1MTY4NCw3ODM1Mz
+M4OTEsNzQ3NDIyNDA0LDEzODE0ODQ4ODQsLTIxNDczNDU1MjMs
+MTkzNDg3NDg0OSw3MzczNjU3OCwxNTExODc4NTI4LDMxOTE2NT
+E2MCwxNjUzODU4MTQ4LDE0ODk3NDM3NDAsLTExMjQxMDE5Mzdd
+fQ==
 -->
