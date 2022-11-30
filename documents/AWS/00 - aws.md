@@ -31,6 +31,7 @@
 ## 5_2. S3
 - Glacier은 아카이브용 스토리지 클래스
 - S3 Transfer Acceleration은 <bucket>.s3-accelerate.amazonaws.com를 사용하여 업로드 해야 함.
+- S3 삭제 방지 : 버전 관리 + MFA Delete 옵션 추가
 
 ## 5_4. RDS
 - 다중 AZ RDS는 재해 복구용 예비 복제본으로, Read Replica처럼 읽기 트래픽 처리 불가.
@@ -40,10 +41,11 @@
 - DynamoDB 글로벌 테이블 구성을 통해 재해 복구 시 1초 이내로 다른 리전으로 데이터 복제 및 모든 리전에 읽기/쓰기 가능하므로 서비스 중단 없음.
 - RDS는 밀리 초 지연 시간 데이터 저장 및 검색에 부적합 -> noSQL인 DynamoDB가 적합
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Mzk2MDAwMCwxMzkzNTc5OTQyLDM1OT
-g2NjU4Nyw3ODM1MzM4OTEsLTU0NDI1MTY4NCw3ODM1MzM4OTEs
-NzQ3NDIyNDA0LDEzODE0ODQ4ODQsLTIxNDczNDU1MjMsMTkzND
-g3NDg0OSw3MzczNjU3OCwxNTExODc4NTI4LDMxOTE2NTE2MCwx
-NjUzODU4MTQ4LDE0ODk3NDM3NDAsLTExMjQxMDE5MzcsLTUwMz
-gwMTI5MCwtMTUyNDM1MzE3OSwtNzkwODI0MDY4XX0=
+eyJoaXN0b3J5IjpbMTY0Mzg2NDkyOCwxNTUzOTYwMDAwLDEzOT
+M1Nzk5NDIsMzU5ODY2NTg3LDc4MzUzMzg5MSwtNTQ0MjUxNjg0
+LDc4MzUzMzg5MSw3NDc0MjI0MDQsMTM4MTQ4NDg4NCwtMjE0Nz
+M0NTUyMywxOTM0ODc0ODQ5LDczNzM2NTc4LDE1MTE4Nzg1Mjgs
+MzE5MTY1MTYwLDE2NTM4NTgxNDgsMTQ4OTc0Mzc0MCwtMTEyND
+EwMTkzNywtNTAzODAxMjkwLC0xNTI0MzUzMTc5LC03OTA4MjQw
+NjhdfQ==
 -->
