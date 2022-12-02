@@ -44,6 +44,7 @@
 
 ## 5_8. 추가 데이터베이스 서비스
 - elastiCache는 인메모리 데이터 스토어, Memcached보다 Redis가 고가용성, 복제기능, 스냅샷 백업 등 지원
+- elastiCache는 반복되는 요청을 캐시에 저장하여 응답속도를 빠르게 하기 위한 기능으로 읽기 패턴을 알 수 없는 경우 비적합
 
 ## 5_9. 스토리지 - 기타
 - Data Sync가 온라인으로 데이터 마이그레이션 솔루션를 AWS로 자동 전송, Snowball Edge는 오프라인!가  
@@ -51,11 +52,11 @@
 # 10. 기타
 - 클릭 스트림 데이터 -> Kinesis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMzM0MjIwLDEwNDg2MDUyNTAsLTIwMT
-Y4MjA0NzEsMTQ3NjU4NTM1Nyw0MDQ3MzcwNzEsMTY0Mzg2NDky
-OCwxNTUzOTYwMDAwLDEzOTM1Nzk5NDIsMzU5ODY2NTg3LDc4Mz
-UzMzg5MSwtNTQ0MjUxNjg0LDc4MzUzMzg5MSw3NDc0MjI0MDQs
-MTM4MTQ4NDg4NCwtMjE0NzM0NTUyMywxOTM0ODc0ODQ5LDczNz
-M2NTc4LDE1MTE4Nzg1MjgsMzE5MTY1MTYwLDE2NTM4NTgxNDhd
-fQ==
+eyJoaXN0b3J5IjpbLTIwODcwODM0MzgsOTMyMzM0MjIwLDEwND
+g2MDUyNTAsLTIwMTY4MjA0NzEsMTQ3NjU4NTM1Nyw0MDQ3Mzcw
+NzEsMTY0Mzg2NDkyOCwxNTUzOTYwMDAwLDEzOTM1Nzk5NDIsMz
+U5ODY2NTg3LDc4MzUzMzg5MSwtNTQ0MjUxNjg0LDc4MzUzMzg5
+MSw3NDc0MjI0MDQsMTM4MTQ4NDg4NCwtMjE0NzM0NTUyMywxOT
+M0ODc0ODQ5LDczNzM2NTc4LDE1MTE4Nzg1MjgsMzE5MTY1MTYw
+XX0=
 -->
