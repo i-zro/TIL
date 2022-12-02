@@ -47,7 +47,8 @@
 - elastiCache는 반복되는 요청을 캐시에 저장하여 응답속도를 빠르게 하기 위한 기능으로 읽기 패턴을 알 수 없는 경우 비적합
 
 ## 5_9. 스토리지 - 기타
-- Data Sync가 온라인으로 데이터 마이그레이션 솔루션를 AWS로 자동 전송, Snowball Edge는 오프라인!가  
+- Data Sync가 온라인으로 데이터 마이그레이션 솔루션를 AWS로 자동 전송, Snowball Edge는 오프라인!
+- Data Sync가 데이터 무결성 확인 및 암호화 가능
 
 # 9. 보안
 - 기밀 데이터 암호화를 위한 키 - S3 관리형 키 vs AWS KMS 고객 마스터 키 => SSE-KMS CMK가 자동 교체 기능이 있어서 편리
@@ -55,7 +56,7 @@
 # 10. 기타
 - 클릭 스트림 데이터 -> Kinesis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDg4NzIxOCwtMjA4NzA4MzQzOCw5Mz
+eyJoaXN0b3J5IjpbLTI1OTk0MjczMiwtMjA4NzA4MzQzOCw5Mz
 IzMzQyMjAsMTA0ODYwNTI1MCwtMjAxNjgyMDQ3MSwxNDc2NTg1
 MzU3LDQwNDczNzA3MSwxNjQzODY0OTI4LDE1NTM5NjAwMDAsMT
 M5MzU3OTk0MiwzNTk4NjY1ODcsNzgzNTMzODkxLC01NDQyNTE2
