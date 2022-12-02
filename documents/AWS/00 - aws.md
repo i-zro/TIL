@@ -48,7 +48,7 @@
 
 ## 5_9. 스토리지 - 기타
 - Data Sync가 온라인으로 데이터 마이그레이션 솔루션를 AWS로 자동 전송, Snowball Edge는 오프라인!
-- Data Sync가 데이터 무결성 확인 및 암호화 가능
+- Data Sync는 데이터 무결성 확인 및 암호화 가능
 
 # 9. 보안
 - 기밀 데이터 암호화를 위한 키 - S3 관리형 키 vs AWS KMS 고객 마스터 키 => SSE-KMS CMK가 자동 교체 기능이 있어서 편리
@@ -56,11 +56,11 @@
 # 10. 기타
 - 클릭 스트림 데이터 -> Kinesis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTk0MjczMiwtMjA4NzA4MzQzOCw5Mz
-IzMzQyMjAsMTA0ODYwNTI1MCwtMjAxNjgyMDQ3MSwxNDc2NTg1
-MzU3LDQwNDczNzA3MSwxNjQzODY0OTI4LDE1NTM5NjAwMDAsMT
-M5MzU3OTk0MiwzNTk4NjY1ODcsNzgzNTMzODkxLC01NDQyNTE2
-ODQsNzgzNTMzODkxLDc0NzQyMjQwNCwxMzgxNDg0ODg0LC0yMT
-Q3MzQ1NTIzLDE5MzQ4NzQ4NDksNzM3MzY1NzgsMTUxMTg3ODUy
-OF19
+eyJoaXN0b3J5IjpbNDA5MzY2Njg4LC0yMDg3MDgzNDM4LDkzMj
+MzNDIyMCwxMDQ4NjA1MjUwLC0yMDE2ODIwNDcxLDE0NzY1ODUz
+NTcsNDA0NzM3MDcxLDE2NDM4NjQ5MjgsMTU1Mzk2MDAwMCwxMz
+kzNTc5OTQyLDM1OTg2NjU4Nyw3ODM1MzM4OTEsLTU0NDI1MTY4
+NCw3ODM1MzM4OTEsNzQ3NDIyNDA0LDEzODE0ODQ4ODQsLTIxND
+czNDU1MjMsMTkzNDg3NDg0OSw3MzczNjU3OCwxNTExODc4NTI4
+XX0=
 -->
