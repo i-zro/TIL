@@ -33,6 +33,7 @@
 - Glacier은 아카이브용 스토리지 클래스
 - S3 Transfer Acceleration은 <bucket>.s3-accelerate.amazonaws.com를 사용하여 업로드 해야 함.
 - S3 삭제 방지 : 버전 관리 + MFA Delete 옵션 추가
+- 멀티파트 업로드 : 대용량 파일 분할해서 병렬로 S3에 업로드 하는 방식 -> 업로드 실패 시 수명 주기 정책을 통해 업로드 삭제 가능
 
 ## 5_4. RDS
 - 다중 AZ RDS는 재해 복구용 예비 복제본으로, Read Replica처럼 읽기 트래픽 처리 불가.
@@ -56,11 +57,11 @@
 # 10. 기타
 - 클릭 스트림 데이터 -> Kinesis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5MzY2Njg4LC0yMDg3MDgzNDM4LDkzMj
-MzNDIyMCwxMDQ4NjA1MjUwLC0yMDE2ODIwNDcxLDE0NzY1ODUz
-NTcsNDA0NzM3MDcxLDE2NDM4NjQ5MjgsMTU1Mzk2MDAwMCwxMz
-kzNTc5OTQyLDM1OTg2NjU4Nyw3ODM1MzM4OTEsLTU0NDI1MTY4
-NCw3ODM1MzM4OTEsNzQ3NDIyNDA0LDEzODE0ODQ4ODQsLTIxND
-czNDU1MjMsMTkzNDg3NDg0OSw3MzczNjU3OCwxNTExODc4NTI4
+eyJoaXN0b3J5IjpbMTU0NTUyNDk5Myw0MDkzNjY2ODgsLTIwOD
+cwODM0MzgsOTMyMzM0MjIwLDEwNDg2MDUyNTAsLTIwMTY4MjA0
+NzEsMTQ3NjU4NTM1Nyw0MDQ3MzcwNzEsMTY0Mzg2NDkyOCwxNT
+UzOTYwMDAwLDEzOTM1Nzk5NDIsMzU5ODY2NTg3LDc4MzUzMzg5
+MSwtNTQ0MjUxNjg0LDc4MzUzMzg5MSw3NDc0MjI0MDQsMTM4MT
+Q4NDg4NCwtMjE0NzM0NTUyMywxOTM0ODc0ODQ5LDczNzM2NTc4
 XX0=
 -->
