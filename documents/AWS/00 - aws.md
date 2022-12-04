@@ -40,6 +40,7 @@
 ## 5_4. RDS
 - 다중 AZ RDS는 재해 복구용 예비 복제본으로, Read Replica처럼 읽기 트래픽 처리 불가.
 - RDS는 자동 백업이 활성화 되어 있어야 DB 인스턴스를 특정 시점으로 복구 가능
+- Aurora 복제본 기능 : 3개의 가용영역에 6개의 데이터 사본을 자동 복제하여 고 가용성 및 성능 향상 지원
 
 ## 5_5. Amazon DynamoDB
 - DynamoDB 글로벌 테이블 구성을 통해 재해 복구 시 1초 이내로 다른 리전으로 데이터 복제 및 모든 리전에 읽기/쓰기 가능하므로 서비스 중단 없음.
@@ -59,11 +60,11 @@
 # 10. 기타
 - 클릭 스트림 데이터 -> Kinesis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk5MDk2NzUsMTU0NTUyNDk5Myw0MD
-kzNjY2ODgsLTIwODcwODM0MzgsOTMyMzM0MjIwLDEwNDg2MDUy
-NTAsLTIwMTY4MjA0NzEsMTQ3NjU4NTM1Nyw0MDQ3MzcwNzEsMT
-Y0Mzg2NDkyOCwxNTUzOTYwMDAwLDEzOTM1Nzk5NDIsMzU5ODY2
-NTg3LDc4MzUzMzg5MSwtNTQ0MjUxNjg0LDc4MzUzMzg5MSw3ND
-c0MjI0MDQsMTM4MTQ4NDg4NCwtMjE0NzM0NTUyMywxOTM0ODc0
-ODQ5XX0=
+eyJoaXN0b3J5IjpbLTc2NjkxNzM4MSwtMTA0OTkwOTY3NSwxNT
+Q1NTI0OTkzLDQwOTM2NjY4OCwtMjA4NzA4MzQzOCw5MzIzMzQy
+MjAsMTA0ODYwNTI1MCwtMjAxNjgyMDQ3MSwxNDc2NTg1MzU3LD
+QwNDczNzA3MSwxNjQzODY0OTI4LDE1NTM5NjAwMDAsMTM5MzU3
+OTk0MiwzNTk4NjY1ODcsNzgzNTMzODkxLC01NDQyNTE2ODQsNz
+gzNTMzODkxLDc0NzQyMjQwNCwxMzgxNDg0ODg0LC0yMTQ3MzQ1
+NTIzXX0=
 -->
