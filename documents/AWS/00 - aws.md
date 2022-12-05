@@ -59,6 +59,7 @@
 ## 5_9. 스토리지 - 기타
 - Data Sync가 온라인으로 데이터 마이그레이션 솔루션를 AWS로 자동 전송, Snowball Edge는 오프라인!
 - Data Sync는 데이터 무결성 확인 및 암호화 가능
+- Snowmobile은 PB 규모 데이터 마이그레이션 용도.
 
 # 9. 보안
 - 기밀 데이터 암호화를 위한 키 - S3 관리형 키 vs AWS KMS 고객 마스터 키 => SSE-KMS CMK가 자동 교체 기능이 있어서 편리
@@ -67,11 +68,11 @@
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3MTAzOTg4LDM2MTcxNTY5NCwxMTc0OT
-Y2OTc5LDE0ODI5ODcwMiwxMDk0NTc5ODA3LDU5OTI0OTQxLDY1
-NTI5NjQ1NiwtNzY2OTE3MzgxLC0xMDQ5OTA5Njc1LDE1NDU1Mj
-Q5OTMsNDA5MzY2Njg4LC0yMDg3MDgzNDM4LDkzMjMzNDIyMCwx
-MDQ4NjA1MjUwLC0yMDE2ODIwNDcxLDE0NzY1ODUzNTcsNDA0Nz
-M3MDcxLDE2NDM4NjQ5MjgsMTU1Mzk2MDAwMCwxMzkzNTc5OTQy
+eyJoaXN0b3J5IjpbMTY5OTkwNTk0OSw2NzcxMDM5ODgsMzYxNz
+E1Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOTQ1Nzk4MDcs
+NTk5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwNDk5MD
+k2NzUsMTU0NTUyNDk5Myw0MDkzNjY2ODgsLTIwODcwODM0Mzgs
+OTMyMzM0MjIwLDEwNDg2MDUyNTAsLTIwMTY4MjA0NzEsMTQ3Nj
+U4NTM1Nyw0MDQ3MzcwNzEsMTY0Mzg2NDkyOCwxNTUzOTYwMDAw
 XX0=
 -->
