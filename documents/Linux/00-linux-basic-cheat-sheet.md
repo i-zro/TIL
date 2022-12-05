@@ -11,6 +11,9 @@
 - filelist.zip 파일 압축해제 하고 싶을 때 : gunzip filelist.zip
 - filelist.gz snap/ 사진 폴더를 test.tar.gz로 압축하고 싶을 때 : tar -czf test.tar.gz filelist.gz snap/ 사진
 - testdir에 test.tar.gz 압축 풀고 싶을 때 : tar -zxf ../test.tar.gz
+- 파일 이름 바꾸기
+    - testfile을 apple로 바꾸기
+        - mv testfile apple
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2ODkwOTQ4LDEyMjY5Nzg4MzJdfQ==
+eyJoaXN0b3J5IjpbLTIyMDA1NzM5NCwxMjI2OTc4ODMyXX0=
 -->
