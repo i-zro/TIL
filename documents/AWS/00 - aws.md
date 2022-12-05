@@ -63,16 +63,17 @@
 
 # 9. 보안
 - 기밀 데이터 암호화를 위한 키 - S3 관리형 키 vs AWS KMS 고객 마스터 키 => SSE-KMS CMK가 자동 교체 기능이 있어서 편리
+- 키에 액세스 할 수 있는 사람 제어를 원하면 AWS KMS 관리형 키 사용
 
 # 10. 기타
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTkwNTk0OSw2NzcxMDM5ODgsMzYxNz
-E1Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOTQ1Nzk4MDcs
-NTk5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwNDk5MD
-k2NzUsMTU0NTUyNDk5Myw0MDkzNjY2ODgsLTIwODcwODM0Mzgs
-OTMyMzM0MjIwLDEwNDg2MDUyNTAsLTIwMTY4MjA0NzEsMTQ3Nj
-U4NTM1Nyw0MDQ3MzcwNzEsMTY0Mzg2NDkyOCwxNTUzOTYwMDAw
-XX0=
+eyJoaXN0b3J5IjpbLTE1MDM2Nzk4ODksMTY5OTkwNTk0OSw2Nz
+cxMDM5ODgsMzYxNzE1Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAy
+LDEwOTQ1Nzk4MDcsNTk5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MT
+czODEsLTEwNDk5MDk2NzUsMTU0NTUyNDk5Myw0MDkzNjY2ODgs
+LTIwODcwODM0MzgsOTMyMzM0MjIwLDEwNDg2MDUyNTAsLTIwMT
+Y4MjA0NzEsMTQ3NjU4NTM1Nyw0MDQ3MzcwNzEsMTY0Mzg2NDky
+OF19
 -->
