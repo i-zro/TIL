@@ -33,6 +33,7 @@
 ## 5_1. 인스턴스 스토어 및 Amazon Elastic Block Store(Amazon EBS)
 - 인스턴스 스토어가 IOPS 성능이 가장 높음.
 - EBS는 파일 공유 스토리지 아님. EFS가 파일 공유 스토리지.
+- 프로비저닝 된 IOPS SSD : 가장 고성능 처리 볼륨 유형
 
 ## 5_2. S3
 - Glacier은 아카이브용 스토리지 클래스
@@ -64,11 +65,11 @@
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Mjk4NzAyLDEwOTQ1Nzk4MDcsNTk5Mj
-Q5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwNDk5MDk2NzUs
-MTU0NTUyNDk5Myw0MDkzNjY2ODgsLTIwODcwODM0MzgsOTMyMz
-M0MjIwLDEwNDg2MDUyNTAsLTIwMTY4MjA0NzEsMTQ3NjU4NTM1
-Nyw0MDQ3MzcwNzEsMTY0Mzg2NDkyOCwxNTUzOTYwMDAwLDEzOT
-M1Nzk5NDIsMzU5ODY2NTg3LDc4MzUzMzg5MSwtNTQ0MjUxNjg0
+eyJoaXN0b3J5IjpbMTE3NDk2Njk3OSwxNDgyOTg3MDIsMTA5ND
+U3OTgwNyw1OTkyNDk0MSw2NTUyOTY0NTYsLTc2NjkxNzM4MSwt
+MTA0OTkwOTY3NSwxNTQ1NTI0OTkzLDQwOTM2NjY4OCwtMjA4Nz
+A4MzQzOCw5MzIzMzQyMjAsMTA0ODYwNTI1MCwtMjAxNjgyMDQ3
+MSwxNDc2NTg1MzU3LDQwNDczNzA3MSwxNjQzODY0OTI4LDE1NT
+M5NjAwMDAsMTM5MzU3OTk0MiwzNTk4NjY1ODcsNzgzNTMzODkx
 XX0=
 -->
