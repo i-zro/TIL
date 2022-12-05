@@ -1,6 +1,7 @@
 # 2. 클라우드 컴퓨팅
 
 - 클러스터 배치그룹은 동일 가용 영역내 배치로 가용성 높이는 솔루션 아님.
+- EC2 볼륨은 같은 리전 상에서만 복제 가능 => 다른 리전으로 복사 후에 배포 가능
 
 ## 2_4. ELB
 - ALB에는 탄력적 IP 주소 할당 불가
@@ -66,11 +67,11 @@
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxNzE1Njk0LDExNzQ5NjY5NzksMTQ4Mj
-k4NzAyLDEwOTQ1Nzk4MDcsNTk5MjQ5NDEsNjU1Mjk2NDU2LC03
-NjY5MTczODEsLTEwNDk5MDk2NzUsMTU0NTUyNDk5Myw0MDkzNj
-Y2ODgsLTIwODcwODM0MzgsOTMyMzM0MjIwLDEwNDg2MDUyNTAs
-LTIwMTY4MjA0NzEsMTQ3NjU4NTM1Nyw0MDQ3MzcwNzEsMTY0Mz
-g2NDkyOCwxNTUzOTYwMDAwLDEzOTM1Nzk5NDIsMzU5ODY2NTg3
+eyJoaXN0b3J5IjpbNjc3MTAzOTg4LDM2MTcxNTY5NCwxMTc0OT
+Y2OTc5LDE0ODI5ODcwMiwxMDk0NTc5ODA3LDU5OTI0OTQxLDY1
+NTI5NjQ1NiwtNzY2OTE3MzgxLC0xMDQ5OTA5Njc1LDE1NDU1Mj
+Q5OTMsNDA5MzY2Njg4LC0yMDg3MDgzNDM4LDkzMjMzNDIyMCwx
+MDQ4NjA1MjUwLC0yMDE2ODIwNDcxLDE0NzY1ODUzNTcsNDA0Nz
+M3MDcxLDE2NDM4NjQ5MjgsMTU1Mzk2MDAwMCwxMzkzNTc5OTQy
 XX0=
 -->
