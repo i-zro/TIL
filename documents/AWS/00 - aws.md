@@ -21,6 +21,7 @@
 ## 4_1. AWS와의 연결
 - 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음. VPN은 저렴. Direct Connect는 비싼 대신 더 큰 네트워크 대역폭 제공해서 트래픽 안정.
 - VPC 엔드포인트 : 인터넷을 통하지 않고 AWS 서비스에 프라이빗하게 연결할 수 있는 VPC 진입점
+	- S3 등의 서비스를 프라이빗하게 연결하면 데이터 비용 절감 가능
 - VPC는 하나의 Region에만 속할 수 있음(다른 Region으로 확장 불가능)
 
 ## 4_2. 서브넷 및 네트워크 액세스 제어 목록
@@ -65,11 +66,11 @@
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDk2Njk3OSwxNDgyOTg3MDIsMTA5ND
-U3OTgwNyw1OTkyNDk0MSw2NTUyOTY0NTYsLTc2NjkxNzM4MSwt
-MTA0OTkwOTY3NSwxNTQ1NTI0OTkzLDQwOTM2NjY4OCwtMjA4Nz
-A4MzQzOCw5MzIzMzQyMjAsMTA0ODYwNTI1MCwtMjAxNjgyMDQ3
-MSwxNDc2NTg1MzU3LDQwNDczNzA3MSwxNjQzODY0OTI4LDE1NT
-M5NjAwMDAsMTM5MzU3OTk0MiwzNTk4NjY1ODcsNzgzNTMzODkx
+eyJoaXN0b3J5IjpbMzYxNzE1Njk0LDExNzQ5NjY5NzksMTQ4Mj
+k4NzAyLDEwOTQ1Nzk4MDcsNTk5MjQ5NDEsNjU1Mjk2NDU2LC03
+NjY5MTczODEsLTEwNDk5MDk2NzUsMTU0NTUyNDk5Myw0MDkzNj
+Y2ODgsLTIwODcwODM0MzgsOTMyMzM0MjIwLDEwNDg2MDUyNTAs
+LTIwMTY4MjA0NzEsMTQ3NjU4NTM1Nyw0MDQ3MzcwNzEsMTY0Mz
+g2NDkyOCwxNTUzOTYwMDAwLDEzOTM1Nzk5NDIsMzU5ODY2NTg3
 XX0=
 -->
