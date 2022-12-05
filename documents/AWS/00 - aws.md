@@ -54,6 +54,7 @@
 ## 5_5. Amazon DynamoDB
 - DynamoDB 글로벌 테이블 구성을 통해 재해 복구 시 1초 이내로 다른 리전으로 데이터 복제 및 모든 리전에 읽기/쓰기 가능하므로 서비스 중단 없음.
 - RDS는 밀리 초 지연 시간 데이터 저장 및 검색에 부적합 -> noSQL인 DynamoDB가 적합
+- DynamoDB의 읽기 일관성 - 최종적 일관된 읽기(기본값)은 읽기 처리량을 최대화 한 거라 최근 완료한 쓰기 결과를 반영하지 못할 수도 있고, 강력한 일관된 읽기가 모든 쓰기 결과를 반환하는 것.
 
 ## 5_8. 추가 데이터베이스 서비스
 - elastiCache는 인메모리 데이터 스토어, Memcached보다 Redis가 고가용성, 복제기능, 스냅샷 백업 등 지원
@@ -72,11 +73,11 @@
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTg4ODE3OCwtMTUwMzY3OTg4OSwxNj
-k5OTA1OTQ5LDY3NzEwMzk4OCwzNjE3MTU2OTQsMTE3NDk2Njk3
-OSwxNDgyOTg3MDIsMTA5NDU3OTgwNyw1OTkyNDk0MSw2NTUyOT
-Y0NTYsLTc2NjkxNzM4MSwtMTA0OTkwOTY3NSwxNTQ1NTI0OTkz
-LDQwOTM2NjY4OCwtMjA4NzA4MzQzOCw5MzIzMzQyMjAsMTA0OD
-YwNTI1MCwtMjAxNjgyMDQ3MSwxNDc2NTg1MzU3LDQwNDczNzA3
-MV19
+eyJoaXN0b3J5IjpbMTQyOTQ2NzU5NiwtMTA1ODg4MTc4LC0xNT
+AzNjc5ODg5LDE2OTk5MDU5NDksNjc3MTAzOTg4LDM2MTcxNTY5
+NCwxMTc0OTY2OTc5LDE0ODI5ODcwMiwxMDk0NTc5ODA3LDU5OT
+I0OTQxLDY1NTI5NjQ1NiwtNzY2OTE3MzgxLC0xMDQ5OTA5Njc1
+LDE1NDU1MjQ5OTMsNDA5MzY2Njg4LC0yMDg3MDgzNDM4LDkzMj
+MzNDIyMCwxMDQ4NjA1MjUwLC0yMDE2ODIwNDcxLDE0NzY1ODUz
+NTddfQ==
 -->
