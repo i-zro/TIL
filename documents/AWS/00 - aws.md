@@ -18,6 +18,9 @@
 # 4. 네트워킹
 - Systems Manager 세션 관리자를 통한 콘솔 액세스는 인터넷 연결이므로 VPN보다 안전하지 않음.
 - transit gateway를 통해 모든 VPC, VPN을 하나로 연결 가능
+- EC2 인스턴스에서 인터넷 연결을 통한 소프트웨어 다운이 불가할 때
+	- 보안 그룹의 아웃바인드 규칙 확인
+	- 트래픽을 인터넷에 전달하려면 서브넷의 라우팅 테이블에 인터넷 게이트웨이를 대상(Target)으로 추가해야함.
 
 ## 4_1. AWS와의 연결
 - 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음. VPN은 저렴. Direct Connect는 비싼 대신 더 큰 네트워크 대역폭 제공해서 트래픽 안정.
@@ -69,11 +72,11 @@
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDM2Nzk4ODksMTY5OTkwNTk0OSw2Nz
-cxMDM5ODgsMzYxNzE1Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAy
-LDEwOTQ1Nzk4MDcsNTk5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MT
-czODEsLTEwNDk5MDk2NzUsMTU0NTUyNDk5Myw0MDkzNjY2ODgs
-LTIwODcwODM0MzgsOTMyMzM0MjIwLDEwNDg2MDUyNTAsLTIwMT
-Y4MjA0NzEsMTQ3NjU4NTM1Nyw0MDQ3MzcwNzEsMTY0Mzg2NDky
-OF19
+eyJoaXN0b3J5IjpbLTEwNTg4ODE3OCwtMTUwMzY3OTg4OSwxNj
+k5OTA1OTQ5LDY3NzEwMzk4OCwzNjE3MTU2OTQsMTE3NDk2Njk3
+OSwxNDgyOTg3MDIsMTA5NDU3OTgwNyw1OTkyNDk0MSw2NTUyOT
+Y0NTYsLTc2NjkxNzM4MSwtMTA0OTkwOTY3NSwxNTQ1NTI0OTkz
+LDQwOTM2NjY4OCwtMjA4NzA4MzQzOCw5MzIzMzQyMjAsMTA0OD
+YwNTI1MCwtMjAxNjgyMDQ3MSwxNDc2NTg1MzU3LDQwNDczNzA3
+MV19
 -->
