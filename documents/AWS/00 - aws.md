@@ -12,6 +12,7 @@
 
 ## 3_2. 엣지 로케이션
 - CloudFront에 가격 등급에 따라 배포하는 엣지 로케이션을 줄일 수 있음 -> 가격 등급 100이 일부 리전에 배포 하며 가장 낮은 비용
+- lambda@Edge는 엣지로케이션에서 Lambda 컴퓨팅을 수행하는 기능
 
 # 4. 네트워킹
 - Systems Manager 세션 관리자를 통한 콘솔 액세스는 인터넷 연결이므로 VPN보다 안전하지 않음.
@@ -62,11 +63,11 @@
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MT
-czODEsLTEwNDk5MDk2NzUsMTU0NTUyNDk5Myw0MDkzNjY2ODgs
-LTIwODcwODM0MzgsOTMyMzM0MjIwLDEwNDg2MDUyNTAsLTIwMT
-Y4MjA0NzEsMTQ3NjU4NTM1Nyw0MDQ3MzcwNzEsMTY0Mzg2NDky
-OCwxNTUzOTYwMDAwLDEzOTM1Nzk5NDIsMzU5ODY2NTg3LDc4Mz
-UzMzg5MSwtNTQ0MjUxNjg0LDc4MzUzMzg5MSw3NDc0MjI0MDRd
-fQ==
+eyJoaXN0b3J5IjpbMTA5NDU3OTgwNyw1OTkyNDk0MSw2NTUyOT
+Y0NTYsLTc2NjkxNzM4MSwtMTA0OTkwOTY3NSwxNTQ1NTI0OTkz
+LDQwOTM2NjY4OCwtMjA4NzA4MzQzOCw5MzIzMzQyMjAsMTA0OD
+YwNTI1MCwtMjAxNjgyMDQ3MSwxNDc2NTg1MzU3LDQwNDczNzA3
+MSwxNjQzODY0OTI4LDE1NTM5NjAwMDAsMTM5MzU3OTk0MiwzNT
+k4NjY1ODcsNzgzNTMzODkxLC01NDQyNTE2ODQsNzgzNTMzODkx
+XX0=
 -->
