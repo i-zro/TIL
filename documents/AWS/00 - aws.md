@@ -71,16 +71,17 @@
 # 9. 보안
 - 기밀 데이터 암호화를 위한 키 - S3 관리형 키 vs AWS KMS 고객 마스터 키 => SSE-KMS CMK가 자동 교체 기능이 있어서 편리
 - 키에 액세스 할 수 있는 사람 제어를 원하면 AWS KMS 관리형 키 사용
+- 자격 증명 관리 서비스는 AWS Secrets Manager
 
 # 10. 기타
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTMwMDcyNjgsLTc2MjQ3NDQ2NSwxND
-I5NDY3NTk2LC0xMDU4ODgxNzgsLTE1MDM2Nzk4ODksMTY5OTkw
-NTk0OSw2NzcxMDM5ODgsMzYxNzE1Njk0LDExNzQ5NjY5NzksMT
-Q4Mjk4NzAyLDEwOTQ1Nzk4MDcsNTk5MjQ5NDEsNjU1Mjk2NDU2
-LC03NjY5MTczODEsLTEwNDk5MDk2NzUsMTU0NTUyNDk5Myw0MD
-kzNjY2ODgsLTIwODcwODM0MzgsOTMyMzM0MjIwLDEwNDg2MDUy
-NTBdfQ==
+eyJoaXN0b3J5IjpbNjk2NjM3MTMxLC0yMDkzMDA3MjY4LC03Nj
+I0NzQ0NjUsMTQyOTQ2NzU5NiwtMTA1ODg4MTc4LC0xNTAzNjc5
+ODg5LDE2OTk5MDU5NDksNjc3MTAzOTg4LDM2MTcxNTY5NCwxMT
+c0OTY2OTc5LDE0ODI5ODcwMiwxMDk0NTc5ODA3LDU5OTI0OTQx
+LDY1NTI5NjQ1NiwtNzY2OTE3MzgxLC0xMDQ5OTA5Njc1LDE1ND
+U1MjQ5OTMsNDA5MzY2Njg4LC0yMDg3MDgzNDM4LDkzMjMzNDIy
+MF19
 -->
