@@ -11,6 +11,8 @@
 
 # 3. 글로벌 인프라 및 안정성 
 
+- Global Accelerator에는 2개의 고정 IP가 생성됨.
+
 ## 3_2. 엣지 로케이션
 - CloudFront에 가격 등급에 따라 배포하는 엣지 로케이션을 줄일 수 있음 -> 가격 등급 100이 일부 리전에 배포 하며 가장 낮은 비용
 - lambda@Edge는 엣지로케이션에서 Lambda 컴퓨팅을 수행하는 기능
@@ -74,11 +76,11 @@
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMD
-U4ODgxNzgsLTE1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5
-ODgsMzYxNzE1Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOT
-Q1Nzk4MDcsNTk5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEs
-LTEwNDk5MDk2NzUsMTU0NTUyNDk5Myw0MDkzNjY2ODgsLTIwOD
-cwODM0MzgsOTMyMzM0MjIwLDEwNDg2MDUyNTAsLTIwMTY4MjA0
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTIwOTMwMDcyNjgsLTc2MjQ3NDQ2NSwxND
+I5NDY3NTk2LC0xMDU4ODgxNzgsLTE1MDM2Nzk4ODksMTY5OTkw
+NTk0OSw2NzcxMDM5ODgsMzYxNzE1Njk0LDExNzQ5NjY5NzksMT
+Q4Mjk4NzAyLDEwOTQ1Nzk4MDcsNTk5MjQ5NDEsNjU1Mjk2NDU2
+LC03NjY5MTczODEsLTEwNDk5MDk2NzUsMTU0NTUyNDk5Myw0MD
+kzNjY2ODgsLTIwODcwODM0MzgsOTMyMzM0MjIwLDEwNDg2MDUy
+NTBdfQ==
 -->
