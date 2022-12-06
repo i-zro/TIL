@@ -34,6 +34,7 @@
 # 5. 스토리지 및 데이터베이스
 - EFS는 내구성에 대한 공식적 보장은 없음, S3는 99.999999999% 내구성 보장
 - SMB 프로토콜(-> FSx)은 윈도우 OS 인스턴스 지원, NFS 프로토콜(->EFS)은 리눅스 OS 인스턴스 지원
+- FSx는 AD도 지원
 
 ## 5_1. 인스턴스 스토어 및 Amazon Elastic Block Store(Amazon EBS)
 - 인스턴스 스토어가 IOPS 성능이 가장 높음.
@@ -73,11 +74,11 @@
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTQ2NzU5NiwtMTA1ODg4MTc4LC0xNT
-AzNjc5ODg5LDE2OTk5MDU5NDksNjc3MTAzOTg4LDM2MTcxNTY5
-NCwxMTc0OTY2OTc5LDE0ODI5ODcwMiwxMDk0NTc5ODA3LDU5OT
-I0OTQxLDY1NTI5NjQ1NiwtNzY2OTE3MzgxLC0xMDQ5OTA5Njc1
-LDE1NDU1MjQ5OTMsNDA5MzY2Njg4LC0yMDg3MDgzNDM4LDkzMj
-MzNDIyMCwxMDQ4NjA1MjUwLC0yMDE2ODIwNDcxLDE0NzY1ODUz
-NTddfQ==
+eyJoaXN0b3J5IjpbLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMD
+U4ODgxNzgsLTE1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5
+ODgsMzYxNzE1Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOT
+Q1Nzk4MDcsNTk5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEs
+LTEwNDk5MDk2NzUsMTU0NTUyNDk5Myw0MDkzNjY2ODgsLTIwOD
+cwODM0MzgsOTMyMzM0MjIwLDEwNDg2MDUyNTAsLTIwMTY4MjA0
+NzFdfQ==
 -->
