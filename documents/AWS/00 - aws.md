@@ -48,6 +48,7 @@
 - S3 Transfer Acceleration은 <bucket>.s3-accelerate.amazonaws.com를 사용하여 업로드 해야 함.
 - S3 삭제 방지 : 버전 관리 + MFA Delete 옵션 추가
 - 멀티파트 업로드 : 대용량 파일 분할해서 병렬로 S3에 업로드 하는 방식 -> 업로드 실패 시 수명 주기 정책을 통해 업로드 삭제 가능
+- S3 Glacier는 신속검색 1-5분, 표준 3-5시간 검색 시간 소요, Glacier Deep Archive는 표준 12시간 이내 검색 시간 소요
 
 ## 5_4. RDS
 - 다중 AZ RDS는 재해 복구용 예비 복제본으로, Read Replica처럼 읽기 트래픽 처리 불가.
@@ -77,11 +78,11 @@
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2NjM3MTMxLC0yMDkzMDA3MjY4LC03Nj
-I0NzQ0NjUsMTQyOTQ2NzU5NiwtMTA1ODg4MTc4LC0xNTAzNjc5
-ODg5LDE2OTk5MDU5NDksNjc3MTAzOTg4LDM2MTcxNTY5NCwxMT
-c0OTY2OTc5LDE0ODI5ODcwMiwxMDk0NTc5ODA3LDU5OTI0OTQx
-LDY1NTI5NjQ1NiwtNzY2OTE3MzgxLC0xMDQ5OTA5Njc1LDE1ND
-U1MjQ5OTMsNDA5MzY2Njg4LC0yMDg3MDgzNDM4LDkzMjMzNDIy
-MF19
+eyJoaXN0b3J5IjpbMTEwMjAyMjgyNyw2OTY2MzcxMzEsLTIwOT
+MwMDcyNjgsLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMDU4ODgx
+NzgsLTE1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5ODgsMz
+YxNzE1Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOTQ1Nzk4
+MDcsNTk5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwND
+k5MDk2NzUsMTU0NTUyNDk5Myw0MDkzNjY2ODgsLTIwODcwODM0
+MzhdfQ==
 -->
