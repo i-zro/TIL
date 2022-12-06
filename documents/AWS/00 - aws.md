@@ -23,6 +23,7 @@
 - EC2 인스턴스에서 인터넷 연결을 통한 소프트웨어 다운이 불가할 때
 	- 보안 그룹의 아웃바인드 규칙 확인
 	- 트래픽을 인터넷에 전달하려면 서브넷의 라우팅 테이블에 인터넷 게이트웨이를 대상(Target)으로 추가해야함.
+- 게이트웨이 엔드포인트와 인터페이스 엔드포인트 차이 - 인터페이스 엔드포인트는 엔드포인트 사용 요금 부과
 
 ## 4_1. AWS와의 연결
 - 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음. VPN은 저렴. Direct Connect는 비싼 대신 더 큰 네트워크 대역폭 제공해서 트래픽 안정.
@@ -78,11 +79,11 @@
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjAyMjgyNyw2OTY2MzcxMzEsLTIwOT
-MwMDcyNjgsLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMDU4ODgx
-NzgsLTE1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5ODgsMz
-YxNzE1Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOTQ1Nzk4
-MDcsNTk5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwND
-k5MDk2NzUsMTU0NTUyNDk5Myw0MDkzNjY2ODgsLTIwODcwODM0
-MzhdfQ==
+eyJoaXN0b3J5IjpbLTEyMzAzNjI3MTgsMTEwMjAyMjgyNyw2OT
+Y2MzcxMzEsLTIwOTMwMDcyNjgsLTc2MjQ3NDQ2NSwxNDI5NDY3
+NTk2LC0xMDU4ODgxNzgsLTE1MDM2Nzk4ODksMTY5OTkwNTk0OS
+w2NzcxMDM5ODgsMzYxNzE1Njk0LDExNzQ5NjY5NzksMTQ4Mjk4
+NzAyLDEwOTQ1Nzk4MDcsNTk5MjQ5NDEsNjU1Mjk2NDU2LC03Nj
+Y5MTczODEsLTEwNDk5MDk2NzUsMTU0NTUyNDk5Myw0MDkzNjY2
+ODhdfQ==
 -->
