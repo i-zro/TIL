@@ -49,6 +49,11 @@
 - S3 Transfer Acceleration은 <bucket>.s3-accelerate.amazonaws.com를 사용하여 업로드 해야 함.
 - S3 삭제 방지 : 버전 관리 + MFA Delete 옵션 추가
 - S3 Glacier는 신속검색 1-5분, 표준 3-5시간 검색 시간 소요, Glacier Deep Archive는 표준 12시간 이내 검색 시간 소요
+- 최소 과금 기간 : 최소 과금이 끝나기 전에 객체 삭제 시 해당 일수만큼 요금 부과
+	- S3 표준 - 없음
+	- One Zone IA - 30일
+	- Glacier - 90일
+	- Glacier Deep Archieve - 180일 
 
 ## 파일 공유 스토리지
 - EFS는 내구성에 대한 공식적 보장은 없음, S3는 99.999999999% 내구성 보장
@@ -70,11 +75,11 @@
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 - EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNDk2NjQzLC00NTQ5OTY1ODcsLTEyMz
-AzNjI3MTgsMTEwMjAyMjgyNyw2OTY2MzcxMzEsLTIwOTMwMDcy
-NjgsLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMDU4ODgxNzgsLT
-E1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5ODgsMzYxNzE1
-Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOTQ1Nzk4MDcsNT
-k5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwNDk5MDk2
-NzVdfQ==
+eyJoaXN0b3J5IjpbLTY0MTQ1NjcwNCwtNDU0OTk2NTg3LC0xMj
+MwMzYyNzE4LDExMDIwMjI4MjcsNjk2NjM3MTMxLC0yMDkzMDA3
+MjY4LC03NjI0NzQ0NjUsMTQyOTQ2NzU5NiwtMTA1ODg4MTc4LC
+0xNTAzNjc5ODg5LDE2OTk5MDU5NDksNjc3MTAzOTg4LDM2MTcx
+NTY5NCwxMTc0OTY2OTc5LDE0ODI5ODcwMiwxMDk0NTc5ODA3LD
+U5OTI0OTQxLDY1NTI5NjQ1NiwtNzY2OTE3MzgxLC0xMDQ5OTA5
+Njc1XX0=
 -->
