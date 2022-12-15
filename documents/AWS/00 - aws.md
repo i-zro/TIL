@@ -14,8 +14,7 @@
 	- 트래픽을 인터넷에 전달하려면 서브넷의 라우팅 테이블에 인터넷 게이트웨이를 대상(Target)으로 추가해야함.
 - 게이트웨이 엔드포인트와 인터페이스 엔드포인트 차이 - 인터페이스 엔드포인트는 엔드포인트 사용 요금 부과
 
-
-## VPC / VPN
+## VPC
 - VPC는 하나의 Region에만 속할 수 있음(다른 Region으로 확장 불가능)
 - transit gateway를 통해 모든 VPC, VPN을 하나로 연결 가능 
 - VPC 엔드포인트 : 인터넷을 통하지 않고 AWS 서비스에 프라이빗하게 연결할 수 있는 VPC 진입점
@@ -28,6 +27,7 @@
 
 
 # 스토리지 및 데이터베이스
+## EFS, FSx
 - EFS는 내구성에 대한 공식적 보장은 없음, S3는 99.999999999% 내구성 보장
 - SMB 프로토콜(-> FSx)은 윈도우 OS 인스턴스 지원, NFS 프로토콜(->EFS)은 리눅스 OS 인스턴스 지원
 - FSx는 AD도 지원
@@ -64,11 +64,11 @@
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 - EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTUzMTcwNCwtNDU0OTk2NTg3LC0xMj
-MwMzYyNzE4LDExMDIwMjI4MjcsNjk2NjM3MTMxLC0yMDkzMDA3
-MjY4LC03NjI0NzQ0NjUsMTQyOTQ2NzU5NiwtMTA1ODg4MTc4LC
-0xNTAzNjc5ODg5LDE2OTk5MDU5NDksNjc3MTAzOTg4LDM2MTcx
-NTY5NCwxMTc0OTY2OTc5LDE0ODI5ODcwMiwxMDk0NTc5ODA3LD
-U5OTI0OTQxLDY1NTI5NjQ1NiwtNzY2OTE3MzgxLC0xMDQ5OTA5
-Njc1XX0=
+eyJoaXN0b3J5IjpbNDQxODQyMDY2LC00NTQ5OTY1ODcsLTEyMz
+AzNjI3MTgsMTEwMjAyMjgyNyw2OTY2MzcxMzEsLTIwOTMwMDcy
+NjgsLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMDU4ODgxNzgsLT
+E1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5ODgsMzYxNzE1
+Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOTQ1Nzk4MDcsNT
+k5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwNDk5MDk2
+NzVdfQ==
 -->
