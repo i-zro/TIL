@@ -27,16 +27,12 @@
 
 
 # 스토리지 및 데이터베이스
-## EFS, FSx
-- EFS는 내구성에 대한 공식적 보장은 없음, S3는 99.999999999% 내구성 보장
-- SMB 프로토콜(-> FSx)은 윈도우 OS 인스턴스 지원, NFS 프로토콜(->EFS)은 리눅스 OS 인스턴스 지원
-- FSx는 AD도 지원
+
 - 인스턴스 스토어가 IOPS 성능이 가장 높음.
 - EBS는 파일 공유 스토리지 아님. EFS가 파일 공유 스토리지.
 - 프로비저닝 된 IOPS SSD : 가장 고성능 처리 볼륨 유형
 - Glacier은 아카이브용 스토리지 클래스
-- S3 Transfer Acceleration은 <bucket>.s3-accelerate.amazonaws.com를 사용하여 업로드 해야 함.
-- S3 삭제 방지 : 버전 관리 + MFA Delete 옵션 추가
+
 - 멀티파트 업로드 : 대용량 파일 분할해서 병렬로 S3에 업로드 하는 방식 -> 업로드 실패 시 수명 주기 정책을 통해 업로드 삭제 가능
 - S3 Glacier는 신속검색 1-5분, 표준 3-5시간 검색 시간 소요, Glacier Deep Archive는 표준 12시간 이내 검색 시간 소요
 - 다중 AZ RDS는 재해 복구용 예비 복제본으로, Read Replica처럼 읽기 트래픽 처리 불가.
@@ -50,7 +46,18 @@
 - Data Sync가 온라인으로 데이터 마이그레이션 솔루션를 AWS로 자동 전송, Snowball Edge는 오프라인!
 - Data Sync는 데이터 무결성 확인 및 암호화 가능
 - Snowmobile은 PB 규모 데이터 마이그레이션 용도.
+
+## S3
+- S3 Transfer Acceleration은 <bucket>.s3-accelerate.amazonaws.com를 사용하여 업로드 해야 함.
+- S3 삭제 방지 : 버전 관리 + MFA Delete 옵션 추가
+
+## 파일 공유 스토리지
+- EFS는 내구성에 대한 공식적 보장은 없음, S3는 99.999999999% 내구성 보장
+- SMB 프로토콜(-> FSx)은 윈도우 OS 인스턴스 지원, NFS 프로토콜(->EFS)은 리눅스 OS 인스턴스 지원
+- FSx는 AD도 지원
 - FSx for Lustre : 리눅스 환경을 위한 고성능 병렬 스토리지 시스템, HPC에 사용
+
+
 
 # 보안
 - 기밀 데이터 암호화를 위한 키 - S3 관리형 키 vs AWS KMS 고객 마스터 키 => SSE-KMS CMK가 자동 교체 기능이 있어서 편리
@@ -64,7 +71,7 @@
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 - EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxODQyMDY2LC00NTQ5OTY1ODcsLTEyMz
+eyJoaXN0b3J5IjpbOTM4MTA5MzI0LC00NTQ5OTY1ODcsLTEyMz
 AzNjI3MTgsMTEwMjAyMjgyNyw2OTY2MzcxMzEsLTIwOTMwMDcy
 NjgsLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMDU4ODgxNzgsLT
 E1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5ODgsMzYxNzE1
