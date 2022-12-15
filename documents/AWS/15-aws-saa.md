@@ -26,10 +26,14 @@ Q. 회사에서 3계층 웹 응용 프로그램을 사용하여 신입 직원에
 
 (D). DB 인스턴스를 시작 및 중지하는 AWS Lambda 함수를 생성합니다. Amazon EventBridge(Amazon CloudWatch Events) 예약 규칙을 생성 하여 Lambda 함수를 호출합니다. 규칙에 대한 이벤트 대상으로 Lambda 함수를 구성 합니다.
 
+A. (D)
+
+- EventBridge : 거의 실시간으로 이벤트 자동 전송
+
 ---
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4MjUyMTU2LC0xMjYyNjU1NDA1LC0yNj
-E2OTQ4XX0=
+eyJoaXN0b3J5IjpbLTExNDUzNDY5NzIsLTEyNjI2NTU0MDUsLT
+I2MTY5NDhdfQ==
 -->
