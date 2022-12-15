@@ -35,21 +35,16 @@ A. (D)
 
 ### 고민하다가 틀린 문제
 
-Q. 회사에서 AWS에 새로운 공개 웹 애플리케이션을 배포하고 있습니다. 애플리케이션은 ALB(Application Load Balancer) 뒤에서 실행됩니다. 애 플리케이션은 외부 CA(인증 기관)에서 발급한 SSL/TLS 인증서를 사용하여 에지(Edge)에서 암호화해야 합니다. 인증서가 만료되기 전에 매년 인증서를 교체해야 합니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 무엇을 해야 합니까?
+Q. 회사에 두 개의 Amazon EC2 인스턴스에서 호스팅되는 동적 웹 애플리케이션이 있습니다. 회사에는 SSL 종료(SSL termination)를 수행하기 위해 각 인스턴스에 있는 자체 SSL 인증서가 있습니다. 최근 트래픽이 증가하고 있으며 운영팀은 SSL 암호화 및 복호화로 인해 웹 서버의 컴퓨팅용량이 최대 한도에 도달했다고 판단했습니다. 솔루션 설계자는 애플리케이션의 성능을 향상시키기 위해 무엇을 해야 합니까?
 
-(A). AWS Certificate Manager(ACM)를 사용하여 SSL/TLS 인증서를 발급합니다. 인증서를 ALB에 적용합니다.관리형 갱신 기능을 사용하여 인증서를 자동으로 교체합니다. 
-
-(B). AWS Certificate Manager(ACM)를 사용하여 SSL/TLS 인증서를 발급합니다. 인증서에서 키 구성요소를 가져옵니다. 인증서를 ALB에 적용합  
-니다. 관리형 갱신 기능(managed renewal feature)을 사용하여 인증서를 자동으로 교체합니다.  
-
-(C). AWS Certificate Manager(ACM) 사설 인증 기관을 사용하여 루트 CA에서 SSL/TLS 인증서를 발급합니다. 인증서를 ALB에 적용합니다. 관리  
-형 갱신 기능을 사용하여 인증서를 자동으로 교체합니다.  
-
-(D). AWS Certificate Manager(ACM)를 사용하여 SSL/TLS 인증서를 가져옵니다. 인증서를 ALB에 적용합니다. Amazon EventBridge(Amazon CloudWatch Events)를 사용하여 인증서가 만료될 때 알림을 보냅니다. 인증서를 수동으로 교체합니다.
+(A). AWS Certificate Manager(ACM)를 사용하여 새 SSL 인증서 생성. 각 인스턴스에 ACM 인증서 설치  
+(B). Amazon S3 버킷 생성 SSL 인증서를 S3 버킷으로 마이그레이션. SSL 종료를 위해 버킷을 참조하도록 EC2 인스턴스 구성  
+(C). 다른 EC2 인스턴스를 프록시 서버로 생성 SSL 인증서를 새 인스턴스로 마이그레이션하고 기존 EC2 인스턴스에 직접 연결하도록 구성  
+(D). SSL 인증서를 AWS Certificate Manager(ACM)로 가져오기. ACM의 SSL 인증서를 사용하는 HTTPS 리스너로 Application Load Balancer 생성
 
 A. (D)
 
-완전히 같은 문제는 아니었고 비슷했는데 A와 비슷한 답을 골랐던 것 같다. 외부 인증서는 무조건 ACM 자동교체 기능 미제공이라서 만료될 때 알림받고 수동 교체가 최선이다 ㅠㅠㅠ
+쥬륵... A 골랐다. 각 인스턴스에 설치가 아니라 ALB 연결해서 인증서 같이 사용하면 된다.
 
 ---
 
@@ -72,6 +67,6 @@ A. (A), (C)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzAyMjA4NiwtMTk3OTQ1ODM1MCwtMT
-I2MjY1NTQwNSwtMjYxNjk0OF19
+eyJoaXN0b3J5IjpbLTE3MzIzODQ2MDYsLTE5Nzk0NTgzNTAsLT
+EyNjI2NTU0MDUsLTI2MTY5NDhdfQ==
 -->
