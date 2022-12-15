@@ -51,6 +51,8 @@ A. B, D
 
 ---
 
+
+
 ### 고민하다가 틀린 문제
 
 Q. 회사에 두 개의 Amazon EC2 인스턴스에서 호스팅되는 동적 웹 애플리케이션이 있습니다. 회사에는 SSL 종료(SSL termination)를 수행하기 위해 각 인스턴스에 있는 자체 SSL 인증서가 있습니다. 최근 트래픽이 증가하고 있으며 운영팀은 SSL 암호화 및 복호화로 인해 웹 서버의 컴퓨팅용량이 최대 한도에 도달했다고 판단했습니다. 솔루션 설계자는 애플리케이션의 성능을 향상시키기 위해 무엇을 해야 합니까?
@@ -105,7 +107,7 @@ A. (B)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5OTMyMDAyLDIxNjI1MjYyLC0xNzMyMz
-g0NjA2LC0xOTc5NDU4MzUwLC0xMjYyNjU1NDA1LC0yNjE2OTQ4
-XX0=
+eyJoaXN0b3J5IjpbMTQ1ODIwNTMxOCwzNjk5MzIwMDIsMjE2Mj
+UyNjIsLTE3MzIzODQ2MDYsLTE5Nzk0NTgzNTAsLTEyNjI2NTU0
+MDUsLTI2MTY5NDhdfQ==
 -->
