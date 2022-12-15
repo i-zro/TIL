@@ -34,8 +34,18 @@ A. (D)
 
 ---
 
+Q. 글로벌 회사는 ALB(Application Load Balancer) 뒤의 Amazon EC2 인스턴스에서 웹 애플리케이션을 호스팅합니다. 웹 응용 프로그램에는 정적 데이터와 동적 데이터가 있습니다. 회사는 정적 데이터를 Amazon S3 버킷에 저장합니다. 회사는 정적 데이터 및 동적 데이터의 성능을 개선하고 대기 시간을 줄이기를 원합니다. 회사는 Amazon Route 53에 등록된 자체 도메인 이름을 사용하고 있습니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 무엇을 해야 합니까?
 
+(A). S3 버킷과 ALB를 오리진으로 포함하는 Amazon CloudFront 배포를 생성합니다. CloudFront 배포로 트래픽을 라우팅하도록 Route 53을 구성합니다.  
+  
+(B). ALB를 오리진으로 포함하는 Amazon CloudFront 배포를 생성합니다. S3 버킷을 엔드포인트로 포함하는 AWS Global Accelerator 표준 액셀러레이터를 생성합니다. CloudFront 배포로 트래픽을 라우팅하도록 Route 53을 구성합니다.  
+  
+(C). S3 버킷을 오리진으로 포함하는 Amazon CloudFront 배포를 생성 합니다. ALB 및 CloudFront 배포를 엔드포인트로 포함하는 AWS Global Accelerator 표준 액셀러레이터를 생성합니다. 액셀러레이터 DNS 이름을 가리키는 커스텀 도메인 이름을 생성 합니다. 커스텀 도메인을 웹 애플리케이션의 엔드포인트로 사용합니다.  
+  
+(D). ALB를 오리진으로 포함하는 Amazon CloudFront 배포를 생성합니다. S3 버킷을 엔드포인트로 포함하는 AWS Global Accelerator 표준 액셀러레이터를 생성합니다. 두 개의 도메인 이름을 생성합니다. 하나의 도메인 이름은 동적 콘텐츠의 경우 CloudFront DNS 이름을 가리키고 다른 도메인 이름은 정적 콘텐츠의 경우 액셀러레이터 DNS 이름을 가리킵니다. 도메인 이름을 웹 애플리케이션의 엔드포인트로 사용합니다.
+
+A. (A)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDM1Mjc0LC0xMjYyNjU1NDA1LC0yNj
-E2OTQ4XX0=
+eyJoaXN0b3J5IjpbLTczNjUwMDU2NSwtMTI2MjY1NTQwNSwtMj
+YxNjk0OF19
 -->
