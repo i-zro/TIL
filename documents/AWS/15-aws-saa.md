@@ -65,8 +65,28 @@ A. (A), (C)
 
 이거 끝까지 고민하다가 VPC에서 실행되는 애플리케이션 계층으로만 액세스를 제한하는 버킷 정책을 어떻게 만들지? 싶어서 D 골랐던 것 같다 ㅠㅠ 현실은 가능이다...
 
+---
+
+Q. 전 세계에 기자가 있는 뉴스 회사가 AWS에서 방송 시스템을 호스팅하고 있습니다. 기자가 방송 시스템에 라이브 방송을 보냅니다. 기자는 휴대폰에서 소프트웨어를 사용하여 RTMP(실시간 메시징 프로토콜)를 통해 라이브 스트림을 보냅니다. 솔루션 설계자는 기자에게 최고 품질의 스트림을 보낼 수 있는 기능을 제공하는 솔루션을 설계해야 합니다. 솔루션은 브로드캐스트 시스템에 대한 가속화된 TCP 연결을 다시 제공해야 합니다.  
+이러한 요구 사항을 충족하기 위해 솔루션은 무엇을 사용해야 합니까?
+
+A. Amazon CloudFront  
+  
+B. AWS 글로벌 액셀러레이터  
+  
+C. AWS 클라이언트 VPN  
+  
+D. Amazon EC2 인스턴스 및 AWS 탄력적 IP 주소
+
+A. (B)
+
+정확히 이 문제는 아니고 TCP 연결 가속화 물어보는 문제 있었던 것 같은데 CloudFront 고름. CloudFront는 HTTP 프로토콜에 적합하고, 글로벌 액셀러레이터가 TCP 가속화
+
+---
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzIzODQ2MDYsLTE5Nzk0NTgzNTAsLT
-EyNjI2NTU0MDUsLTI2MTY5NDhdfQ==
+eyJoaXN0b3J5IjpbMjE2MjUyNjIsLTE3MzIzODQ2MDYsLTE5Nz
+k0NTgzNTAsLTEyNjI2NTU0MDUsLTI2MTY5NDhdfQ==
 -->
