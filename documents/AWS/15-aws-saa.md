@@ -4,9 +4,9 @@ Q. 솔루션 설계자는 회사의 스토리지 비용을 줄이기 위한 솔�
 
 A. (B)
 
-이 문항 CloudWatch Logs랑 S3 중 헷갈렸는데 `aws backup` 은 애초에 리소스 백어
+이 문항 CloudWatch Logs랑 S3 중 헷갈렸는데 `aws backup` 은 애초에 리소스 백업이라 S3에 로그 저장한 후 backup 서비스로 다른 스토리지 서비스로 옮기기 가능
 
 ![](https://i.imgur.com/tQY1cqO.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg1NzU4MTYsLTI2MTY5NDhdfQ==
+eyJoaXN0b3J5IjpbLTIxMjE1NTIyMTcsLTI2MTY5NDhdfQ==
 -->
