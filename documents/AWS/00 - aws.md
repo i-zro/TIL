@@ -17,6 +17,7 @@
 - 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음. VPN은 저렴. Direct Connect는 비싼 대신 더 큰 네트워크 대역폭 제공해서 트래픽 안정.
 - VPC 엔드포인트 : 인터넷을 통하지 않고 AWS 서비스에 프라이빗하게 연결할 수 있는 VPC 진입점
 	- S3 등의 서비스를 프라이빗하게 연결하면 데이터 비용 절감 가능
+### 
 - VPC는 하나의 Region에만 속할 수 있음(다른 Region으로 확장 불가능)
 - 보안그룹(인스턴스 레벨)은 거부 규칙 지정 못함. NACL(서브넷 레벨)이 허용 및 거부 규칙 지원. 
 - 
@@ -58,7 +59,7 @@
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 - EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0ODc3MTI1LC00NTQ5OTY1ODcsLTEyMz
+eyJoaXN0b3J5IjpbMjUwMjgxNDk0LC00NTQ5OTY1ODcsLTEyMz
 AzNjI3MTgsMTEwMjAyMjgyNyw2OTY2MzcxMzEsLTIwOTMwMDcy
 NjgsLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMDU4ODgxNzgsLT
 E1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5ODgsMzYxNzE1
