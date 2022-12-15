@@ -68,8 +68,10 @@ Q. 회사가 Amazon S3 버킷에 민감한 사용자 정보를 저장하고 있�
 
 A. (A), (C)
 
-이거 끝까지 고민하다가 VPC에서 실행되는 애플리케이션 계층으로만 액세스를 제한하는 버킷 정책을 어떻게 만들지? 싶어서 D 골랐던 것 같다 ㅠㅠ 현실은 
+이거 끝까지 고민하다가 VPC에서 실행되는 애플리케이션 계층으로만 액세스를 제한하는 버킷 정책을 어떻게 만들지? 싶어서 D 골랐던 것 같다 ㅠㅠ 현실은 가능이다...
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU0ODE5MjMsLTE5Nzk0NTgzNTAsLT
-EyNjI2NTU0MDUsLTI2MTY5NDhdfQ==
+eyJoaXN0b3J5IjpbLTgyNzAyMjA4NiwtMTk3OTQ1ODM1MCwtMT
+I2MjY1NTQwNSwtMjYxNjk0OF19
 -->
