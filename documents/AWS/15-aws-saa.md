@@ -51,6 +51,19 @@ A. B, D
 
 ---
 
+Q. 솔루션 아키텍트가 다가오는 뮤지컬 이벤트를 위해 웹사이트를 최적화하고 있습니다. 공연 비디오는 실시간으로 스트리밍된 후 주문형으로 제  
+공될 것입니다. 이 행사는 전 세계 온라인 관객을 유치할 것으로 예상됩니다.  
+실시간 스트리밍과 주문형 스트리밍 모두의 성능을 향상시키는 서비스는 무엇입니까?  
+
+A. Amazon CloudFront  
+
+B. AWS 글로벌 액셀러레이터  
+
+C. 아마존 Route 53  
+
+D. Amazon S3 Transfer Acceleration
+
+A. A
 
 
 ### 고민하다가 틀린 문제
@@ -107,7 +120,7 @@ A. (B)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODIwNTMxOCwzNjk5MzIwMDIsMjE2Mj
+eyJoaXN0b3J5IjpbLTE3NjE0NjkwOCwzNjk5MzIwMDIsMjE2Mj
 UyNjIsLTE3MzIzODQ2MDYsLTE5Nzk0NTgzNTAsLTEyNjI2NTU0
 MDUsLTI2MTY5NDhdfQ==
 -->
