@@ -1,3 +1,9 @@
+### 시험에서 처음 본 문제들
+
+- DDoS 막으려 할 때 WAF vs Shield 가격 차이를 비교하는 문제 있었음 => WAF 가 무료
+- `신뢰 정책` 관한 문제
+- Parameter Store 문제
+
 ### 고민하다가 맞은 문제
 Q. 솔루션 설계자는 회사의 스토리지 비용을 줄이기 위한 솔루션을 구현해야 합니다. 회사의 모든 데이터는 Amazon S3 Standard 스토리지 클래 스에 있습니다. 회사는 모든 데이터를 최소 25년 동안 보관해야 합니다. 최근 2년 동안의 데이터는 가용성이 높고 즉시 검색할 수 있어야 합니다. 어떤 솔루션이 이러한 요구 사항을 충족합니까?
 
@@ -114,13 +120,8 @@ D. Amazon EC2 인스턴스 및 AWS 탄력적 IP 주소
 A. (B)
 
 정확히 이 문제는 아니고 TCP 연결 가속화 물어보는 문제 있었던 것 같은데 CloudFront 고름. CloudFront는 HTTP 프로토콜에 적합하고, 글로벌 액셀러레이터가 TCP 가속화
-
-### 시험에서 처음 본 문제들
-
-- WAF vs Shield 가격 차이를 비교하는 문제
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODE2ODY4MiwtMTc2MTQ2OTA4LDM2OT
+eyJoaXN0b3J5IjpbLTU4NzAwMDEzMiwtMTc2MTQ2OTA4LDM2OT
 kzMjAwMiwyMTYyNTI2MiwtMTczMjM4NDYwNiwtMTk3OTQ1ODM1
 MCwtMTI2MjY1NTQwNSwtMjYxNjk0OF19
 -->
