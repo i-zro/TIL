@@ -1,3 +1,5 @@
+# 컴퓨팅
+
 # 글로벌
 - 클러스터 배치그룹은 동일 가용 영역내 배치로 가용성 높이는 솔루션 아님.
 - EC2 볼륨은 같은 리전 상에서만 복제 가능 => 다른 리전으로 복사 후에 배포 가능
@@ -8,7 +10,6 @@
 - lambda@Edge는 엣지로케이션에서 Lambda 컴퓨팅을 수행하는 기능
 
 # 네트워킹
-- Systems Manager 세션 관리자를 통한 콘솔 액세스는 인터넷 연결이므로 VPN보다 안전하지 않음.
 - EC2 인스턴스에서 인터넷 연결을 통한 소프트웨어 다운이 불가할 때
 	- 보안 그룹의 아웃바인드 규칙 확인
 	- 트래픽을 인터넷에 전달하려면 서브넷의 라우팅 테이블에 인터넷 게이트웨이를 대상(Target)으로 추가해야함.
@@ -20,6 +21,7 @@
 - VPC 엔드포인트 : 인터넷을 통하지 않고 AWS 서비스에 프라이빗하게 연결할 수 있는 VPC 진입점
 	- S3 등의 서비스를 프라이빗하게 연결하면 데이터 비용 절감 가능
 - 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음. VPN은 저렴. Direct Connect는 비싼 대신 더 큰 네트워크 대역폭 제공해서 트래픽 안정.
+- Systems Manager 세션 관리자를 통한 콘솔 액세스는 인터넷 연결이므로 VPN보다 안전하지 않음.
 
 
 ### 보안 그룹
@@ -27,9 +29,7 @@
 
 
 # 스토리지 및 데이터베이스
-
 - 인스턴스 스토어가 IOPS 성능이 가장 높음.
-- EBS는 파일 공유 스토리지 아님. EFS가 파일 공유 스토리지.
 - 프로비저닝 된 IOPS SSD : 가장 고성능 처리 볼륨 유형
 - Glacier은 아카이브용 스토리지 클래스
 - 멀티파트 업로드 : 대용량 파일 분할해서 병렬로 S3에 업로드 하는 방식 -> 업로드 실패 시 수명 주기 정책을 통해 업로드 삭제 가능
@@ -55,7 +55,7 @@
 - SMB 프로토콜(-> FSx)은 윈도우 OS 인스턴스 지원, NFS 프로토콜(->EFS)은 리눅스 OS 인스턴스 지원
 - FSx는 AD도 지원
 - FSx for Lustre : 리눅스 환경을 위한 고성능 병렬 스토리지 시스템, HPC에 사용
-
+- EBS는 파일 공유 스토리지 아님. EFS가 파일 공유 스토리지.
 
 # 보안
 ## 보안 및 자격증명
@@ -70,11 +70,11 @@
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 - EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1NzYzMTksLTQ1NDk5NjU4NywtMTIzMD
-M2MjcxOCwxMTAyMDIyODI3LDY5NjYzNzEzMSwtMjA5MzAwNzI2
-OCwtNzYyNDc0NDY1LDE0Mjk0Njc1OTYsLTEwNTg4ODE3OCwtMT
-UwMzY3OTg4OSwxNjk5OTA1OTQ5LDY3NzEwMzk4OCwzNjE3MTU2
-OTQsMTE3NDk2Njk3OSwxNDgyOTg3MDIsMTA5NDU3OTgwNyw1OT
-kyNDk0MSw2NTUyOTY0NTYsLTc2NjkxNzM4MSwtMTA0OTkwOTY3
-NV19
+eyJoaXN0b3J5IjpbMjcwNDk2NjQzLC00NTQ5OTY1ODcsLTEyMz
+AzNjI3MTgsMTEwMjAyMjgyNyw2OTY2MzcxMzEsLTIwOTMwMDcy
+NjgsLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMDU4ODgxNzgsLT
+E1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5ODgsMzYxNzE1
+Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOTQ1Nzk4MDcsNT
+k5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwNDk5MDk2
+NzVdfQ==
 -->
