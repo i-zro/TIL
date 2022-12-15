@@ -33,6 +33,24 @@ A. (D)
 
 - EventBridge : 거의 실시간으로 이벤트 자동 전송. 이벤트 패턴 / 일정에 따라 설정 가능
 
+---
+
+Q. 소셜 미디어 회사는 사용자가 웹사이트에 이미지를 업로드할 수 있도록 합니다. 웹사이트는 Amazon EC2 인스턴스에서 실행됩니다. 업로드 요 청 중에 웹 사이트는 이미지의 크기를 표준 크기로 조정하고 크기가 조정된 이미지를 Amazon S3에 저장합니다. 사용자가 웹사이트에 대한 느린 업로드 요청을 경험하고 있습니다. 회사는 애플리케이션 내 결합을 줄이고 웹사이트 성능을 개선해야 합니다. 솔루션 설계자는 이미지 업로 드를 위해 가장 운영 효율적인 프로세스를 설계해야 합니다. 이러한 요구 사항을 충족하기 위해 솔루션 설계자는 어떤 작업 조합을 취해야 합 니까? (2개를 선택하십시오.)
+
+A. S3 Glacier에 이미지를 업로드하도록 애플리케이션을 구성합니다.  
+  
+B. 원본 이미지를 Amazon S3에 업로드하도록 웹 서버를 구성합니다.  
+  
+C. 미리 서명된 URL을 사용하여 각 사용자의 브라우저에서 Amazon S3로 이미지를 직접 업로드하도록 애플리케이션을 구성합니다.  
+  
+D. 이미지가 업로드 될 때 AWS Lambda 함수를 호출하도록 S3 이벤트 알림을 구성합니다. 함수를 사용하여 이미지 크기를 조정 합니다.  
+  
+E. 업로드된 이미지의 크기를 조정하기 위해 일정에 따라 AWS Lambda 함수를 호출하는 Amazon EventBridge(Amazon CloudWatch Events) 규칙을 생성합니다.
+
+A. B, D
+
+---
+
 ### 고민하다가 틀린 문제
 
 Q. 회사에 두 개의 Amazon EC2 인스턴스에서 호스팅되는 동적 웹 애플리케이션이 있습니다. 회사에는 SSL 종료(SSL termination)를 수행하기 위해 각 인스턴스에 있는 자체 SSL 인증서가 있습니다. 최근 트래픽이 증가하고 있으며 운영팀은 SSL 암호화 및 복호화로 인해 웹 서버의 컴퓨팅용량이 최대 한도에 도달했다고 판단했습니다. 솔루션 설계자는 애플리케이션의 성능을 향상시키기 위해 무엇을 해야 합니까?
@@ -87,6 +105,7 @@ A. (B)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2MjUyNjIsLTE3MzIzODQ2MDYsLTE5Nz
-k0NTgzNTAsLTEyNjI2NTU0MDUsLTI2MTY5NDhdfQ==
+eyJoaXN0b3J5IjpbMzY5OTMyMDAyLDIxNjI1MjYyLC0xNzMyMz
+g0NjA2LC0xOTc5NDU4MzUwLC0xMjYyNjU1NDA1LC0yNjE2OTQ4
+XX0=
 -->
