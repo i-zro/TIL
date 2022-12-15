@@ -23,7 +23,7 @@
 - Systems Manager 세션 관리자를 통한 콘솔 액세스는 인터넷 연결이므로 VPN보다 안전하지 않음.
 - VPC 피어링은 별도 사용 요금 없음
 
-### 인바운드 / 아웃바운드
+### 트래픽
 - 보안그룹(인스턴스 레벨)은 거부 규칙 지정 못함. NACL(서브넷 레벨)이 허용 및 거부 규칙 지원. 
 - EC2 인스턴스에서 인터넷 연결을 통한 소프트웨어 다운이 불가할 때
 	- 보안 그룹의 아웃바인드 규칙 확인
@@ -77,12 +77,14 @@
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 - EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템
 - Athena : S3 쿼리 서비스 
+- Kinesis Data Streams에서 S3로 바로 데이터 전송을 할 수 없음.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3Mjg4NTg3LC00NTQ5OTY1ODcsLTEyMz
-AzNjI3MTgsMTEwMjAyMjgyNyw2OTY2MzcxMzEsLTIwOTMwMDcy
-NjgsLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMDU4ODgxNzgsLT
-E1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5ODgsMzYxNzE1
-Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOTQ1Nzk4MDcsNT
-k5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwNDk5MDk2
-NzVdfQ==
+eyJoaXN0b3J5IjpbLTE0MDYzNjgyMjMsLTQ1NDk5NjU4NywtMT
+IzMDM2MjcxOCwxMTAyMDIyODI3LDY5NjYzNzEzMSwtMjA5MzAw
+NzI2OCwtNzYyNDc0NDY1LDE0Mjk0Njc1OTYsLTEwNTg4ODE3OC
+wtMTUwMzY3OTg4OSwxNjk5OTA1OTQ5LDY3NzEwMzk4OCwzNjE3
+MTU2OTQsMTE3NDk2Njk3OSwxNDgyOTg3MDIsMTA5NDU3OTgwNy
+w1OTkyNDk0MSw2NTUyOTY0NTYsLTc2NjkxNzM4MSwtMTA0OTkw
+OTY3NV19
 -->
