@@ -11,9 +11,6 @@
 - CloudFront에 가격 등급에 따라 배포하는 엣지 로케이션을 줄일 수 있음 -> 가격 등급 100이 일부 리전에 배포 하며 가장 낮은 비용
 
 # 네트워킹
-- EC2 인스턴스에서 인터넷 연결을 통한 소프트웨어 다운이 불가할 때
-	- 보안 그룹의 아웃바인드 규칙 확인
-	- 트래픽을 인터넷에 전달하려면 서브넷의 라우팅 테이블에 인터넷 게이트웨이를 대상(Target)으로 추가해야함.
 - 게이트웨이 엔드포인트와 인터페이스 엔드포인트 차이 - 인터페이스 엔드포인트는 엔드포인트 사용 요금 부과
 - 동일 가용영역 내 EC2 데이터 전송 비용은 무료, 다른 가용 영역은 유료
 
@@ -24,10 +21,13 @@
 	- S3 등의 서비스를 프라이빗하게 연결하면 데이터 비용 절감 가능
 - 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음. VPN은 저렴. Direct Connect는 비싼 대신 더 큰 네트워크 대역폭 제공해서 트래픽 안정.
 - Systems Manager 세션 관리자를 통한 콘솔 액세스는 인터넷 연결이므로 VPN보다 안전하지 않음.
+- VPC 피어링은 별도 사용 요금 없음
 
-### 보안 그룹
+### 인바운드 / 아웃바운드 트래픽
 - 보안그룹(인스턴스 레벨)은 거부 규칙 지정 못함. NACL(서브넷 레벨)이 허용 및 거부 규칙 지원. 
-
+- EC2 인스턴스에서 인터넷 연결을 통한 소프트웨어 다운이 불가할 때
+	- 보안 그룹의 아웃바인드 규칙 확인
+	- 트래픽을 인터넷에 전달하려면 서브넷의 라우팅 테이블에 인터넷 게이트웨이를 대상(Target)으로 추가해야함.
 
 # 스토리지 및 데이터베이스
 - 인스턴스 스토어가 IOPS 성능이 가장 높음.
@@ -77,11 +77,11 @@
 - EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템
 - Athena : S3 쿼리 서비스 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2MzA1Mjk3LC00NTQ5OTY1ODcsLTEyMz
-AzNjI3MTgsMTEwMjAyMjgyNyw2OTY2MzcxMzEsLTIwOTMwMDcy
-NjgsLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMDU4ODgxNzgsLT
-E1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5ODgsMzYxNzE1
-Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOTQ1Nzk4MDcsNT
-k5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwNDk5MDk2
-NzVdfQ==
+eyJoaXN0b3J5IjpbLTEzNTcxMjA0NzcsLTQ1NDk5NjU4NywtMT
+IzMDM2MjcxOCwxMTAyMDIyODI3LDY5NjYzNzEzMSwtMjA5MzAw
+NzI2OCwtNzYyNDc0NDY1LDE0Mjk0Njc1OTYsLTEwNTg4ODE3OC
+wtMTUwMzY3OTg4OSwxNjk5OTA1OTQ5LDY3NzEwMzk4OCwzNjE3
+MTU2OTQsMTE3NDk2Njk3OSwxNDgyOTg3MDIsMTA5NDU3OTgwNy
+w1OTkyNDk0MSw2NTUyOTY0NTYsLTc2NjkxNzM4MSwtMTA0OTkw
+OTY3NV19
 -->
