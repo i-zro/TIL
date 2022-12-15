@@ -34,8 +34,24 @@ A. (D)
 
 ---
 
+Q. 회사에서 AWS에 새로운 공개 웹 애플리케이션을 배포하고 있습니다. 애플리케이션은 ALB(Application Load Balancer) 뒤에서 실행됩니다. 애 플리케이션은 외부 CA(인증 기관)에서 발급한 SSL/TLS 인증서를 사용하여 에지(Edge)에서 암호화해야 합니다. 인증서가 만료되기 전에 매년 인증서를 교체해야 합니다. 솔루션 설계자는 이러한 요구 사항을 충족하기 위해 무엇을 해야 합니까?
 
+(A). AWS Certificate Manager(ACM)를 사용하여 SSL/TLS 인증서를 발급합니다. 인증서를 ALB에 적용합니다.관리형 갱신 기능을 사용하여 인증서를 자동으로 교체합니다. 
+
+(B). AWS Certificate Manager(ACM)를 사용하여 SSL/TLS 인증서를 발급합니다. 인증서에서 키 구성요소를 가져옵니다. 인증서를 ALB에 적용합  
+니다. 관리형 갱신 기능(managed renewal feature)을 사용하여 인증서를 자동으로 교체합니다.  
+
+(C). AWS Certificate Manager(ACM) 사설 인증 기관을 사용하여 루트 CA에서 SSL/TLS 인증서를 발급합니다. 인증서를 ALB에 적용합니다. 관리  
+형 갱신 기능을 사용하여 인증서를 자동으로 교체합니다.  
+
+(D). AWS Certificate Manager(ACM)를 사용하여 SSL/TLS 인증서를 가져옵니다. 인증서를 ALB에 적용합니다. Amazon EventBridge(Amazon CloudWatch Events)를 사용하여 인증서가 만료될 때 알림을 보냅니다. 인증서를 수동으로 교체합니다.
+
+A. (D)
+
+완전히 같은 문제는 아니었고 비슷했는데 A와 비슷한 답을 골랐던 것 같다. 외부 인증서는 무조건 ACM 자동교체 기능 미제공이라서 만료될 때 알림받고 수동 교체가 최선이다 ㅠㅠㅠ
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDM1Mjc0LC0xMjYyNjU1NDA1LC0yNj
-E2OTQ4XX0=
+eyJoaXN0b3J5IjpbLTE5Nzk0NTgzNTAsLTEyNjI2NTU0MDUsLT
+I2MTY5NDhdfQ==
 -->
