@@ -1,5 +1,4 @@
 ### 시험에서 처음 본 문제들
-
 - DDoS 막으려 할 때 WAF vs Shield 가격 차이를 비교하는 문제 있었음 => WAF 가 무료
 - `신뢰 정책` 관한 문제
 - Parameter Store 문제
@@ -121,7 +120,7 @@ A. (B)
 
 정확히 이 문제는 아니고 TCP 연결 가속화 물어보는 문제 있었던 것 같은데 CloudFront 고름. CloudFront는 HTTP 프로토콜에 적합하고, 글로벌 액셀러레이터가 TCP 가속화
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzAwMDEzMiwtMTc2MTQ2OTA4LDM2OT
-kzMjAwMiwyMTYyNTI2MiwtMTczMjM4NDYwNiwtMTk3OTQ1ODM1
-MCwtMTI2MjY1NTQwNSwtMjYxNjk0OF19
+eyJoaXN0b3J5IjpbNTc1OTc2NTI2LC0xNzYxNDY5MDgsMzY5OT
+MyMDAyLDIxNjI1MjYyLC0xNzMyMzg0NjA2LC0xOTc5NDU4MzUw
+LC0xMjYyNjU1NDA1LC0yNjE2OTQ4XX0=
 -->
