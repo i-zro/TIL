@@ -3,6 +3,10 @@ Q. 솔루션 설계자는 회사의 스토리지 비용을 줄이기 위한 솔�
 (A). Amazon S3에 로그 저장 AWS Backup을 사용하여 S3 Glacier Deep Archive로 1개월 이상 된 로그 이동 (B). Amazon S3에 로그 저장 S3 수명 주기 정책을 사용하여 1개월 이상 된 로그를 S3 Glacier Deep Archive로 이동 (C). Amazon CloudWatch Logs에 로그 저장. AWS Backup을 사용하여 1개월 이상 된 로그를 S3 Glacier Deep Archive로 이동 (D). Amazon CloudWatch Logs에 로그를 저장. Amazon S3 수명 주기 정책을 사용하여 S3 Glacier Deep Archive로 1개월 이상 된 로그를 이동 합니다.
 
 A. (B)
+
+이 문항 CloudWatch Logs랑 S3 중 헷갈렸는데 `aws backup` 은 애초에 리소스 백어
+
+![](https://i.imgur.com/tQY1cqO.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTY5NDhdfQ==
+eyJoaXN0b3J5IjpbLTExOTg1NzU4MTYsLTI2MTY5NDhdfQ==
 -->
