@@ -28,7 +28,7 @@ Q. 회사에서 3계층 웹 응용 프로그램을 사용하여 신입 직원에
 
 A. (D)
 
-계속 고민하다가 D가 가장 적합해 보여서 골랐다. RDS 끄는 게 Lambda 쓰는 거 바
+계속 고민하다가 D가 가장 적합해 보여서 골랐다. RDS 시간 지정해놓고 끄는 게 Lambda 쓰는 거 밖에 없다는 게 신기하다.
 
 - EventBridge : 거의 실시간으로 이벤트 자동 전송. 이벤트 패턴 / 일정에 따라 설정 가능
 
@@ -36,6 +36,6 @@ A. (D)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczOTQzMDI2LC0xMjYyNjU1NDA1LC0yNj
+eyJoaXN0b3J5IjpbLTI1NDM1Mjc0LC0xMjYyNjU1NDA1LC0yNj
 E2OTQ4XX0=
 -->
