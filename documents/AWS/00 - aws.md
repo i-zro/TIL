@@ -9,11 +9,16 @@
 - CloudFront에 가격 등급에 따라 배포하는 엣지 로케이션을 줄일 수 있음 -> 가격 등급 100이 일부 리전에 배포 하며 가장 낮은 비용
 - lambda@Edge는 엣지로케이션에서 Lambda 컴퓨팅을 수행하는 기능
 
+## CloudFront
+- CloudFront 필드 레벨 암호화 : PUT/POST 요청이 오리진으로 전달되기 전에 엣지로케이션에서 비대칭 암호화 키를 사용하여 데이터를 추가로 암호화
+- 
+
 # 네트워킹
 - EC2 인스턴스에서 인터넷 연결을 통한 소프트웨어 다운이 불가할 때
 	- 보안 그룹의 아웃바인드 규칙 확인
 	- 트래픽을 인터넷에 전달하려면 서브넷의 라우팅 테이블에 인터넷 게이트웨이를 대상(Target)으로 추가해야함.
 - 게이트웨이 엔드포인트와 인터페이스 엔드포인트 차이 - 인터페이스 엔드포인트는 엔드포인트 사용 요금 부과
+- 동일 가용영역 내 EC2 데이터 전송 비용은 무료, 다른 가용 영역은 유료
 
 ## VPC
 - VPC는 하나의 Region에만 속할 수 있음(다른 Region으로 확장 불가능)
@@ -73,13 +78,14 @@
 # 기타
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
-- EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템 
+- EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템
+- Athena : S3 쿼리 서비스 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTQ1NjcwNCwtNDU0OTk2NTg3LC0xMj
-MwMzYyNzE4LDExMDIwMjI4MjcsNjk2NjM3MTMxLC0yMDkzMDA3
-MjY4LC03NjI0NzQ0NjUsMTQyOTQ2NzU5NiwtMTA1ODg4MTc4LC
-0xNTAzNjc5ODg5LDE2OTk5MDU5NDksNjc3MTAzOTg4LDM2MTcx
-NTY5NCwxMTc0OTY2OTc5LDE0ODI5ODcwMiwxMDk0NTc5ODA3LD
-U5OTI0OTQxLDY1NTI5NjQ1NiwtNzY2OTE3MzgxLC0xMDQ5OTA5
-Njc1XX0=
+eyJoaXN0b3J5IjpbLTIwNDU2ODk3NjgsLTQ1NDk5NjU4NywtMT
+IzMDM2MjcxOCwxMTAyMDIyODI3LDY5NjYzNzEzMSwtMjA5MzAw
+NzI2OCwtNzYyNDc0NDY1LDE0Mjk0Njc1OTYsLTEwNTg4ODE3OC
+wtMTUwMzY3OTg4OSwxNjk5OTA1OTQ5LDY3NzEwMzk4OCwzNjE3
+MTU2OTQsMTE3NDk2Njk3OSwxNDgyOTg3MDIsMTA5NDU3OTgwNy
+w1OTkyNDk0MSw2NTUyOTY0NTYsLTc2NjkxNzM4MSwtMTA0OTkw
+OTY3NV19
 -->
