@@ -1,17 +1,14 @@
-# 컴퓨팅
-
 # 글로벌
 - 클러스터 배치그룹은 동일 가용 영역내 배치로 가용성 높이는 솔루션 아님.
 - EC2 볼륨은 같은 리전 상에서만 복제 가능 => 다른 리전으로 복사 후에 배포 가능
 - ALB에는 탄력적 IP 주소 할당 불가
 - SNS는 DB로 메시지를 바로 전송 할 수 없음.
 - Global Accelerator에는 2개의 고정 IP가 생성됨.
-- CloudFront에 가격 등급에 따라 배포하는 엣지 로케이션을 줄일 수 있음 -> 가격 등급 100이 일부 리전에 배포 하며 가장 낮은 비용
 - lambda@Edge는 엣지로케이션에서 Lambda 컴퓨팅을 수행하는 기능
 
 ## CloudFront
 - CloudFront 필드 레벨 암호화 : PUT/POST 요청이 오리진으로 전달되기 전에 엣지로케이션에서 비대칭 암호화 키를 사용하여 데이터를 추가로 암호화
-- 
+- CloudFront에 가격 등급에 따라 배포하는 엣지 로케이션을 줄일 수 있음 -> 가격 등급 100이 일부 리전에 배포 하며 가장 낮은 비용
 
 # 네트워킹
 - EC2 인스턴스에서 인터넷 연결을 통한 소프트웨어 다운이 불가할 때
@@ -27,7 +24,6 @@
 	- S3 등의 서비스를 프라이빗하게 연결하면 데이터 비용 절감 가능
 - 온프레미스 네트워크와 VPC를 연결하려면 두 가지 방법이 있음. VPN은 저렴. Direct Connect는 비싼 대신 더 큰 네트워크 대역폭 제공해서 트래픽 안정.
 - Systems Manager 세션 관리자를 통한 콘솔 액세스는 인터넷 연결이므로 VPN보다 안전하지 않음.
-
 
 ### 보안 그룹
 - 보안그룹(인스턴스 레벨)은 거부 규칙 지정 못함. NACL(서브넷 레벨)이 허용 및 거부 규칙 지원. 
@@ -81,11 +77,11 @@
 - EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템
 - Athena : S3 쿼리 서비스 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU2ODk3NjgsLTQ1NDk5NjU4NywtMT
-IzMDM2MjcxOCwxMTAyMDIyODI3LDY5NjYzNzEzMSwtMjA5MzAw
-NzI2OCwtNzYyNDc0NDY1LDE0Mjk0Njc1OTYsLTEwNTg4ODE3OC
-wtMTUwMzY3OTg4OSwxNjk5OTA1OTQ5LDY3NzEwMzk4OCwzNjE3
-MTU2OTQsMTE3NDk2Njk3OSwxNDgyOTg3MDIsMTA5NDU3OTgwNy
-w1OTkyNDk0MSw2NTUyOTY0NTYsLTc2NjkxNzM4MSwtMTA0OTkw
-OTY3NV19
+eyJoaXN0b3J5IjpbNTI2MzA1Mjk3LC00NTQ5OTY1ODcsLTEyMz
+AzNjI3MTgsMTEwMjAyMjgyNyw2OTY2MzcxMzEsLTIwOTMwMDcy
+NjgsLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMDU4ODgxNzgsLT
+E1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5ODgsMzYxNzE1
+Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOTQ1Nzk4MDcsNT
+k5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwNDk5MDk2
+NzVdfQ==
 -->
