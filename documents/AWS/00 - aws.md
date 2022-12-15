@@ -19,6 +19,7 @@
 	- S3 등의 서비스를 프라이빗하게 연결하면 데이터 비용 절감 가능
 - VPC는 하나의 Region에만 속할 수 있음(다른 Region으로 확장 불가능)
 - 보안그룹(인스턴스 레벨)은 거부 규칙 지정 못함. NACL(서브넷 레벨)이 허용 및 거부 규칙 지원. 
+- 
 
 # 스토리지 및 데이터베이스
 - EFS는 내구성에 대한 공식적 보장은 없음, S3는 99.999999999% 내구성 보장
@@ -43,22 +44,25 @@
 - Data Sync가 온라인으로 데이터 마이그레이션 솔루션를 AWS로 자동 전송, Snowball Edge는 오프라인!
 - Data Sync는 데이터 무결성 확인 및 암호화 가능
 - Snowmobile은 PB 규모 데이터 마이그레이션 용도.
+- FSx for Lustre : 리눅스 환경을 위한 고성능 병렬 스토리지 시스템, HPC에 사용
 
 # 보안
 - 기밀 데이터 암호화를 위한 키 - S3 관리형 키 vs AWS KMS 고객 마스터 키 => SSE-KMS CMK가 자동 교체 기능이 있어서 편리
 - 키에 액세스 할 수 있는 사람 제어를 원하면 AWS KMS 관리형 키 사용
 - 자격 증명 관리 서비스는 AWS Secrets Manager
+- DDoS는 속도 제한 규칙으로 잡아야함 => AWS에는 WAF와 Shield로 잡음
+- 
 
 # 기타
 - 클릭 스트림 데이터 -> Kinesis
 - Kinesis Data Streams : 데이터 수집/저장/처리, Firehose : 데이터 스토어에 로드만
 - EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU3ODQzODAsLTQ1NDk5NjU4NywtMT
-IzMDM2MjcxOCwxMTAyMDIyODI3LDY5NjYzNzEzMSwtMjA5MzAw
-NzI2OCwtNzYyNDc0NDY1LDE0Mjk0Njc1OTYsLTEwNTg4ODE3OC
-wtMTUwMzY3OTg4OSwxNjk5OTA1OTQ5LDY3NzEwMzk4OCwzNjE3
-MTU2OTQsMTE3NDk2Njk3OSwxNDgyOTg3MDIsMTA5NDU3OTgwNy
-w1OTkyNDk0MSw2NTUyOTY0NTYsLTc2NjkxNzM4MSwtMTA0OTkw
-OTY3NV19
+eyJoaXN0b3J5IjpbNzU0ODc3MTI1LC00NTQ5OTY1ODcsLTEyMz
+AzNjI3MTgsMTEwMjAyMjgyNyw2OTY2MzcxMzEsLTIwOTMwMDcy
+NjgsLTc2MjQ3NDQ2NSwxNDI5NDY3NTk2LC0xMDU4ODgxNzgsLT
+E1MDM2Nzk4ODksMTY5OTkwNTk0OSw2NzcxMDM5ODgsMzYxNzE1
+Njk0LDExNzQ5NjY5NzksMTQ4Mjk4NzAyLDEwOTQ1Nzk4MDcsNT
+k5MjQ5NDEsNjU1Mjk2NDU2LC03NjY5MTczODEsLTEwNDk5MDk2
+NzVdfQ==
 -->
