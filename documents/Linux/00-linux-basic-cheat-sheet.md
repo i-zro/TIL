@@ -30,8 +30,8 @@
 
 ### 아이노드
 - 아이노드 확인 : ls `-i`
-- 디렉토리 내 전체 아이노드 확인 : ls -ali
+- 디렉토리 내 전체 아이노드 확인 : ls -al`i`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwNTA0MTI0LC02MDUzMjczMSwtMTMxOT
-IxODE1LDEyMjY5Nzg4MzJdfQ==
+eyJoaXN0b3J5IjpbLTE4MjQwMjk1MjIsLTYwNTMyNzMxLC0xMz
+E5MjE4MTUsMTIyNjk3ODgzMl19
 -->
