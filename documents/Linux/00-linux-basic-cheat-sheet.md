@@ -2,9 +2,6 @@
 - find 명령어 filelist라는 파일에 저장하고 싶을 때 : find > filelist
 - ls 명령어가 어느 경로에 있는지 알고 싶다 -> which ls
 - PATH 환경변수 보고 싶다 : echo $PATH
-
-
-
 - ls -al 중 kern.log 포함 된 것만 찾기 : ls -al | grep kern.log
 - /etc 경로에서 conf 확장자 가지는 파일 다 출력 : find /etc -name "*.conf" -print
 - filelist라는 파일 압축하고 싶을 때 : gzip filelist
@@ -32,6 +29,6 @@
 - 아이노드 확인 : ls `-i`
 - 디렉토리 내 전체 아이노드 확인 : ls -al`i`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjQwMjk1MjIsLTYwNTMyNzMxLC0xMz
-E5MjE4MTUsMTIyNjk3ODgzMl19
+eyJoaXN0b3J5IjpbLTI1MDk1MzM1MiwtNjA1MzI3MzEsLTEzMT
+kyMTgxNSwxMjI2OTc4ODMyXX0=
 -->
