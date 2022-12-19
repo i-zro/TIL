@@ -14,12 +14,16 @@
 - 파일 이름 바꾸기
     - testfile을 apple로 바꾸기
         - mv testfile apple
+
+
+# 파일 / 디렉토리
 - 디렉토리 지우기
     - testdir 지우기
         - rm -rf testdir/  
 - 아이노드 확인 : ls -i
-- 디렉토리 내 전체 아이노드 확인 : ls -ali
+	- 디렉토리 내 전체 아이노드 확인 : ls -ali
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTkyMTgxNSwxMjI2OTc4ODMyXX0=
+eyJoaXN0b3J5IjpbNDY1NDg0NjgyLC0xMzE5MjE4MTUsMTIyNj
+k3ODgzMl19
 -->
