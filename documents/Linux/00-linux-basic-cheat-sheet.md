@@ -21,12 +21,12 @@
 - 디렉토리 지우기
     - testdir 지우기
         - rm -rf testdir/  
-
 - 직전 디렉토리 이동 : cd -
+
 ### 아이노드
 - 아이노드 확인 : ls -i
 - 디렉토리 내 전체 아이노드 확인 : ls -ali
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTMyMTgzMywtMTMxOTIxODE1LDEyMj
-Y5Nzg4MzJdfQ==
+eyJoaXN0b3J5IjpbLTYwNTMyNzMxLC0xMzE5MjE4MTUsMTIyNj
+k3ODgzMl19
 -->
