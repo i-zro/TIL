@@ -33,7 +33,7 @@ aws_secret_access_key=je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
 
 ### **Error:** **Unsupported Terraform Core version**
 - terraform init 과정
-- 해결 : 
+- 해결 : required_version을 ~> 1.0.0 에서 >= 1.0.0으로 바꿈. 크게 버전에 따른 문제는 없어서 실행 조건만 바꿔준 것.
 
 ```bash
 terraform {
@@ -48,7 +48,7 @@ terraform {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODkzNjI1NTIsLTk3OTc2ODcyMiwtOD
-g2MTY3MjA2LC0yMjAxMDY2OSw1MDk5MzE0MDYsLTU5OTY5MDEy
-MF19
+eyJoaXN0b3J5IjpbMTg1OTMyODcsLTk3OTc2ODcyMiwtODg2MT
+Y3MjA2LC0yMjAxMDY2OSw1MDk5MzE0MDYsLTU5OTY5MDEyMF19
+
 -->
