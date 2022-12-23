@@ -1,4 +1,5 @@
-
+# 자주 쓰는 단축어
+- 현재 자격증명 정보 확인 : aws sts get-caller-identity
 
 ### awscli 설치
 - curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
@@ -30,6 +31,6 @@ aws_secret_access_key=je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc2MDM1MzAsLTg4NjE2NzIwNiwtMj
-IwMTA2NjksNTA5OTMxNDA2LC01OTk2OTAxMjBdfQ==
+eyJoaXN0b3J5IjpbLTk3OTc2ODcyMiwtODg2MTY3MjA2LC0yMj
+AxMDY2OSw1MDk5MzE0MDYsLTU5OTY5MDEyMF19
 -->
