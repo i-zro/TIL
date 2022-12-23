@@ -1,3 +1,5 @@
+
+
 ### awscli 설치
 - curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 - sudo installer -pkg AWSCLIV2.pkg -target /
@@ -28,6 +30,6 @@ aws_secret_access_key=je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjE2NzIwNiwtMjIwMTA2NjksNTA5OT
-MxNDA2LC01OTk2OTAxMjBdfQ==
+eyJoaXN0b3J5IjpbLTE4NTc2MDM1MzAsLTg4NjE2NzIwNiwtMj
+IwMTA2NjksNTA5OTMxNDA2LC01OTk2OTAxMjBdfQ==
 -->
