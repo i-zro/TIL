@@ -1,8 +1,9 @@
-- awscli 설치 : brew install awscli
+### awscli 설치
+- curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+- sudo installer -pkg AWSCLIV2.pkg -target /
 
 ### awscli 자격증명 설정 (AccessKey)
 - ~/.aws/config
-01-03. 강의 준비
 
 ```bash
 
@@ -16,5 +17,6 @@ aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5OTMxNDA2LC01OTk2OTAxMjBdfQ==
+eyJoaXN0b3J5IjpbLTIyMDEwNjY5LDUwOTkzMTQwNiwtNTk5Nj
+kwMTIwXX0=
 -->
