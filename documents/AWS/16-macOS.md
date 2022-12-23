@@ -4,10 +4,17 @@
 - ~/.aws/config
 01-03. 강의 준비
 
-```
+```bash
+
 [default]
-aws_access_key_id=AKIAIOSFODNN7EXAMPLE      aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+aws_access_key_id=AKIAIOSFODNN7EXAMPLE      
+
+aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxNzk0MDgsLTU5OTY5MDEyMF19
+eyJoaXN0b3J5IjpbNTA5OTMxNDA2LC01OTk2OTAxMjBdfQ==
 -->
