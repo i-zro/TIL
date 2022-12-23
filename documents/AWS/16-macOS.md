@@ -30,7 +30,25 @@ aws_secret_access_key=je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
 ```
 
 
+
+### **Error:** **Unsupported Terraform Core version**
+- terraform init 과정
+- 해결 : 
+
+```bash
+terraform {
+  required_version = ">= 1.0.0"
+
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 3.0"
+    }
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTc2ODcyMiwtODg2MTY3MjA2LC0yMj
-AxMDY2OSw1MDk5MzE0MDYsLTU5OTY5MDEyMF19
+eyJoaXN0b3J5IjpbLTE2ODkzNjI1NTIsLTk3OTc2ODcyMiwtOD
+g2MTY3MjA2LC0yMjAxMDY2OSw1MDk5MzE0MDYsLTU5OTY5MDEy
+MF19
 -->
