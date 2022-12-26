@@ -1,4 +1,8 @@
+## js, jsx 차이
+
 - 221226, resilience session
+
+
 
 ---
 
@@ -17,5 +21,5 @@
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1MDcyOTg1LDYxMjA0NDM1OV19
+eyJoaXN0b3J5IjpbMjU3NzA2MzIzLDYxMjA0NDM1OV19
 -->
