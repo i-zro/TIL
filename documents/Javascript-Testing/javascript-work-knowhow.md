@@ -54,6 +54,9 @@
 - JavaScript를 크롬(Chrome)같은 브라우저에서만 쓰는 것이 아닌 브라우저 밖. 즉, 내 컴퓨터에서 다양한 용도로 확장하기 위해 만들어진 것이 바로 Node.js이다.
 
 ---
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3MTM2NDg4LDYxMjA0NDM1OV19
+eyJoaXN0b3J5IjpbLTEyMDY4ODU4MjAsNTM3MTM2NDg4LDYxMj
+A0NDM1OV19
 -->
