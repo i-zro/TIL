@@ -1,9 +1,27 @@
+---
+
 ## js, jsx 차이
 
 - 221226, resilience session
 
+-   jsx는 JavaScript 확장 문법
+	-   JavaScript안에서 `HTML 사용 가능`
+-   jsx 사용이 필수는 아니지만 추천 (리액트 공식 홈페이지 - 문서 - JSX 소개 탭)
+-   기능적인 차이는 없으나 팀 내 협의의 문제
+- 코드에서의 차이
+```javascript
+// JS
+class Hello extends React.Component {
+  render() {
+    return React.createElement("div", null, "Hello ", this.props.name);
+  }
+}
 
-
+ReactDOM.render(
+  React.createElement(Hello, {name: "World"}),
+  document.getElementById('container')
+);
+```
 ---
 
 # javascript와 node.js 차이점
@@ -21,5 +39,5 @@
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3NzA2MzIzLDYxMjA0NDM1OV19
+eyJoaXN0b3J5IjpbNjQ5MTcxNzc2LDYxMjA0NDM1OV19
 -->
