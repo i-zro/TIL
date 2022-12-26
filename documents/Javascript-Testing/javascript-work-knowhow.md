@@ -7,6 +7,7 @@
 -   jsx는 JavaScript 확장 문법
 	-   JavaScript안에서 `HTML 사용 가능`
 -   jsx 사용이 필수는 아니지만 추천 (리액트 공식 홈페이지 - 문서 - JSX 소개 탭)
+![](https://blog.kakaocdn.net/dn/FxoUT/btrwdlN1r08/bKsqYKG0akkC7luwPLDws0/img.png)
 -   기능적인 차이는 없으나 팀 내 협의의 문제
 - 코드에서의 차이
 	- js
@@ -54,5 +55,5 @@
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MzM3OTQwLDYxMjA0NDM1OV19
+eyJoaXN0b3J5IjpbNTM3MTM2NDg4LDYxMjA0NDM1OV19
 -->
