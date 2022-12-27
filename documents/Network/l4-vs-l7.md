@@ -26,6 +26,8 @@ OSI 7계층을 기준으로 종류가 나뉜다. 상위  계층으로  갈수록
 ![](https://i.imgur.com/0ItDLD6.png)
 ![](https://i.imgur.com/hCeSWWD.png)
 
+### 마이크로 서비스 관점에서의 L4와 L7의 차이
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Njc5OTM4OF19
+eyJoaXN0b3J5IjpbMTgwMDUzNTcwLDIwNTY3OTkzODhdfQ==
 -->
