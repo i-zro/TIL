@@ -41,7 +41,8 @@ OSI 7계층을 기준으로 종류가 나뉜다. 상위  계층으로  갈수록
 ![](https://i.imgur.com/hCeSWWD.png)
 
 ### 마이크로 서비스 관점에서의 L4와 L7의 차이
-url을 읽어오는 L7은 `/order` 만으로 or
+
+L7이 micro service에 유리(url 데이터를 읽어오는 L7은 `/order` 만으로 order 서비스로 전달해 줄 수 있지만, L4는 불가)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE4OTU5ODUxLDIwNTY3OTkzODhdfQ==
+eyJoaXN0b3J5IjpbLTEzMjY4Mzk2NSwyMDU2Nzk5Mzg4XX0=
 -->
