@@ -13,10 +13,13 @@
 이런 상황을 방지하기 위해 서버에 가해지는 트래픽의 부하를 분산하는 작업이 필요한데, 이렇게 두개이상의 컴퓨터자원에 작업을 나누는것을 로드밸런싱이라고 하고, 이런 작업을 하는 장비를 로드밸런서라고 한다.
 
 ## 로드밸런서의 종류
+
+OSI 7계층을 기준으로 종류가 나뉜다. 상위  계층으로  갈수록  섬세한  부하  분산이  가능하지만  가격이  비싸진다.
+
 - L2	- Data link 계층을 사용, Mac주소 기반 부하 분산
 - L3	- Network 계층을 사용, IP주소 기반 부하 분산
-- L4	- Transport 계층을 사용, Port 기반 부하 분산
-- L7	- Application 계층을 사용, 요청(URL) 기반 부하 분산
+- L4	- Transport 계층을 사용, `Port` 기반 부하 분산
+- L7	- Application 계층을 사용, `요청(URL)` 기반 부하 분산
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzM2MjQ1NTJdfQ==
+eyJoaXN0b3J5IjpbLTY5NjU1Mjk0MV19
 -->
