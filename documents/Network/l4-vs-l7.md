@@ -1,5 +1,7 @@
 # L4와 L7의 차이 (로드밸런서)
 
+- 22.12.27 
+
 ## 로드 밸런서란?
 
 서버가  단  하나만  존재할  때  수천만명의  사람들이  서버에  동시  접속하면  어떻게  될까?
@@ -20,6 +22,10 @@ OSI 7계층을 기준으로 종류가 나뉜다. 상위  계층으로  갈수록
 - L3	- Network 계층을 사용, IP주소 기반 부하 분산
 - L4	- Transport 계층을 사용, `Port` 기반 부하 분산
 - L7	- Application 계층을 사용, `요청(URL)` 기반 부하 분산
+
+![](https://i.imgur.com/0ItDLD6.png)
+![](https://i.imgur.com/hCeSWWD.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjU1Mjk0MV19
+eyJoaXN0b3J5IjpbMjA1Njc5OTM4OF19
 -->
