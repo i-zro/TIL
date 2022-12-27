@@ -14,7 +14,19 @@
 
 이런 상황을 방지하기 위해 서버에 가해지는 트래픽의 부하를 분산하는 작업이 필요한데, 이렇게 두개이상의 컴퓨터자원에 작업을 나누는것을 로드밸런싱이라고 하고, 이런 작업을 하는 장비를 로드밸런서라고 한다.
 
-###
+### 로드 밸런서의 주요 기능
+
+1. Network Address Translation(NAT)
+
+사설 IP를 공인 IP로
+
+2. Tunneling
+
+데이터를 캡슐화하여 연결되어진 노드만 그 데이터의 캡슐을 풀어서 볼 수 있게 함.
+
+3. Dynamic Source Routing protocol(DSR)
+
+요청에 대한 응답을 할 때 로드밸런서가 아닌 클라이언트의 IP로 응답
 
 ## 로드밸런서의 종류
 
@@ -31,5 +43,5 @@ OSI 7계층을 기준으로 종류가 나뉜다. 상위  계층으로  갈수록
 ### 마이크로 서비스 관점에서의 L4와 L7의 차이
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDM3MTk3OSwyMDU2Nzk5Mzg4XX0=
+eyJoaXN0b3J5IjpbMTM4Mzg0OTY3NiwyMDU2Nzk5Mzg4XX0=
 -->
