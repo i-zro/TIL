@@ -2,8 +2,18 @@ name: Docsify Docs to Surge.sh
 
 on: push
 jobs:
-  my-job:
-    name: My job
+
+  pwd-ls:
+    name: PWD & LS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print working directory
+        run: pwd
+      - name: List files
+        run: ls -al
+
+  surge-job:
+    name: Surge job
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to naa0.surge.sh
