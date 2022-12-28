@@ -10,6 +10,6 @@ jobs:
         uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'naa0.surge.sh'
-          project: './TIL'
+          project: 'TIL'
           login: ${{ secrets.surge_login }}
           token: ${{ secrets.surge_token }}
