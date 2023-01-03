@@ -16,8 +16,8 @@ jobs:
     name: Surge job
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to naa0.surge.sh
-        uses: dswistowski/surge-sh-action@v1.0.1
+    - name: Publish to surge.sh
+      uses: dswistowski/surge-sh-action@v1.0.1
         with:
           domain: 'naa0.surge.sh'
           project: '../../TIL'
