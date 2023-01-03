@@ -1,48 +1,52 @@
+name: Docsify Docs to Surge.sh
 
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the main branch
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+on: push
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  build-and-deploy:
+    name: "Build and Deploy"
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory:"././TIL"
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: 
+            ~/.npm
+          key: npm-${{ runner.os }}-${{ hashFiles('package.json') }}
+          restore-keys: |
+            ${{ hashFiles('package.json') }}
+            npm-${{ runner.os }}-
+            npm-
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-      - name: Publish to surge.sh
-        # You may pin to the exact commit or the version.
-        # uses: dswistowski/surge-sh-action@341bcbd76a97da5e6b55ad92f53c0bf840e04c80
-        uses: dswistowski/surge-sh-action@v1.0.0
+      - name: Setup Node
+        uses: actions/setup-node@v2-beta
         with:
-          # your surge.sh domain to deploy
-          domain: naa0.surge.sh
-          # surge.sh login
-          login: dek3127@gmail.com
-          # surge.sh token, generate it with `surge token` command
-          token: ${{ secrets.SURGE_TOKEN }}
-          # your project path
-          project: '../../TIL'
-          # project: # optional, default is .
+          node-version: 16
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Install Surge.sh
+        run: npm install -g surge
+
+      - name: Deploy to Surge.sh
+        run: surge ./build https://pull-request-${{ github.event.pull_request.number }}-code.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+
+      - name: Comment on pull request
+        uses: mshick/add-pr-comment@v1
+        with:
+          message: 'Uma nova versão está disponível em [https://pull-request-${{ github.event.pull_request.number }}-naa0.surge.sh](https://pull-request-${{ github.event.pull_request.number }}-naa0.surge.sh)/'
+          repo-token: ${{ secrets.ACCESS_TOKEN  }}
+          repo-token-user-login: "github-actions[bot]"
+          allow-repeats: true
+
+
