@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory:"./TIL"
+        working-directory:"./././TIL"
 
     steps:
       - name: Cache node modules
