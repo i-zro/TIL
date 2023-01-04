@@ -1,18 +1,11 @@
-***docsify github actions test 222
+### 📌 개발 언어 꾸준하게 공부하기
+- Python
+- Java
+- C
+- Go
+- Nodejs
 
-
-![](https://i.imgur.com/8KknEM2.png)
-
-### 📌 MLOPS
-https://velog.io/@dddwsd/MLOps%EB%9E%80
-
-### 📌 1 개발 언어 공부하기
-C
-Python
-Go
-Nodejs
-
-### 📌 2 OS 개념에 대해서 이해하기
+### 📌 OS 개념에 대해서 이해하기
 Startup Management(intid)
 Service Management(systemd)
 I/O Management
@@ -20,7 +13,7 @@ Virtualiztion
 Memory/Storage
 File Systems
 
-### 📌 3 관리 서비스에 대해 배우기
+### 📌 관리 서비스에 대해 배우기
 Operationg System
 Linux - Ubuntu
 Windows
@@ -33,7 +26,7 @@ Network
 System Performance
 Others
 
-### 📌 4 네트워킹, 보안, 프로토콜
+### 📌 네트워킹, 보안, 프로토콜
 OSI Model
 HTTP/s
 FTP
@@ -41,18 +34,18 @@ SSL / TLS
 SSH
 Port Forwarding
 
-### 📌 5 아래 항목에 대해서 무엇인지?
+### 📌 아래 항목에 대해서 무엇인지?
 Reverse Proxy
 Foward Proxy
 Caching Server
 Load Balancer
 FireWall
 
-### 📌 6 웹서버
-Nginx
-Apache
+### 📌 웹서버
+- Nginx
+- Apache
 
-### 📌 7 컨테이너 및 코딩 인프라 공부하기
+### 📌 컨테이너 및 코딩 인프라 공부하기
 Containers
 docker
 Configuration Management
@@ -68,22 +61,18 @@ Istio
 Jenkins
 Gitlab CI
 
-### 📌 9 SW 및 인프라 모니터링
+### 📌 SW 및 인프라 모니터링
 Infrastructure Monitoring
 Grafana
 Application Monitoring
 Log Management
  
-### 📌10 클라우드 공급자
+### 📌클라우드 공급자
 AWS
 Digital Ocean
 
-### 📌 11 클라우드 환경 아키텍쳐 구성
+### 📌 클라우드 환경 아키텍쳐 구성
 Availability
 Data Management
 Design and Implementation
 Management and Monitoring
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjQwMjM3NiwxMjM1ODk5MzY1LC0yOT
-g4MDY1ODFdfQ==
--->
