@@ -3,7 +3,7 @@ name: release
 on:
   push:
     branches:
-      - main
+      - release
 
 jobs:
   tag:
@@ -13,8 +13,6 @@ jobs:
       - uses: tool3/bump@master
         with:
           github_token: ${{ secrets.GP_TOKEN }}
-          unrelated: true
-          branch: main
 
   docs:
     needs: tag
@@ -24,4 +22,3 @@ jobs:
       - uses: tool3/docsify-action@master
         with:
           github_token: ${{ secrets.GP_TOKEN }}
-          branch: main
