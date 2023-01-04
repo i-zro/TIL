@@ -4,7 +4,7 @@
 
 # Spring Message 처리
 
-###### tags: `2023.01.04`
+###### tags: `2023.01.04`, `김영한 MVC2`
 
 악덕? 기획자가 화면에 보이는 문구가 마음에 들지 않는다고, `상품명`이라는 단어를 모두 `상품이름`으로 고쳐달라고 하면 어떻게 해야할까?
 여러 화면에 보이는 상품명, 가격, 수량 등, label 에 있는 단어를 변경하려면 다음 화면들을 다 찾아가면서 모두 변경해야 한다. 화면 수가 적으면 문제가 되지 않지만 화면이 수십개 이상이라면 수십개의 파일을 모두 고쳐야 한다.
@@ -74,3 +74,23 @@ public interface MessageSource {
   NoSuchMessageException;
 ```
 
+- 메시지가 없는 경우에는 NoSuchMessageException 이 발생
+
+
+### Message Source 매개변수
+
+```java
+    @Test
+    void argumentMessage() {
+        String result = ms.getMessage("hello.name", new Object[]{"Spring"}, null); // Spring 단어를 매개변수로 전달
+        assertThat(result).isEqualTo("안녕 Spring");
+    }
+```
+
+
+### 타임리프 메시지 적용
+
+```html
+<!-- label.item을 messages에 저장했을 때 -->
+<div th:text="#{label.item}"></h2>
+```
