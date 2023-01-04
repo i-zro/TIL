@@ -1,21 +1,25 @@
-name: Build and Deploy
-on: [push]
-permissions:
-  contents: write
+name: release
+
+on:
+  push:
+    branches:
+      - release
+
 jobs:
-  build-and-deploy:
-    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+  tag:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
-
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
-        run: |
-          npm i docsify-cli -g
-          docsify serve
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - uses: actions/checkout@master
+      - uses: tool3/bump@master
         with:
-          folder: TIL # The folder the action should deploy.
+          github_token: ${{ secrets.GP_TOKEN }}
+          unrelated: true
+
+  docs:
+    needs: tag
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: tool3/docsify-action@master
+        with:
+          github_token: ${{ secrets.GP_TOKEN }}
