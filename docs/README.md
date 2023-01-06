@@ -84,3 +84,10 @@ Design and Implementation
 Management and Monitoring
 
 ---
+
+# 📌 유용한 링크 모음
+
+### terraform
+- 🔗 [terraform 실습 코드 상세하게 정리된 곳](https://terraform101.inflearn.devopsart.dev/intro/)
+
+- 

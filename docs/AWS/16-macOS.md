@@ -5,6 +5,18 @@
 - curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 - sudo installer -pkg AWSCLIV2.pkg -target /
 
+## IAM 사용자 만들기
+- Services(서비스)에서 IAM 을 검색
+- 사용자 → 사용자 추가 클릭
+
+  - 사용자 이름 : 자유롭게 작성
+  - 액세스 유형 : 프로그래밍 방식, AWS Management Console 액세스
+  - 콘솔 비밀번호: 자유롭게 설정
+
+![Image](https://i.imgur.com/fpEdDxr.png)
+
+- 기존 정책 직접 연결 → AdministratorAccess 체크
+
 ## awscli 자격증명 설정 (AccessKey)
 - ~/.aws/config
 
