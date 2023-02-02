@@ -1,6 +1,10 @@
+
 # [AWS JAM - DB] MySQL RDS 만들고 MySQL Workbench로 연결 (Create and Connect to mySQL RDS Instance!)
 
 # MySQL Workbench 설치
+
+![](https://i.imgur.com/G73VvaG.png)
+
 
 -   Oracle 로그인 및 설치
     
@@ -24,26 +28,34 @@
 -   삭제 방지
     
 
-## 1단계: MySQL DB 인스턴스 만들기
+### a. Amazon RDS 콘솔의 오른쪽 위 모서리에서 DB 인스턴스를 생성할 _리전_을 선택합니다.
 
-a. Amazon RDS 콘솔의 오른쪽 위 모서리에서 DB 인스턴스를 생성할 _리전_을 선택합니다.
+![](https://i.imgur.com/A3aliXs.png)
 
-b. **Create database** 섹션에서 **Create database**를 선택합니다.
+
+### b. **Create database** 섹션에서 **Create database**를 선택합니다.
 
 -   RDS 검색
     
 -   데이터베이스 생성 클릭
+
+![](https://i.imgur.com/PUCORQT.png)
+
     
 
-c. 이제 엔진을 선택할 수 있는 옵션이 표시됩니다. 이 자습서에서는 _MySQL 아이콘_을 클릭하고, **Only enable options eligible for RDS Free Usage Tier**를 선택한 다음, **Next**를 클릭합니다.
+### c. 이제 엔진을 선택할 수 있는 옵션이 표시됩니다. 이 자습서에서는 _MySQL 아이콘_을 클릭하고, **Only enable options eligible for RDS Free Usage Tier**를 선택한 다음, **Next**를 클릭합니다.
 
 -   엔진 유형은MySQL 선택
     
+    ![](https://i.imgur.com/yBuuM1s.png)
+
 
 -   템플릿은 프리티어 선택
-    
 
-d. 이제 DB 인스턴스를 구성합니다. 아래 목록은 본 자습서에서 사용할 수 있는 설정의 예를 보여줍니다.
+    ![](https://i.imgur.com/aHH1Yrc.png)
+
+
+### d. 이제 DB 인스턴스를 구성합니다. 아래 목록은 본 자습서에서 사용할 수 있는 설정의 예를 보여줍니다.
 
 **Instance specifications**:
 
@@ -80,8 +92,10 @@ d. 이제 DB 인스턴스를 구성합니다. 아래 목록은 본 자습서에�
     
 -   **Allocated Storage**: 5를 입력하여 데이터베이스에 5GB의 스토리지를 할당합니다. 스토리지 할당에 대한 자세한 내용은 Amazon Relational Database Service 기능 페이지를 참조하십시오.(순서 변경, 스토리지 유형 다음에 위치)
     
+![](https://i.imgur.com/0FyuJ4K.png)
 
-e. 이제 **Configure Advanced Settings** 페이지입니다. 여기에서 RDS가 MySQL DB 인스턴스를 시작하는 데 필요한 추가 정보를 제공할 수 있습니다. 아래 목록은 예제 DB 인스턴스에 대한 설정을 보여줍니다.
+
+### e. 이제 **Configure Advanced Settings** 페이지입니다. 여기에서 RDS가 MySQL DB 인스턴스를 시작하는 데 필요한 추가 정보를 제공할 수 있습니다. 아래 목록은 예제 DB 인스턴스에 대한 설정을 보여줍니다.
 
 **Network & Security**
 
@@ -101,13 +115,17 @@ e. 이제 **Configure Advanced Settings** 페이지입니다. 여기에서 RDS�
     
     -   jam-db-sg 생성
         
+        ![](https://i.imgur.com/5fbYowl.png)
+
 
 **Database options**
 
 -   **Database name**: 데이터베이스 이름으로 1~64자의 영숫자 문자를 입력합니다. 이름을 제공하지 않으면 Amazon RDS가 자동으로 데이터베이스를 지금 생성하고 있는 DB 인스턴스에 생성하지는 않습니다.
     
     -   추가구성에서 확인 가능 - jamdb로 설정
-        
+
+        ![](https://i.imgur.com/PajKlP2.png)
+
 
 -   **Port**: 기본값인 _3306_을 유지합니다.
     
@@ -123,6 +141,9 @@ e. 이제 **Configure Advanced Settings** 페이지입니다. 여기에서 RDS�
 이 옵션은 프리 티어에서 제공하지 않습니다. 자세한 내용은 [Amazon RDS 리소스 암호화](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html)를 참조하십시오.
 
 -   **프리티어인데 이 부분이 해제가 기본적으로 안돼있어서 DB Connection Error 일어남. 반드시 해제!**
+
+![](https://i.imgur.com/mBupEoM.png)
+
     
 
 **Backup**
@@ -154,24 +175,34 @@ e. 이제 **Configure Advanced Settings** 페이지입니다. 여기에서 RDS�
 
 -   추가 구성에서 확인 가능 - 삭제 방지 활성화
     
+![](https://i.imgur.com/gtOqzd2.png)
+
 
 **Create database**를 클릭합니다.
 
-**[오류] Cannot create a publicly accessible DBInstance. The specified VPC has no internet gateway attached.Update the VPC and then try again**
+# [오류] Cannot create a publicly accessible DBInstance. The specified VPC has no internet gateway attached.Update the VPC and then try again**
 
 **[해결] 퍼블릭 액세스를 허용했지만, default VPC에 인터넷 게이트웨이가 붙어있지 않아서 생긴 문제**
 
 -   VPC > 인터넷 게이트웨이 생성
     
     -   default-igw
-        
+  
+      ![](https://i.imgur.com/WjgwSvQ.png)
+
 
 -   방금 생성한 인터넷 게이트웨이를 선택한 후 **Actions, Attach to VPC(작업, VPC에 연결)**을 선택
     
+    ![](https://i.imgur.com/ktdC3Fc.png)
 
-**MySQL Workbench에서 RDS 연결해보기**
+
+# MySQL Workbench에서 RDS 연결해보기
 
 -   Hostname에 엔드포인트, 포트, Username과 password까지 입력해주고 연결
+
+![](https://i.imgur.com/tV9m0zO.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTk2NTYyNjddfQ==
+eyJoaXN0b3J5IjpbLTE0NjA4NDAxMzUsLTEyOTk2NTYyNjddfQ
+==
 -->
