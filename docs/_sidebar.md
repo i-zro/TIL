@@ -4,7 +4,7 @@
 
 
 * AWS - JAM
-    * [[DB] DMS DB, 스키마 변경](/AWS/jam-jouney/[DB] DMS DB, 스키마 변경.md)
+    * [[DB] DMS DB, 스키마 변경](/AWS/jam-journey/[DB] DMS DB, 스키마 변경/스키마 변경/HELP YOUR DBA WHEN ON-PREM DATA CENTER DATABASE FA 97818c5191ca4325b502929f4fe1c5fd.md)
 
 * DevOps
 	* [DevOps TIL](/DevOps/devops-til.md)
