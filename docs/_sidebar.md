@@ -4,7 +4,8 @@
 
 
 * AWS - JAM
-    * [DMS 엔드포인트, 스키마 변경](/AWS/jam-journey/DB/dms-db-change/dms-db-change.md)
+    * DB
+        * [DMS 엔드포인트, 스키마 변경](/AWS/jam-journey/DB/dms-db-change/dms-db-change.md)
 
 * DevOps
 	* [DevOps TIL](/DevOps/devops-til.md)
