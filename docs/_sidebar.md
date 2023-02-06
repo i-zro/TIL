@@ -2,6 +2,10 @@
 * 일지
     * [23년 1Q](/Retrospect/23%EB%85%84-1Q.md)
 
+
+* AWS - JAM
+    * [[DB] DMS DB, 스키마 변경](/AWS/jam-jouney/[DB] DMS DB, 스키마 변경.md)
+
 * DevOps
 	* [DevOps TIL](/DevOps/devops-til.md)
 
@@ -12,6 +16,9 @@
 
 * Terraform
     * [Key Pair 생성](/Terraform/key-pair.md)
+
+
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTk5NzI2NjE0OF19
 -->

@@ -1,5 +1,7 @@
 # Key pair 생성
 
+- 공식문서 링크 : https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/key_pair
+
 1. aws configure
 	1. terraform용 IAM 사용자 생성 후 configure
 
