@@ -11,6 +11,7 @@
 - CloudFront에 가격 등급에 따라 배포하는 엣지 로케이션을 줄일 수 있음 -> 가격 등급 100이 일부 리전에 배포 하며 가장 낮은 비용
 
 # 네트워킹
+- ALB에서 EC2 번갈아 보여주고 싶다 → 로드밸런서 쪽에서 stickiness (세션별 고정 ip) 해제
 - 게이트웨이 엔드포인트와 인터페이스 엔드포인트 차이 - 인터페이스 엔드포인트는 엔드포인트 사용 요금 부과
 - 동일 가용영역 내 EC2 데이터 전송 비용은 무료, 다른 가용 영역은 유료
 
@@ -78,13 +79,3 @@
 - EMR (Elastic MapReduce) : 빅데이터 처리 위한 고성능 분산 병렬 처리 시스템
 - Athena : S3 쿼리 서비스 
 - Kinesis Data Streams에서 S3로 바로 데이터 전송을 할 수 없음.
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYzNjgyMjMsLTQ1NDk5NjU4NywtMT
-IzMDM2MjcxOCwxMTAyMDIyODI3LDY5NjYzNzEzMSwtMjA5MzAw
-NzI2OCwtNzYyNDc0NDY1LDE0Mjk0Njc1OTYsLTEwNTg4ODE3OC
-wtMTUwMzY3OTg4OSwxNjk5OTA1OTQ5LDY3NzEwMzk4OCwzNjE3
-MTU2OTQsMTE3NDk2Njk3OSwxNDgyOTg3MDIsMTA5NDU3OTgwNy
-w1OTkyNDk0MSw2NTUyOTY0NTYsLTc2NjkxNzM4MSwtMTA0OTkw
-OTY3NV19
--->

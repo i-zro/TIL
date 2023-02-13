@@ -1,0 +1,1 @@
+- helm chart는 kubernetes에 던지는 주문서

@@ -3,12 +3,18 @@
     * [23년 1Q](/Retrospect/23%EB%85%84-1Q.md)
 
 
+* AWS
+    * [AWS TIL](/AWS/aws-til.md)
+
 * AWS - JAM
     * DB
         * [DMS 엔드포인트, 스키마 변경](/AWS/jam-journey/DB/dms-db-change/dms-db-change.md)
 
 * DevOps
 	* [DevOps TIL](/DevOps/devops-til.md)
+
+* Kubernetes
+    * [Kubernetes TIL](/Kubernetes/kubernetes-til.md)
 
 * Spring
     * [Spring 종합](/Spring/spring.md)
