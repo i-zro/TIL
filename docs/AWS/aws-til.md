@@ -1,3 +1,22 @@
+# s3
+- 아래 코드로 버킷 접근 가능한 지 확인 
+```
+import boto3
+
+access_key = '<액세스키>'
+secret_key = '<시크릿키>'
+bucket_name = '<버킷명>'
+
+s3 = boto3.client('s3', aws_access_key_id=access_key, aws_secret_access_key=secret_key)
+
+try:
+    s3.head_bucket(Bucket=bucket_name)
+    print(f'Bucket {bucket_name} is accessible.')
+except:
+    print(f'Bucket {bucket_name} is not accessible or does not exist.')
+
+```
+
 # 글로벌
 - 클러스터 배치그룹은 동일 가용 영역내 배치로 가용성 높이는 솔루션 아님.
 - EC2 볼륨은 같은 리전 상에서만 복제 가능 => 다른 리전으로 복사 후에 배포 가능
