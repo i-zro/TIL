@@ -1,5 +1,14 @@
 # 📌 What I Want to Learn
 
+
+- 진행해보면 좋을 것 같은 것
+  - 일요일 8 ~ 9 온라인 WIL 스터디 WIL 정리 및 본인이 배운 내용 발표
+- 
+
+- flutter / swift 중에 하나 배워보고 싶음.
+
+
+
 ### 📌 개발 언어 꾸준하게 공부하기
 - Python
 - Java
