@@ -29,6 +29,12 @@ except:
 - CloudFront 필드 레벨 암호화 : PUT/POST 요청이 오리진으로 전달되기 전에 엣지로케이션에서 비대칭 암호화 키를 사용하여 데이터를 추가로 암호화
 - CloudFront에 가격 등급에 따라 배포하는 엣지 로케이션을 줄일 수 있음 -> 가격 등급 100이 일부 리전에 배포 하며 가장 낮은 비용
 
+
+
+
+
+
+
 # 네트워크
 - ALB에서 EC2 번갈아 보여주고 싶다 → 로드밸런서 쪽에서 stickiness (세션별 고정 ip) 해제
 - 게이트웨이 엔드포인트와 인터페이스 엔드포인트 차이 - 인터페이스 엔드포인트는 엔드포인트 사용 요금 부과
@@ -49,7 +55,21 @@ except:
 	- 보안 그룹의 아웃바인드 규칙 확인
 	- 트래픽을 인터넷에 전달하려면 서브넷의 라우팅 테이블에 인터넷 게이트웨이를 대상(Target)으로 추가해야함.
 
+## VPC peering
+
+![image](https://github.com/i-zro/TIL/assets/48379869/7a3b576f-bb2a-4673-99bd-dd3fb420b084)
+
+- Transit Gateway 대비 약 1.5배 저렴
+- 대역폭 제한이 없음
+- A-C-D연결로 A-D연결은 불가해서 A-D연결을 따로 해줘야 함.
+- Peering당 VPC 125개 연결 가능
+
 ## Transit Gateway
+
+![image](https://github.com/i-zro/TIL/assets/48379869/039f2ceb-94fb-473b-ba1c-9fb74bbfab78)
+
+- 최대 대역폭 50Gbps
+- 최대 5000개 VPC 연결 가능
 
 
 # 스토리지 및 데이터베이스
