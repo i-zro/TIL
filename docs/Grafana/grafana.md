@@ -33,3 +33,9 @@ https://repost.aws/ko/knowledge-center/eks-http-proxy-configuration-automation
 ![Image](https://i.imgur.com/MJUhhg4.png)
 
 이렇게 매우 잘 오는 것을 확인할 수 있었다.
+
+![Image](https://i.imgur.com/C0ulQHh.png)
+
+![Image](https://i.imgur.com/ishjdxv.png)![Image](https://i.imgur.com/GfdGpWw.png)
+
+![Image](https://i.imgur.com/uqyjB50.png)
