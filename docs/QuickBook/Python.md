@@ -1,0 +1,3 @@
+- 행, 열 = map(int, input().split())
+	- grid = [list(map(int, input().split())) for _ in range(열)]
+- dp = [[-float('inf')] * M for _ in range(N)]
