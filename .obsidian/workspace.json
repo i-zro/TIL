@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "3cf58f052a1457dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ac08aa3d94c95f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b5359ddbf8aaa9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/QuickBook/MacOS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8dc029f1aee68141",
+    "type": "split",
+    "children": [
+      {
+        "id": "e37110cf2470820b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "411a470e755fa950",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d01eed14ac53e1d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4e04687517700837",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b0d9ace7a5328f5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3112fe833c20848b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37f6165c50e64223",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/QuickBook/MacOS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "051a519d62de3b9c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/QuickBook/MacOS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d12591e34dab2326",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6b7f5b520b83b403",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/QuickBook/MacOS.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "6b5359ddbf8aaa9e",
+  "lastOpenFiles": [
+    "docs/QuickBook/MacOS.md",
+    "docs/QuickBook",
+    "package.json",
+    "package-lock.json",
+    "node_modules/wrappy/wrappy.js",
+    "node_modules/wrappy/package.json",
+    "node_modules/wrappy/README.md",
+    "node_modules/wrappy/LICENSE",
+    "node_modules/wrappy",
+    "node_modules/verror/lib/verror.js",
+    "node_modules/verror/package.json",
+    "node_modules/verror/lib",
+    "node_modules/verror/README.md",
+    "node_modules/verror/CONTRIBUTING.md",
+    "node_modules/verror/CHANGES.md",
+    "node_modules/uuid/README.md",
+    "node_modules/uuid/LICENSE.md",
+    "node_modules/uuid/CHANGELOG.md",
+    "node_modules/url-parse-as-address/README.md",
+    "node_modules/uri-js/README.md",
+    "node_modules/tweetnacl/CHANGELOG.md",
+    "node_modules/tweetnacl/README.md",
+    "node_modules/tweetnacl/PULL_REQUEST_TEMPLATE.md",
+    "node_modules/tweetnacl/AUTHORS.md",
+    "node_modules/tunnel-agent/README.md",
+    "node_modules/tslib/README.md",
+    "node_modules/tough-cookie/README.md",
+    "node_modules/tmp/README.md",
+    "node_modules/tarr/README.md",
+    "node_modules/surge/README.md",
+    "node_modules/surge-ignore/README.md",
+    "node_modules/surge-ignore/LICENSE.md",
+    "node_modules/surge-fstream-ignore/README.md",
+    "node_modules/supports-color/readme.md",
+    "node_modules/strip-ansi/readme.md",
+    "node_modules/string-width/node_modules/strip-ansi/readme.md",
+    "node_modules/psl/browserstack-logo.svg",
+    "node_modules/mute-stream/coverage/lcov-report/sort-arrow-sprite.png",
+    "docs/img/udemy-react/1.png",
+    "docs/img/svg/1.png",
+    "docs/img/rebase-with-sourcetree/9.png",
+    "docs/img/rebase-with-sourcetree/8.png",
+    "docs/img/rebase-with-sourcetree/7.png",
+    "docs/img/rebase-with-sourcetree/6.png",
+    "docs/img/rebase-with-sourcetree/5.png",
+    "docs/img/rebase-with-sourcetree/4.png"
+  ]
+}
