@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/QuickBook/Python.md",
+                "file": "docs/QuickBook/MacOS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/QuickBook/Python.md",
+                "file": "docs/QuickBook/MacOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/QuickBook/Python.md",
+                "file": "docs/QuickBook/MacOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/QuickBook/Python.md"
+                "file": "docs/QuickBook/MacOS.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "6b5359ddbf8aaa9e",
   "lastOpenFiles": [
-    "docs/QuickBook/MacOS.md",
+    "docs/DevOps/k8s.md",
     "docs/QuickBook/Python.md",
+    "docs/QuickBook/MacOS.md",
     "docs/QuickBook",
     "package.json",
     "package-lock.json",
@@ -184,7 +185,6 @@
     "node_modules/surge-ignore/LICENSE.md",
     "node_modules/surge-fstream-ignore/README.md",
     "node_modules/supports-color/readme.md",
-    "node_modules/strip-ansi/readme.md",
     "node_modules/psl/browserstack-logo.svg",
     "node_modules/mute-stream/coverage/lcov-report/sort-arrow-sprite.png",
     "docs/img/udemy-react/1.png",
