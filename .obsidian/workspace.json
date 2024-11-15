@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/QuickBook/MacOS.md",
+                "file": "docs/241115.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/QuickBook/MacOS.md",
+                "file": "docs/241115.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/QuickBook/MacOS.md",
+                "file": "docs/241115.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/QuickBook/MacOS.md"
+                "file": "docs/241115.md"
               }
             }
           }
@@ -149,9 +149,15 @@
   },
   "active": "6b5359ddbf8aaa9e",
   "lastOpenFiles": [
+    "docs/CSS/css-property-order.md",
+    "docs/241115.md",
+    "docs/CSS/emmet.md",
+    "docs/CSS/css-block-inline-block-vertical-align.md",
+    "docs/CSS/100-percent-height-colums-fixed-sidebar-with-pure-css.md",
+    "docs/Algorithm/basic-algorithm.md",
+    "docs/QuickBook/MacOS.md",
     "docs/DevOps/k8s.md",
     "docs/QuickBook/Python.md",
-    "docs/QuickBook/MacOS.md",
     "docs/QuickBook",
     "package.json",
     "package-lock.json",
@@ -179,12 +185,6 @@
     "node_modules/tslib/README.md",
     "node_modules/tough-cookie/README.md",
     "node_modules/tmp/README.md",
-    "node_modules/tarr/README.md",
-    "node_modules/surge/README.md",
-    "node_modules/surge-ignore/README.md",
-    "node_modules/surge-ignore/LICENSE.md",
-    "node_modules/surge-fstream-ignore/README.md",
-    "node_modules/supports-color/readme.md",
     "node_modules/psl/browserstack-logo.svg",
     "node_modules/mute-stream/coverage/lcov-report/sort-arrow-sprite.png",
     "docs/img/udemy-react/1.png",
